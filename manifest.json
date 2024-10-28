@@ -3,7 +3,7 @@
     "header": {
         "description": "Thai Language Resource Packs (Open Source) https://github.com/MineGarp-PED/THLanguage_Bedrock",
         "name": "Thai Language",
-        "uuid": "66c6e9a8-3093-462a-9c36-dbb052165822",
+        "uuid": "3d11bf9c-a5a6-4d9a-a7ec-fbfeb12b3690",
         "pack_scope": "world",
         "version": [1, 0, 0],
         "min_engine_version": [1, 20, 0]
@@ -12,7 +12,7 @@
         {
             "description": "Thai Language Resource Packs (Open Source) https://github.com/MineGarp-PED/THLanguage_Bedrock",
             "type": "resources",
-            "uuid": "743f6949-53be-44b6-b326-398005028819",
+            "uuid": "1269ef24-59c0-4804-803b-8ed501460932",
             "version": [1, 0, 0]
         }
     ]
