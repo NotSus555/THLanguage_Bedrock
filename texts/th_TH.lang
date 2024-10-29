@@ -287,7 +287,7 @@ achievement.buildPickaxe=ได้เวลาขุด!
 achievement.buildPickaxe.desc=ใช้ไม้และแท่งไม้เพื่อทำที่ขุดหิน
 achievement.buildSword=ได้เวลาต่อสู่!
 achievement.buildSword.desc=ใช้ไม้และแท่งไม้เพื่อทำดาบ
-achievement.buildWorkBench=การตั้งเกณฑ์    achievement.buildWorkBench=Benchmarking
+achievement.buildWorkBench=การตั้งเกณฑ์
 achievement.buildWorkBench.desc=คราฟโต๊ะคราฟด้วยบล๊อกไม้สี่บล๊อก
 achievement.cookFish=ปลาอร่อย
 achievement.cookFish.desc=จับปลาและทำอาหาร
