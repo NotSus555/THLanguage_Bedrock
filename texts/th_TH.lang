@@ -432,16 +432,16 @@ advMode.setCommand=ตั้งค่าคำสั่งคอนโซลส�
 advMode.setCommand.success=ชุดคำสั่ง: %s
 advMode.command.charLimitExceeded=การป้อนคำสั่งเกิน 500 ตัวอักษร ไม่สามารถเปิดการป้อนข้อมูลจากแป้นพิมพ์บนอุปกรณ์ประเภทนี้ได้
 
-apple.iCloudDisabled.title=Don't Lose Your Worlds!
-apple.iCloudDisabled.message=Your worlds are not getting saved properly. They might not be here next time you play Minecraft. Go to your Apple TV settings and turn on iCloud to make sure all of your worlds get saved.
-apple.iCloudDisabled.button.turnOnICloud=Turn on iCloud
-apple.iCloudNoSpace.message=You do not have enough iCloud space free to save your worlds properly. They might not be here next time you play Minecraft. Free up space on your iCloud account to make sure all of your worlds get saved.
-apple.iCloudNoSpace.button.manageICloud=Manage iCloud
-apple.iCloudNoInternet.message=You need an internet connection to save your worlds properly. They might not be here next time you play Minecraft. Reconnect to the internet to make sure all of your worlds get saved.
-apple.iCloudSignInRequired.title=Sign In
-apple.iCloudSignInRequired.message=You need to be signed in to iCloud to play Minecraft. Go to your Apple TV settings and turn on iCloud.
-apple.iCloudUserChanged.message=A new iCloud account has signed in. You will need to restart Minecraft to play.
-apple.LocalNetworkPermission.message=Minecraft wants to access your local network. This allows you and others on your local network to play together. Declining this permission does not affect online features or gameplay. But will prevent you and others, on the same network, from playing together.
+apple.iCloudDisabled.title=อย่าทิ้งโลกของคุณ!
+apple.iCloudDisabled.message=โลกของคุณยังไม่ถูกเซฟอย่างถูกต้อง มันอาจไม่อยู่ในครั้งต่อไปที่คุณเล่นมายคราฟต์ ไปที่การตั้งค่าของ Apple TV และเปิด iCloud เพื่อให้แน่ใจว่าโลกถูกเซฟโดยสมบูรณ์
+apple.iCloudDisabled.button.turnOnICloud=เปิด iCloud
+apple.iCloudNoSpace.message=คุณไม่มีพื้นที่บน iCloud พอที่จะเซฟโลกของคุณอย่างถูกต้อง มันอาจไม่อยู่ในครั้งต่อไปที่คุณเล่นมายคราฟต์ เพื่มพื้นที่บน iCloud ของคุณเพื่อให้แน่ใจว่าโลกของคุณถูกเซฟโดยสมบูรณ์
+apple.iCloudNoSpace.button.manageICloud=จักการ iCloud
+apple.iCloudNoInternet.message=คุณต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อเซฟโลกของคุณอย่างถูกต้อง มันอาจไม่อยู่ในครั้งต่อไปที่คุณเล่นมายคราฟต์ เชื่อมต่ออินเตอร์เน็ตอีกครั้งเพื่อให้แน่ใจว่าโลกของคุณถูกเซฟโดยสมบูรณ์
+apple.iCloudSignInRequired.title=ลงชื่อเข้าใช้
+apple.iCloudSignInRequired.message=คุณต้องลงชื่อเข้าใช้กับ iCloud เพื่อเล่น Minecraft ไปที่การตั้งค่าของ AppleTV และเปิด iCloud
+apple.iCloudUserChanged.message=มีการลงชื่อเข้าใจบัญชี iCloud ใหม่ คุณจำเป็นต้องปิด-เปิดเกมมายคราฟต์ใหม่อีกครั้งเพื่อเล่น
+apple.LocalNetworkPermission.message=มายคราฟต์ต้องการเข้าถึงเครือข่ายส่วนตัวของคุณ สิ่งนี้จะอนุญาติให้คุณและคนอื่นๆบนเครือข่ายส่วนตัวเล่นด้วยกันได้
 
 attribute.modifier.plus.0=+%d %s
 attribute.modifier.plus.1=+%d%% %s
