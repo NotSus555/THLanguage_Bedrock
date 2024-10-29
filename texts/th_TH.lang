@@ -424,13 +424,13 @@ advMode.allPlayers=@a = ผู้เล่นทั้งหมด
 advMode.command=ใส่คำสั่ง
 advMode.nearestPlayer=@p = ผู้เล่นที่ใกล้ที่สุด
 advMode.notAllowed=ต้องถูกเปิดโดยผู้เล่นที่อยู่ในโหมดสร้างสรรค์
-advMode.notEnabled=Command blocks are not enabled on this server
+advMode.notEnabled=บล๊อกคำสั่งไม่ได้ถูกเปิดบนเซิฟเวอร์นี้
 advMode.previousOutput=ผลลัพธ์ก่อนหน้า
 advMode.randomPlayer=@r = สุ่มผู้เล่น
 advMode.self=@s = ตัวเอง
-advMode.setCommand=Set Console Command for Block
-advMode.setCommand.success=Command set: %s
-advMode.command.charLimitExceeded=Command Input exceeds 500 characters. It is not possible to open the keyboard input on this device type.
+advMode.setCommand=ตั้งค่าคำสั่งคอนโซลสำหรับบล๊อก
+advMode.setCommand.success=ชุดคำสั่ง: %s
+advMode.command.charLimitExceeded=การป้อนคำสั่งเกิน 500 ตัวอักษร ไม่สามารถเปิดการป้อนข้อมูลจากแป้นพิมพ์บนอุปกรณ์ประเภทนี้ได้
 
 apple.iCloudDisabled.title=Don't Lose Your Worlds!
 apple.iCloudDisabled.message=Your worlds are not getting saved properly. They might not be here next time you play Minecraft. Go to your Apple TV settings and turn on iCloud to make sure all of your worlds get saved.
