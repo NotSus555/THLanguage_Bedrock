@@ -10617,8 +10617,8 @@ packupgradewarning.duplicate_uuid=Provided UUID '%s' element already exists in p
 packupgradewarning.multiple_modules=Multiple conflicting modules detected in pack manifest; Defaulting to '%s'.
 
 ## pack strings
-pack.authors.label=Author: %s
-pack.authors.none=Unknown
+pack.authors.label=ผู้สร้าง: %s
+pack.authors.none=ไม่รู้จัก
 
 ## manifest pack validation
 manifestvalidation.title=Pack Info
