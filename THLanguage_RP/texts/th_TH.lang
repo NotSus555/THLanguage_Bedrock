@@ -30,7 +30,7 @@ accessibility.importing.start=เริ่มการนำเข้า
 accessibility.importing.Progress=กำลังนำเข้า %s เปอร์เซ็นต์
 accessibility.importing.canceled=ยกเลิกการนำเข้า
 accessibility.importing.complete=นำเข้าเสร็จสมบูรณ์
-accessibility.signin.xbl=กำลังลงชื่อเข้าใช้ xbox live
+accessibility.signin.xbl=กำลังลงชื่อเข้าใช้ Xbox live
 accessibility.chat.howtoopen=กดปุ่ม %s เพื่อเปิดแชท
 accessibility.chat.howtoemote=กดหรือกดค้างที่ปุ่ม %s เพื่อใช้ท่าทาง
 accessibility.key.mouseButton=ปุ่มเมาส์ %s
@@ -48,11 +48,11 @@ accessibility.screen.tts.title=%s หน้าจอ	## %s will be replaced with
 accessibility.slider.tts.title=ตัวเลื่อน
 accessibility.tab.tts.title=แท็บ
 accessibility.textbox.tts.title=กล่องข้อความ
-accessibility.toggle.tts.title=เปิด
+accessibility.toggle.tts.title=สับเปลี่ยน
 accessibility.scrollbar.tts.title=แถบเลื่อน
 
-accessibility.button.navigateLeft=ลูกษรซ้าย
-accessibility.button.navigateRight=ลูกษรขวา
+accessibility.button.navigateLeft=ลูกศรซ้าย
+accessibility.button.navigateRight=ลูกศรขวา
 
 accessibility.button.close=ปิด
 accessibility.button.back=กลับ
@@ -68,13 +68,13 @@ accessibility.button.survival.layout=ดูช่องเก็บของ
 accessibility.button.recipebook.layout=สมุดสูตรคราฟต์ และ ดูช่องเก็บของ
 accessibility.button.creative.layout=ดูสมุดสูตรคราฟต์
 
-accessibility.dropdown.listItem=รายการไอเทม
+accessibility.dropdown.listItem=รายการไอเท็ม
 
-accessibility.minecoin=ไมน์คอยน์
-accessibility.minecoins=ไมน์คอยน์
-accessibility.fullprice=ราคาเต็ม %s ไมน์คอยน์
-accessibility.discount.price=ราคาลด %s ไมน์คอยน์
-accessibility.discount.percent=ลดรารา %s เปอร์เซ็นต์
+accessibility.minecoin=Minecoin
+accessibility.minecoins=Minecoins
+accessibility.fullprice=ราคาเต็ม %s Minecoins
+accessibility.discount.price=ลดราคา %s Minecoins
+accessibility.discount.percent=ลดราคา %s เปอร์เซ็นต์
 
 accessibility.sectionName=ส่วน %s: 
 
@@ -134,7 +134,7 @@ accessibility.screenName.myWorlds=หน้าโลกของฉัน
 accessibility.screenName.patchNotes=หน้าบันทึกการแก้ไข
 accessibility.screenName.pause=เมนูเกม
 accessibility.screenName.permissions=หน้าสิทธิ์
-accessibility.screenName.play=หน้าเล่น
+accessibility.screenName.play=หน้าการเล่น
 accessibility.screenName.profile=หน้าโปรไฟล์
 accessibility.screenName.realmInviteLinkSettings=หน้าตั้งค่าลิงก์เชิญเข้าร่วม Realm
 accessibility.screenName.realmSettings=หน้าการตั้งค่า Realm
@@ -321,7 +321,7 @@ achievement.mineWood=ได้รับไม้
 achievement.mineWood.desc=โจมตีต้นไม้จนกว่าจะมีบล็อกไม้หลุดออกมา
 achievement.notification.description=ปลดล๊อกความสำเร็จ
 achievement.onARail=บนรางรถไฟ
-achievement.onARail.desc=เดินทางโดยใช้รถไฟอย่างน้อย 1 กม. จากจุดที่เริ่มต้น
+achievement.onARail.desc=เดินทางโดยใช้รถรางอย่างน้อย 1 กม. จากจุดที่เริ่มต้น
 achievement.openInventory=ตรวจสอบสิ่งของในช่องเก็บของ
 achievement.openInventory.desc=กด '%1$s' เพื่อเปิดช่องเก็บของ.
 achievement.overkill=เกินขนาด
@@ -346,7 +346,7 @@ achievement.unknown=???
 achievement.uninitScore=--
 
 action.hint.exit.boat=กดกระโดดเพื่อออกจากเรือ
-action.hint.exit.minecart=กดกระโดดเพื่อออกจากรถไฟ
+action.hint.exit.minecart=กดกระโดดเพื่อออกจากรถราง
 action.hint.exit.pig=กดย่อเพื่อเลิกขี่
 action.hint.exit.horse=กดย่อเพื่อเลิกขี่
 action.hint.exit.strider=กดย่อเพื่อเลิกขี่
@@ -357,7 +357,7 @@ action.hint.exit.trader_llama=กดย่อเพื่อเลิกขี�
 action.hint.exit.skeleton_horse=กดย่อเพื่อเลิกขี่
 
 
-action.hint.exit.scheme.minecart=กดเลิกขี่เพื่อออกจากรถไฟ
+action.hint.exit.scheme.minecart=กดเลิกขี่เพื่อออกจากรถราง
 action.hint.exit.scheme.pig=กดเลิกขี่เพื่อเลิกขี่
 action.hint.exit.scheme.horse=กดเลิกขี่เพื่อเลิกขี่
 action.hint.exit.scheme.strider=กดเลิกขี่เพื่อเลิกขี่
@@ -368,7 +368,7 @@ action.hint.exit.scheme.trader_llama=กดเลิกขี่เพื่อ�
 action.hint.exit.scheme.skeleton_horse=กดเลิกขี่เพื่อเลิกขี่
 
 action.hint.exit.console.boat=Press :_input_key.jump: เพื่อออกจากเรือ
-action.hint.exit.console.minecart=Press :_input_key.jump: เพื่อออกจากรถไฟ
+action.hint.exit.console.minecart=Press :_input_key.jump: เพื่อออกจากรถราง
 action.hint.exit.console.pig=Press :_input_key.sneak: เพื่อเลิกขี่
 action.hint.exit.console.horse=Press :_input_key.sneak: เพื่อเลิกขี่
 action.hint.exit.console.strider=Press :_input_key.sneak: เพื่อเลิกขี่
@@ -679,19 +679,19 @@ commandBlockScreen.hideOutputMode=X
 commandBlockScreen.hoverNote=โน้ตเมื่อชี้
 commandBlockScreen.title=บล็อกคำสั่ง
 
-seargeSays.searge=Searge says: %s
-seargeSays.searge1=Yolo
-seargeSays.searge2=/achievement take achievement.understandCommands @p
-seargeSays.searge3=Ask for help on twitter
+seargeSays.searge=เสิร์จพูดว่า: %s
+seargeSays.searge1=โยโล่
+seargeSays.searge2=/achievement ได้รับ achievement.understandCommands @p
+seargeSays.searge3=ขอความช่วยเหลือบนทวิตเตอร์
 seargeSays.searge4=/deop @p
-seargeSays.searge5=Scoreboard deleted, commands blocked
-seargeSays.searge6=Contact helpdesk for help
+seargeSays.searge5=กระดานคะแนนถูกลบ บล็อกคำสั่งแล้ว
+seargeSays.searge6=ติดต่อฝ่ายช่วยเหลือเพื่อขอความช่วยเหลือ
 seargeSays.searge7=/testfornoob @p
 seargeSays.searge8=/trigger warning
-seargeSays.searge9=Oh my god, it's full of stats
+seargeSays.searge9=โอ้พระเจ้า มันเต็มไปด้วยสถิติ
 seargeSays.searge10=/kill @p[name=!Searge]
-seargeSays.searge11=Have you tried turning it off and on again?
-seargeSays.searge12=Sorry, no help today
+seargeSays.searge11=คุณได้ลองปิดแล้วเปิดใหม่อีกครั้งหรือยัง?
+seargeSays.searge12=ขอโทษวันนี้ไม่สามารถช่วยเหลือได้
 
 commandBlock.shortName=@
 commandBlock.genericName=บล็อกคำสั่ง
@@ -1381,7 +1381,7 @@ commands.clearrealmevents.start=กำลังลบเหตุการณ์
 commands.clearspawnpoint.success.single=ลบจุดเกิดของ %1$s เรียบร้อย
 commands.clearspawnpoint.description=ลบจุดเกิดสำหรับผู้เล่น
 commands.clearspawnpoint.success.multiple=ลบจุดเกิดสำหรับ %1$s เรียบร้อย
-commands.spreadplayers.description=โทรพอร์ตเอนทิตีไปยังตำแหน่งสุ่ม
+commands.spreadplayers.description=เทเลพอร์ตเอนทิตีไปยังตำแหน่งสุ่ม
 commands.spreadplayers.failure.players=ไม่สามารถกระจาย %1$s ผู้เล่นรอบๆ %2$s,%3$s ได้ (ผู้เล่นมากเกินไปสำหรับพื้นที่ - ลองใช้การกระจายไม่เกิน %4$s)
 commands.spreadplayers.failure.players.unsafe=ไม่สามารถกระจาย %1$s ผู้เล่นรอบๆ %2$s,%3$s ได้ (ไม่พบตำแหน่งที่ปลอดภัยหลังจาก %4$s ครั้ง)
 commands.spreadplayers.failure.teams=ไม่สามารถกระจาย %1$s ทีมรอบๆ %2$s,%3$s ได้ (ผู้เล่นมากเกินไปสำหรับพื้นที่ - ลองใช้การกระจายไม่เกิน %4$s)
@@ -2324,7 +2324,7 @@ localWorld.no_local_worlds_present=โลกของคุณหาย? ลอ�
 localWorld.no_local_worlds_present.world_recovery=โลกของคุณหาย? ลองกู้คืนโลกในพื้นที่จัดเก็บภายนอก:
 localWorld.no_local_worlds.world_recovery_button_label=กูคืนโลก
 
-thirdPartyWorld.comingSoon=เร็วๆนี้!
+thirdPartyWorld.comingSoon=เร็ว ๆ นี้!
 thirdPartyWorld.Featured=เซิร์ฟเวอร์ที่โดดเด่น
 thirdPartyWorld.Additional=เซิร์ฟเวอร์เพื่มเติม
 thirdPartyWorld.featuredComingSoon=เร็วๆนี้
@@ -2605,15 +2605,15 @@ date.minuteSingular=%s นาที
 date.secondSingular=%s วินาที
 date.timeLeft=%s เหลือ
 
-dayOneExperience.carousel.title=ยินดีต้อนรับสู่ Minecraft แบบใหม่!
-dayOneExperience.carousel.welcome_text=มีอะไรที่น่าสนใจเยอะแยะเลยแหล่ะในเวอร์ชั่นใหม่ของ Minecraft! ลองเข้าไปดูในตลาด, สร้างเรียล์ม, และเล่นแบบออนไลน์กับเพื่อนแบบข้ามแพลตฟอร์มต่างๆ!
-dayOneExperience.carousel.marketplace=ตลาด Minecraft เป็นสถานที่สำหรับค้นหาสกินใหม่ๆ, โลก, เท็กซ์เจอร์, และแพ็คมาชอปจากผู้สร้างที่มีความสามารถมากมาย
+dayOneExperience.carousel.title=ยินดีต้อนรับสู่ Minecraft โฉมใหม่!
+dayOneExperience.carousel.welcome_text=มีอะไรที่น่าสนใจเยอะแยะเลยแหล่ะในเวอร์ชั่นใหม่ของ Minecraft! ลองเข้าไปดูใน Marketplace, สร้าง Realm, และเล่นแบบออนไลน์กับเพื่อนแบบข้ามแพลตฟอร์มต่าง ๆ!
+dayOneExperience.carousel.marketplace=Minecraft Marketplace เป็นสถานที่สำหรับค้นหาสกินใหม่ๆ, โลก, เทกซ์เจอร์, และ แพ็กผสม จากผู้สร้างที่มีความสามารถมากมาย
 dayOneExperience.carousel.cross_platform=การเล่นข้ามแพลตฟอร์มให้คุณเชื่อมต่อกับผู้เล่นบนแพลตฟอร์มที่ต่างกัน ลงชื่อเข้าใช้บัญชี Microsoft ของคุณเพื่อเล่นกับเพื่อน Minecraft ของคุณทั้งหมด!
 dayOneExperience.carousel.realms=Realm เป็นเซิร์ฟเวอร์ที่เราดำเนินการเพื่อคุณและเพื่อนของคุณ รักษาโลก Minecraft ของคุณออนไลน์และเข้าถึงได้เสมอ แม้ในขณะที่คุณล็อกออฟ
 dayOneExperience.carousel.villager=Minecraft เวอร์ชันใหม่เป็นที่เดียวที่จะได้รับการอัปเดตในอนาคตที่มีฟีเจอร์ใหม่, ม็อบ, ไอเท็ม, บล็อก และอื่นๆ อีกมากมาย!
 
 dayOneExperience.tab.landing=มีอะไรใหม่
-dayOneExperience.tab.marketplace=ตลาด
+dayOneExperience.tab.marketplace=Marketplace
 dayOneExperience.tab.crossplatform=เล่นข้ามแพลตฟอร์ม
 dayOneExperience.tab.realms=Realms
 dayOneExperience.tab.villager=เนื้อหามากขึ้น
