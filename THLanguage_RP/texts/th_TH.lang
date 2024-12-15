@@ -6033,14 +6033,14 @@ keyboard.keyName.rbracket.short=]
 
 keyboard.onScreen.lineNumber=Line %s
 
-lanServer.otherPlayers=Settings for Other Players
-lanServer.scanning=Scanning for games on your local network
-lanServer.start=Start LAN World
-lanServer.title=LAN World
-lanServer.restart=This server has restarted!
+lanServer.otherPlayers=การตั้งค่าสำหรับผู้เล่นอื่น
+lanServer.scanning=กำลังสแกนหาเกมบนเครือข่ายท้องถิ่นของคุณ
+lanServer.start=เริ่มโลก Lan
+lanServer.title=โลก Lan
+lanServer.restart=เซิร์ฟเวอร์นี้ได้รีสตาร์ทแล้ว!
 
-licensed_content.goBack=Go Back
-licensed_content.viewLicensedContent=To view licensed content, please visit https://minecraft.net/licensed-content/ in any web browser.
+licensed_content.goBack=กลับไป
+licensed_content.viewLicensedContent=เพื่อดูเนื้อหาที่ได้รับอนุญาต, โปรดไปที่ https://minecraft.net/licensed-content/ ในเว็บเบราว์เซอร์ใดก็ได้.
 
 livingroom.hint.tap_touchpad_for_immersive=Tap the touchpad to toggle Immersion
 livingroom.hint.tap_view_for_immersive=Press the F5 key to toggle Immersion
