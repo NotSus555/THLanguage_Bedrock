@@ -10664,18 +10664,18 @@ serverUI.errorTitle=Error creating form.
 serverUI.errorDescription=Received invalid form json. Error:%s
 
 ## Content importing
-content.import.failed=Failed to import '%s'
-content.import.failed.subtitle=See output log for more details
-content.import.failed.subtitle_duplicate=Duplicate pack detected
-content.import.failed.subtitle_malformed_zip=Not a valid zip archive
-content.import.failed.subtitle_premiumcontent=Content in this world is not supported by Minecraft Education.
-content.import.failed.incompatible=Unsupported file format
-content.import.failed.title_premiumcontent=Content Not Supported
-content.import.succeeded=Successfully imported '%s'
-content.import.succeeded_with_warnings=Successfully imported '%s' with warnings
-content.import.succeeded_with_warnings.subtitle=Click here for more info
-content.import.started=Import started...
-content.import.importedWorldPrefix=imported
+content.import.failed=ไม่สามารถนำเข้า '%s' ได้
+content.import.failed.subtitle=เช็กในบันทึกเนื้อหาสำหรับข้อมูลเพิ่มเติม
+content.import.failed.subtitle_duplicate=ตรวจพบแพ็กซ้ำกัน
+content.import.failed.subtitle_malformed_zip=ไม่ใช่ไฟล์ zip ที่ถูกต้อง
+content.import.failed.subtitle_premiumcontent=เนื้อหาในโลกนี้ไม่ได้รับการสนับสนุนโดย Minecraft Education
+content.import.failed.incompatible=รูปแบบไฟล์ไม่ถูกต้อง
+content.import.failed.title_premiumcontent=เนื้อหาไม่ถูกต้อง
+content.import.succeeded=นำเข้า '%s' สำเร็จแล้ว
+content.import.succeeded_with_warnings=นำเข้า '%s' สำเร็จแต่ยังมีคำเตือนอยู่
+content.import.succeeded_with_warnings.subtitle=คลิกที่นี่สำหรับข้อมูลเพิ่มเติม
+content.import.started=กำลังเริ่มการนำเข้า...
+content.import.importedWorldPrefix=นำเข้าแล้ว
 
 ## World Templates
 worldTemplate.festivemashup2016.name=Festive Mash-up 2016
