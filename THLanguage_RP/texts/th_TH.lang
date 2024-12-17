@@ -6048,15 +6048,15 @@ livingroom.hint.tap_view_for_immersive_gamepad=Press D-Pad Up to toggle Immersio
 livingroom.hint.tap_view_for_immersive_oculustouch=Press Y to toggle Immersion
 livingroom.hint.tap_view_for_immersive_windowsmr=Press Right Menu to toggle Immersion
 
-map.toolTip.displayMarkers=Display Markers
-map.toolTip.scaling=Scaling at 1:%s
-map.toolTip.level=Level %s/%s
-map.toolTip.unkown=Unknown Map
-map.toolTip.locked=Locked
-map.position.agent=Agent Pos: %s, %s, %s
-map.position=Position: %s, %s, %s
+map.toolTip.displayMarkers=แสดงเครื่องหมาย
+map.toolTip.scaling=ปรับขนาดที่ 1:%s
+map.toolTip.level=ระดับ %s/%s
+map.toolTip.unkown=แผนที่ที่ไม่รู้จัก
+map.toolTip.locked=ล็อก
+map.position.agent=ตำแหน่งตัวแทน: %s, %s, %s
+map.position=ตำแหน่ง: %s, %s, %s
 
-mcoServer.title=Minecraft Online World
+mcoServer.title=โลกออนไลน์ Minecraft
 
 menu.achievements=Achievements
 menu.convertingLevel=Expanding world
