@@ -6111,7 +6111,7 @@ menu.singleplayer=ผู้เล่นคนเดียว
 menu.startPlaying=เริ่มเล่นเลย
 menu.store=Marketplace
 menu.store.addons=ค้นหาส่วนเสริม
-menu.skins=สกินห
+menu.skins=สกิน
 menu.start=เริ่ม
 menu.switchingLevel=กำลังสลับโลก
 menu.makingBackup=กำลังสำรองข้อมูล...
@@ -6121,11 +6121,11 @@ menu.editor.play=เล่นต่อ
 menu.character_cast.select_title=เลือกตัวละครเริ่มต้นของคุณ
 menu.character_cast.preview_title=พบกับนักแสดง!
 menu.realms=Realms	###{StrContains="Realms"}
-menu.realmsServer=เซิฟเวอร์ Realms	###{StrContains="Realms"}{MaxLength=‘18’}
-menu.servers=เซิฟเวอร์
+menu.realmsServer=เซิร์ฟเวอร์ Realms	###{StrContains="Realms"}{MaxLength=‘18’}
+menu.servers=เซิร์ฟเวอร์
 menu.trialLabel=เข้าสู่โหมดทดลองเล่นใช้และสำรวจรวบรวม และ คราฟต์ - ทั้งหมดฟรี! ในระยะเวลาที่จำกัด
 
-merchant.deprecated=แลกเปลี่ยนอย่างอื่นเพื่อปลดล็อค!
+merchant.deprecated=แลกเปลี่ยนอย่างอื่นเพื่อปลดล็อก!
 
 
 mount.onboard=กดที่ %1$s เพื่อลง
