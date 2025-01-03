@@ -2607,7 +2607,7 @@ date.timeLeft=%s เหลือ
 
 dayOneExperience.carousel.title=ยินดีต้อนรับสู่ Minecraft โฉมใหม่!
 dayOneExperience.carousel.welcome_text=มีอะไรที่น่าสนใจเยอะแยะเลยแหล่ะในเวอร์ชั่นใหม่ของ Minecraft! ลองเข้าไปดูใน Marketplace, สร้าง Realm, และเล่นแบบออนไลน์กับเพื่อนแบบข้ามแพลตฟอร์มต่าง ๆ!
-dayOneExperience.carousel.marketplace=Minecraft Marketplace เป็นสถานที่สำหรับค้นหาสกินใหม่ ๆ, โลก, เทกซ์เจอร์, และ แพ็กผสม จากผู้สร้างที่มีความสามารถมากมาย
+dayOneExperience.carousel.marketplace=Minecraft Marketplace เป็นสถานที่สำหรับค้นหาสกินใหม่ ๆ โลก, เทกซ์เจอร์, และ แมชอัป จากผู้สร้างที่มีความสามารถมากมาย
 dayOneExperience.carousel.cross_platform=การเล่นข้ามแพลตฟอร์มให้คุณเชื่อมต่อกับผู้เล่นบนแพลตฟอร์มที่ต่างกัน ลงชื่อเข้าใช้บัญชี Microsoft ของคุณเพื่อเล่นกับเพื่อน Minecraft ของคุณทั้งหมด!
 dayOneExperience.carousel.realms=Realm เป็นเซิร์ฟเวอร์ที่เราดำเนินการเพื่อคุณและเพื่อนของคุณ รักษาโลก Minecraft ของคุณออนไลน์และเข้าถึงได้เสมอ แม้ในขณะที่คุณล็อกออฟ
 dayOneExperience.carousel.villager=Minecraft เวอร์ชันใหม่เป็นที่เดียวที่จะได้รับการอัปเดตในอนาคตที่มีฟีเจอร์ใหม่, ม็อบ, ไอเท็ม, บล็อก และอื่น ๆ อีกมากมาย!
@@ -7752,7 +7752,7 @@ sidebar.myContent=My Content
 sidebar.newReleases=New Releases
 sidebar.openWorld=Open World
 sidebar.parkour=Parkour
-sidebar.resources=Resources
+sidebar.resources=รีซอร์ซ
 sidebar.roleplay=Roleplay
 sidebar.skins=Skins
 sidebar.skinsOwned=Owned Skins
@@ -7771,47 +7771,47 @@ sidebar.tts.verboseToggleExpand=Expand Sidebar
 sidebar.tts.verboseToggleCollapse=Collapse Sidebar
 sidebar.worlds=Worlds
 
-storageManager.contentType.world=World
-storageManager.contentType.worldTemplate=World Template
-storageManager.contentType.resourcePack=Resource
-storageManager.contentType.behaviorPack=Behavior Pack
-storageManager.contentType.skinPack=Skin Pack
-storageManager.contentType.invalid=Invalid
-storageManager.contentType.cachedData=Cached Data
+storageManager.contentType.world=โลก
+storageManager.contentType.worldTemplate=เทมเพลตโลก
+storageManager.contentType.resourcePack=รีซอร์ซ
+storageManager.contentType.behaviorPack=บีเฮฟวิเออร์แพ็ก
+storageManager.contentType.skinPack=สกินแพ็ก
+storageManager.contentType.invalid=ไม่ถูกต้อง
+storageManager.contentType.cachedData=ข้อมูลที่แคช
 
-storageManager.contentType.worlds=Worlds
-storageManager.contentType.legacy_worlds=Old Worlds
-storageManager.contentType.worldTemplates=World Templates
-storageManager.contentType.resourcePacks=Resource Packs
-storageManager.contentType.behaviorPacks=Behavior Packs
-storageManager.contentType.skinPacks=Skin Packs
-storageManager.contentType.retailtopreview_worlds=Retail Worlds
+storageManager.contentType.worlds=โลก
+storageManager.contentType.legacy_worlds=โลกเก่า
+storageManager.contentType.worldTemplates=เทมเพลตโลก
+storageManager.contentType.resourcePacks=รีซอร์ซแพ็ก
+storageManager.contentType.behaviorPacks=บีเฮฟวิเออร์แพ็ก
+storageManager.contentType.skinPacks=สกินแพ็ก
+storageManager.contentType.retailtopreview_worlds=โลกที่จำหน่าย
 
-storageManager.sync_legacy_worlds=Sync Old Worlds
-storageManager.sync_legacy_worlds_description=Looks for worlds from an older version of Minecraft. This might take a while to finish.
-storageManager.sync_legacy_worlds.conversion_description=Click a world to convert it into a playable world
+storageManager.sync_legacy_worlds=ซิงค์โลกเก่า
+storageManager.sync_legacy_worlds_description=กำลังค้นหาโลกจาก Minecraft เวอร์ชันเก่า อาจใช้เวลาสักครู่จึงจะเสร็จสิ้น
+storageManager.sync_legacy_worlds.conversion_description=คลิกที่โลกเพื่อแปลงมันเป็นโลกที่สามารถเล่นได้
 
-storageManager.sync_retailtopreview_worlds=Sync Retail Worlds
-storageManager.sync_retailtopreview_worlds_description=Looks for worlds from the retail version of Minecraft. This might take a while to finish.
-storageManager.sync_retailtopreview_worlds.conversion_description=Click a world to convert it into a playable preview world
+storageManager.sync_retailtopreview_worlds=ซิงค์โลกที่จำหน่าย
+storageManager.sync_retailtopreview_worlds_description=ค้นหาโลกจากเวอร์ชันจำหน่ายของ Minecraft อาจใช้เวลาสักครู่จึงจะเสร็จสิ้น
+storageManager.sync_retailtopreview_worlds.conversion_description=คลิกที่โลกเพื่อแปลงมันเป็นโลกที่สามารถเล่นได้
 
-storageManager.sync_legacy_worlds.conversion_complete.content=You have converted your world. You can now find it in “all worlds”.
-storageManager.sync_legacy_worlds.conversion_complete.title=Success!
-storageManager.sync_legacy_worlds.conversion_complete.confirm_button=Go to "all worlds"
-storageManager.sync_legacy_worlds.conversion_complete.cancel_button=Close
+storageManager.sync_legacy_worlds.conversion_complete.content=คุณได้แปลงโลกของคุณแล้ว ตอนนี้คุณสามารถพบมันได้ใน “โลกทั้งหมด”
+storageManager.sync_legacy_worlds.conversion_complete.title=สำเร็จ!
+storageManager.sync_legacy_worlds.conversion_complete.confirm_button=ไปยัง "โลกทั้งหมด"
+storageManager.sync_legacy_worlds.conversion_complete.cancel_button=ปิด
 
-storageManager.sync_legacy_worlds.fetch_complete.title=Success!
-storageManager.sync_legacy_worlds.fetch_complete.content=We have found %s old worlds from a previous version of Minecraft.
+storageManager.sync_legacy_worlds.fetch_complete.title=สำเร็จ!
+storageManager.sync_legacy_worlds.fetch_complete.content=เราได้พบโลกเก่า %s จาก Minecraft เวอร์ชันก่อนหน้า
 
-storageManager.sync_retailtopreview_worlds.fetch_complete.title=Success!
-storageManager.sync_retailtopreview_worlds.fetch_complete.content=We have found %s retail worlds from the Retail version of Minecraft.
+storageManager.sync_retailtopreview_worlds.fetch_complete.title=สำเร็จ!
+storageManager.sync_retailtopreview_worlds.fetch_complete.content=เราได้พบโลกที่จำหน่าย %s จากเวอร์ชันจำหน่ายของ Minecraft
 
-storageManager.sync_legacy_worlds.conversion_explanation.title=Converting your world
-storageManager.sync_legacy_worlds.conversion_explanation.content=You need to convert "%s" into the latest version of Minecraft to make it playable.
-storageManager.sync_legacy_worlds.conversion_explanation.confirm_button=Convert
-storageManager.sync_legacy_worlds.conversion_explanation.cancel_button=Cancel
+storageManager.sync_legacy_worlds.conversion_explanation.title=กำลังแปลงโลกของคุณ
+storageManager.sync_legacy_worlds.conversion_explanation.content=คุณต้องการแปลง "%s" ไปยังเวอร์ชันล่าสุดของ Minecraft เพื่อให้สามารถเล่นได้
+storageManager.sync_legacy_worlds.conversion_explanation.confirm_button=แปลง
+storageManager.sync_legacy_worlds.conversion_explanation.cancel_button=ยกเลิก
 
-storageManager.baseWorld=Base World
+storageManager.baseWorld=โลกหลัก
 
 tile.sculk_sensor.name=Sculk Sensor
 tile.sculk.name=Sculk
@@ -8100,63 +8100,63 @@ storageManager.mcworld=Minecraft World
 raycasting.purchase.error=We have detected that your device does not meet the system requirements to run this pack so you are unable to download this pack. You can review the minimum system requirements below: %s+ GPU: Hardware ray tracing capable GPU such as NVIDIA GeForce RTX 2060 or better. See our FAQ on minecraft.net for more details. %s+ RAM: 8GB or better %s+ CPU: Intel Core i5 or equivalent ##the %s will be turned into linebreaks. Don't reorder.
 raycasting.purchase.error.title=System Requirements Warning
 
-resourcepack.City=City Texture Pack
-resourcepack.Plastic=Plastic Texture Pack
-resourcepack.Natural=Natural Texture Pack
-resourcepack.Fantasy=Fantasy Texture Pack
-resourcepack.Cartoon=Cartoon Texture Pack
-resourcepack.Candy=Candy Texture Pack
-resourcepack.FestiveMashup2016=Festive Mash-up 2016
-resourcepack.ChineseMythology=Chinese Mythology Mash-up
+resourcepack.City=เทกซ์เจอร์แพ็กเมือง
+resourcepack.Plastic=เทกซ์เจอร์แพ็กพลาสติก
+resourcepack.Natural=เทกซ์เจอร์แพ็กธรรมชาติ
+resourcepack.Fantasy=เทกซ์เจอร์แพ็กแฟนตาซี
+resourcepack.Cartoon=เทกซ์เจอร์แพ็กการ์ตูน
+resourcepack.Candy=เทกซ์เจอร์แพ็กลูกอม
+resourcepack.FestiveMashup2016=แมชอัปเทศกาล 2016
+resourcepack.ChineseMythology=แมชอัปตำนานจีน
 
-resourcePack.vanilla.name=Minecraft Texture Pack
-resourcePack.vanilla.description=The default Minecraft graphics, now updated with stylish new textures!
+resourcePack.vanilla.name=เทกซ์เจอร์แพ็ก 
+resourcePack.vanilla.description=นี่คือกราฟฟิก Minecraft เริ่มต้น พร้อมกับการอัปเดตเทกซ์เจอร์ใหม่ที่มีสไตล์!
 
-resourcePack.city.name=City
-resourcePack.city.description=Ideal for building structures.
+resourcePack.city.name=เมือง
+resourcePack.city.description=เหมาะสำหรับคนชอบโครงสร้างอาคาร
 
-resourcePack.plastic.name=Plastic
-resourcePack.plastic.description=Simple, colorful, and vibrant.
+resourcePack.plastic.name=พลาสติก
+resourcePack.plastic.description=เรียบง่าย มีสีสัน และ มีชีวิตชีวา
 
-resourcePack.natural.name=Natural
-resourcePack.natural.description=Designed to give your worlds a more natural look.
+resourcePack.natural.name=ธรรมชาติ
+resourcePack.natural.description=ออกแบบมาเพื่อให้โลกของคุณดูเป็นธรรมชาติมากขึ้น
 
-resourcePack.fantasy.name=Fantasy
-resourcePack.fantasy.description=Transport yourselves to a time when knights were heroes.
+resourcePack.fantasy.name=แฟนตาซี
+resourcePack.fantasy.description=พาตัวเองย้อนเวลากลับไปในยุคที่อัศวินยังเป็นวีรบุรุษ
 
-resourcePack.cartoon.name=Cartoon
-resourcePack.cartoon.description=Googly eyes! Goofy grins! Turn your world into a toon with this pack.
+resourcePack.cartoon.name=การ์ตูน
+resourcePack.cartoon.description=ตากลิ้งกลม! ยิ้มเจ้าเล่ห์! เปลี่ยนโลกของคุณให้กลายเป็นการ์ตูนด้วยแพ็กนี้
 
-resourcePack.candy.name=Candy
-resourcePack.candy.description=Sugarcoat your world and turn every texture into a syrupy snack.
+resourcePack.candy.name=ลูกอม
+resourcePack.candy.description=เคลือบโลกของคุณให้หวานฉ่ำ และ เปลี่ยนทุกเนื้อสัมผัสให้กลายเป็นอาหารว่างแสนอร่อย
 
-resourcePack.festivemashup2016.name=Festive Mash-up 2016
-resourcePack.festivemashup2016.description=Create a winter wonderland with this snowy seasonal pack.
+resourcePack.festivemashup2016.name=แมชอัปเทศกาล 2016
+resourcePack.festivemashup2016.description=สร้างดินแดนแห่งฤดูหนาวด้วยแพ็กหิมะตามฤดูกาลนี้
 
-resourcePack.chinesemythology.name=Chinese Mythology Mash-up
-resourcePack.chinesemythology.description=Textures inspired by the myths and legends of China.
+resourcePack.chinesemythology.name=แมชอัปตำนานจีน
+resourcePack.chinesemythology.description=เทกซ์เจอร์ที่ได้รับแรงบันดาลใจจากตำนานและนิทานของจีน
 
-resourcepack.Fallout=Fallout Mash-up
-resourcePack.Fallout.name=Fallout Mash-up
-resourcePack.Fallout.description=Welcome to the Wasteland!
+resourcepack.Fallout=แมชอัป Fallout
+resourcePack.Fallout.name=แมชอัป Fallout
+resourcePack.Fallout.description=ยินดีต้อนรับสู่ดินแดนรกร้าง!
 
-resourcepack.MagicTheGathering.name=Magic: The Gathering
+resourcepack.MagicTheGathering.name=เมจิกเดอะแกเธอริง
 
-resourcePack.GreekMythology=Greek Mythology Mash-up
-resourcePack.GreekMythology.name=Greek Mythology Mash-up
-resourcePack.GreekMythology.description=It's mythical Greece at your fingertips. 
+resourcePack.GreekMythology=แมชอัปตำนานเทพเจ้ากรีก
+resourcePack.GreekMythology.name=แมชอัปตำนานเทพเจ้ากรีก
+resourcePack.GreekMythology.description=มันเป็นกรีกในตำนานที่ปลายนิ้วของคุณ
 
-resourcePack.Skyrim.name=Skyrim Mash-up
-resourcePack.Skyrim.description=Build your own worlds in the land of Skyrim.
+resourcePack.Skyrim.name=แมชอัป Skyrim
+resourcePack.Skyrim.description=สร้างโลกของคุณเองในดินแดน Skyrim
 
-resourcePack.MashupAdventureTime.name=Adventure Time
+resourcePack.MashupAdventureTime.name=เวลาแห่งผจญภัย
 resourcePack.MashupAdventureTime.description=
 
-resourcePack.skin.name=Skins
-resourcePack.skin.description=Skin, Skin, Skin!!!
+resourcePack.skin.name=สกิน
+resourcePack.skin.description=สกิน, สกิน, สกิน!!!
 
-resourcePack.invalid.description=Couldn't parse pack successfully. Click to display errors.
-resourcePack.loading.description=Pack is still being loaded.
+resourcePack.invalid.description=ไม่สามารถแยกวิเคราะห์แพ็กได้สำเร็จ คลิกเพื่อแสดงข้อผิดพลาด
+resourcePack.loading.description=แพ็กยังกำลังถูกโหลด
 
 review.item.post.rating.dropdown.label=Choose a star rating
 review.item.post.rating.footer=You will be able to change your rating.
