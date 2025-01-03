@@ -1258,10 +1258,10 @@ commands.schedule.invalidOrigin=ต้นกำเนิดที่จำเป
 commands.schedule.name.empty=ชื่อพื้นที่ที่ติ๊กไม่สามารถว่างเปล่าได้
 commands.schedule.too.many.areas=พบพื้นที่ติ๊กมากกว่าหนึ่งชื่อ %s กรุณาใช้พื้นที่เดียว				##1: ชื่อของ ticking area ที่ถูกเลือก
 commands.schedule.clear.failure=ไม่พบฟังก์ชันที่ถูกลบชื่อ %1$s													##1: ชื่อของ mcfunction
-commands.schedule.clear.success=ลบฟังก์ชัน %1$d ที่มีชื่อ %2$s สำเร็จ														##1: จำนวนฟังก์ชั่นที่ถูกเคลียร์ ##2: ชื่อของ mcfunction
+commands.schedule.clear.success=ลบฟังก์ชัน %1$d ที่มีชื่อ %2$s สำเร็จ														##1: จำนวนฟังก์ชันที่ถูกเคลียร์ ##2: ชื่อของ mcfunction
 commands.schedule.tickingarea.clear.success=ลบฟังก์ชัน %1$d ที่มีชื่อพื้นที่ติ๊ก %2$s สำเร็จ								##1: ชื่อของ ticking area ที่ถูกเลือก ##2: ชื่อของ ticking area ที่ถูกเลือก
 commands.schedule.tickingarea.clear.failure=ไม่พบฟังก์ชันที่ถูกลบชื่อพื้นที่ติ๊ก %1$s							##1: ชื่อของ ticking area ที่ถูกเลือก
-commands.schedule.tickingarea.func.clear.success=ลบฟังก์ชัน %1$d ที่มีชื่อพื้นที่ติ๊ก %2$s และชื่อ %3$s สำเร็จ		##1: จำนวนฟังก์ชั่นที่ถูกเคลียร์ ##2:  ชื่อของ ticking area ที่ถูกเลือก ##3: ชื่อของ mcfunction
+commands.schedule.tickingarea.func.clear.success=ลบฟังก์ชัน %1$d ที่มีชื่อพื้นที่ติ๊ก %2$s และชื่อ %3$s สำเร็จ		##1: จำนวนฟังก์ชันที่ถูกเคลียร์ ##2:  ชื่อของ ticking area ที่ถูกเลือก ##3: ชื่อของ mcfunction
 commands.schedule.tickingarea.func.clear.failure=ไม่พบฟังก์ชันที่ถูกลบชื่อพื้นที่ติ๊ก %1$s และชื่อ %2$s	##1: ชื่อของ ticking area ที่ถูกเลือก ##2: ชื่อของ mcfunction
 
 ## Scoreboard is composed of several Objectives, which can be displayed to players in 3 different 'slots'	##
@@ -2606,7 +2606,7 @@ date.secondSingular=%s วินาที
 date.timeLeft=%s เหลือ
 
 dayOneExperience.carousel.title=ยินดีต้อนรับสู่ Minecraft โฉมใหม่!
-dayOneExperience.carousel.welcome_text=มีอะไรที่น่าสนใจเยอะแยะเลยแหล่ะในเวอร์ชั่นใหม่ของ Minecraft! ลองเข้าไปดูใน Marketplace, สร้าง Realm, และเล่นแบบออนไลน์กับเพื่อนแบบข้ามแพลตฟอร์มต่าง ๆ!
+dayOneExperience.carousel.welcome_text=มีอะไรที่น่าสนใจเยอะแยะเลยแหล่ะในเวอร์ชันใหม่ของ Minecraft! ลองเข้าไปดูใน Marketplace, สร้าง Realm, และเล่นแบบออนไลน์กับเพื่อนแบบข้ามแพลตฟอร์มต่าง ๆ!
 dayOneExperience.carousel.marketplace=Minecraft Marketplace เป็นสถานที่สำหรับค้นหาสกินใหม่ ๆ โลก, เทกซ์เจอร์, และ แมชอัป จากผู้สร้างที่มีความสามารถมากมาย
 dayOneExperience.carousel.cross_platform=การเล่นข้ามแพลตฟอร์มให้คุณเชื่อมต่อกับผู้เล่นบนแพลตฟอร์มที่ต่างกัน ลงชื่อเข้าใช้บัญชี Microsoft ของคุณเพื่อเล่นกับเพื่อน Minecraft ของคุณทั้งหมด!
 dayOneExperience.carousel.realms=Realm เป็นเซิร์ฟเวอร์ที่เราดำเนินการเพื่อคุณและเพื่อนของคุณ รักษาโลก Minecraft ของคุณออนไลน์และเข้าถึงได้เสมอ แม้ในขณะที่คุณล็อกออฟ
@@ -6970,7 +6970,7 @@ options.onlyTrustedSkinsAllowed=Only Allow Trusted Skins
 options.restartTutorial=Restart Tutorial
 options.tutorial=Tutorial
 options.tutorialHint=Hints to get going with the basics of Minecraft
-options.tutorial_show_animation=แสดงแอนิเมชั่นในเคล็ดลับการสอน
+options.tutorial_show_animation=แสดงแอนิเมชันในเคล็ดลับการสอน
 
 options.autoUpdateEnabled=Auto Update Unlocked Packs
 options.autoUpdateMode=Auto Update Unlocked Packs
