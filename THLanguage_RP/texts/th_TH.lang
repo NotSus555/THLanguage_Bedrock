@@ -8174,11 +8174,11 @@ roaming.status_brief.no_restrictions=Usable cross-platform
 roaming.status_hover.limited_usage=Only available on specific platforms.
 roaming.status_hover.no_restrictions=Available on any Bedrock platform!
 
-screenshot.failure=Couldn't save screenshot: %s
-screenshot.success=Saved screenshot as %s
-screenshot.title=Screenshot Captured!
-screenshot.caption=Add a caption and share?
-screenshot.post=Share
+screenshot.failure=ไม่สามารถบันทึกภาพถ่ายหน้าจอ: %s
+screenshot.success=บันทึกภาพหน้าจอเป็น %s
+screenshot.title=ถ่ายภาพหน้าจอแล้ว!
+screenshot.caption=เพิ่มคำอธิบาย หรือ แชร์
+screenshot.post=แชร์
 
 seedPicker.search=Search
 seedPicker.title=Seed Picker
