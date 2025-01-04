@@ -2510,7 +2510,7 @@ realmsSettingsScreen.unknownStoreDisplayName=ร้านค้าที่ไ�
 realmsSettingsScreen.extendingRealm=กำลังขยาย Realm...
 realmsSettingsScreen.offerError.title=รอการชำระเะงิน
 realmsSettingsScreen.offerError.content=การชำระเงินอยู่ระหว่างดำเนินการอยู่ คุณไม่สามารถทำการชำระเงินอื่นได้จนกว่าปัญหาจะได้รับการแก้ไข โปรดลองอีกครั้งในภายหลัง.
-realmsSettingsScreen.dev_branch_labelเวอร์ชันไหนที่เราลงทะเบียนใน Realm?
+realmsSettingsScreen.dev_branch_label=เวอร์ชันไหนที่เราลงทะเบียนใน Realm?
 realmsSettingsScreen.dev_current_version_label=เวอร์ชันปัจจุบัน:
 realmsSettingsScreen.dev_matching_version_label=คอมมิตที่ตรงกับไคลเอนต์:
 realmsSettingsScreen.dev_all_commits_label=คอมมิตทั้งหมดที่มีอยู่:
@@ -2763,7 +2763,7 @@ disconnect.kicked=คุณถูกเตะออกจากเกม
 disconnect.kicked.reason=คุณถูกเตะออกจากเกม:
 disconnect.removed=คุณถูกลบออกจากเกม
 disconnect.removed.reason=คุณถูกลบออกจากเกม:
-disconnect.loginFailedเข้าสู่ระบบล้มเหลว
+disconnect.loginFailed=เข้าสู่ระบบล้มเหลว
 disconnect.loginFailedInfo=เข้าสู่ระบบล้มเหลว: %s
 disconnect.loginFailedInfo.environmentMismatch=ความไม่ตรงกันของสภาพแวดล้อม Playfab - การค้นพบ=%s/%s, Playfab=%s/%s
 disconnect.loginFailedInfo.invalidSession=เซสชันไม่ถูกต้อง (]ลองปิด-เปิดเกมใหม่)
@@ -3077,7 +3077,7 @@ entity.tripod_camera.name=ขาตั้งกล้อง
 entity.turtle.name=เต่า
 entity.unknown.name=ไม่รู้จัก
 entity.vex.name=เว็กซ์
-entity.villager.nameชาวบ้าน
+entity.villager.name=ชาวบ้าน
 entity.villager.armor=ช่างชุดเกราะ
 entity.villager.butcher=คนขายเนื้อ
 entity.villager.cartographer=นักทำแผนที่
@@ -8180,8 +8180,8 @@ screenshot.title=ถ่ายภาพหน้าจอแล้ว!
 screenshot.caption=เพิ่มคำอธิบาย หรือ แชร์
 screenshot.post=แชร์
 
-seedPicker.search=Search
-seedPicker.title=Seed Picker
+seedPicker.search=ค้นหา
+seedPicker.title=เลือกซีด
 
 selectServer.add=Add server
 selectServer.defaultName=Minecraft Server
