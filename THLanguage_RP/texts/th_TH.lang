@@ -7625,31 +7625,31 @@ progressScreen.editor.message.convert.worldToProject.saveProject=กำลัง
 progressScreen.label.mobileData=ข้อมูลมือถือ
 progressScreen.noWifi.mobileDataWarning=คุณไม่ได้เชื่อมต่อกับ wifi ในตอนนี้ อาจมีการเรียกเก็บเงินข้อมูลมือถือ
 
-quiz.popup.ok=Take the Quiz
-quiz.popup.text=The quiz will open in a new window. You may return to Minecraft after you have completed the quiz.
-quiz.popup.title=Quiz
+quiz.popup.ok=ทำแบบทดสอบนี้
+quiz.popup.text=แบบทดสอบจะเปิดขึ้นในหน้าต่างใหม่ คุณสามารถกลับไปที่ Minecraft ได้หลังจากทำแบบทดสอบเสร็จแล้ว
+quiz.popup.title=แบบทดสอบ
 
-raid.name=Raid
-raid.progress=Mobs remaining:
-raid.expiry=A raid has expired
-raid.victory=Victory
-raid.defeat=Defeat
+raid.name=การปล้นสะดม
+raid.progress=โจรที่เหลืออยู่:
+raid.expiry=การปล้นสะดมหมดอายุแล้ว
+raid.victory=ชาวบ้านชนะ
+raid.defeat=ชาวบ้านพ่ายแพ้
 
-realmsStories.realmEvents.outOfGameMessage=There was a Realm Event. Check out the Story Feed in Minecraft to see what happened.
+realmsStories.realmEvents.outOfGameMessage=มีเหตุการณ์เกิดขึ้นใน Realm Event เข้าไปดูสตอรี่ฟืดใน Minecraft เพื่อดูว่ามีอะไรเกิดขึ้น
 
-recipeBook.setting.full=Full
-recipeBook.setting.discover=Discover
-recipeBook.setting.off=Off
-recipeToast.newUnlock.title=New recipe unlocked!
-recipeToast.newUnlock.moreRecipes= more recipes
-recipeToast.newUnlock.tts= new recipes unlocked
-recipeToast.newUnlock.descriptionRecipeBook=Check your recipe book
-recipeToast.newUnlock.descriptionCraftingTable=View in crafting table
-recipeToast.newUnlock.descriptionStonecutterTable=View in stonecutter
-recipeToast.newUnlock.descriptionSmithingTable=View in smithing table
-recipeToast.newUnlock.descriptionCartographyTable=View in cartography table
+recipeBook.setting.full=เต็ม
+recipeBook.setting.discover=ค้นพบ
+recipeBook.setting.off=ปิด
+recipeToast.newUnlock.title=ปลดล็อกสูตรใหม่!
+recipeToast.newUnlock.moreRecipes= สูตรเพิ่มเติม
+recipeToast.newUnlock.tts= สูตรใหม่ถูกปลดล็อกแล้ว
+recipeToast.newUnlock.descriptionRecipeBook=ตรวจสอบหนังสือสูตรของคุณ
+recipeToast.newUnlock.descriptionCraftingTable=ดูในโต๊ะคราฟต์
+recipeToast.newUnlock.descriptionStonecutterTable=ดูในเครื่องตัดหิน
+recipeToast.newUnlock.descriptionSmithingTable=ดูในโต๊ะทำอาวุธ
+recipeToast.newUnlock.descriptionCartographyTable=ดูในโต๊ะทำแผนที่
 
-record.nowPlaying=Now playing: %s
+record.nowPlaying=ขณะนี้กำลังเล่น: %s
 
 resourcePack.available.title=รีซอร์ซแพ็กที่ใช้งานได้
 resourcePack.available.title.behaviorPacks=บีเฮฟวิเออร์แพ็กที่ใช้งานได้
