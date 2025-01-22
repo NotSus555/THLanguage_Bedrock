@@ -8158,21 +8158,21 @@ resourcePack.skin.description=สกิน, สกิน, สกิน!!!
 resourcePack.invalid.description=ไม่สามารถแยกวิเคราะห์แพ็กได้สำเร็จ คลิกเพื่อแสดงข้อผิดพลาด
 resourcePack.loading.description=แพ็กยังกำลังถูกโหลด
 
-review.item.post.rating.dropdown.label=Choose a star rating
-review.item.post.rating.footer=You will be able to change your rating.
-review.item.post.rating.submit.button=Rate this pack
-review.item.post.rating.1star=We're sorry to hear you didn't enjoy your pack at all. Use the button below to let the creator know how they can improve.
-review.item.post.rating.2star=That's no good. Use the button below to let the creator know how they can improve.
-review.item.post.rating.3star=There's always room for improvement, but we're glad you're still having fun.
-review.item.post.rating.4star=We're glad you're having a great time!
-review.item.post.rating.5star=Woohoo! We're glad you're having a good time!
-review.item.post.rating.submit.toast.line1=Thanks for rating this pack!
-review.item.post.rating.submit.toast.line2=It may take some time for us to show your rating.
+review.item.post.rating.dropdown.label=เลือกระดับดาว
+review.item.post.rating.footer=คุณจะสามารถเปลี่ยนคะแนนของคุณได้
+review.item.post.rating.submit.button=ให้คะแนนแพ็กนี้
+review.item.post.rating.1star=เราเสียใจที่ทราบว่าคุณไม่ชอบแพ็กของคุณเลย ใช้ปุ่มด้านล่างเพื่อแจ้งให้ผู้สร้างทราบว่าควรปรับปรุงอย่างไร
+review.item.post.rating.2star=มันไม่ดีเลย ใช้ปุ่มด้านล่างเพื่อแจ้งให้ผู้สร้างทราบว่าพวกเขาสามารถปรับปรุงได้อย่างไร
+review.item.post.rating.3star=ยังมีช่องว่างสำหรับการปรับปรุงเสมอ แต่เรายินดีที่คุณยังคงสนุกอยู่
+review.item.post.rating.4star=เรายินดีที่คุณมีช่วงเวลาที่ดี!
+review.item.post.rating.5star=วู้ฮู้! ยินดีที่คุณมีเวลาดี ๆ
+review.item.post.rating.submit.toast.line1=ขอบคุณสำหรับการให้คะแนนแพ็กนี้!
+review.item.post.rating.submit.toast.line2=เราอาจใช้เวลาสักพักในการแสดงคะแนนของคุณ
 
-roaming.status_brief.limited_usage=Limited usage
-roaming.status_brief.no_restrictions=Usable cross-platform
-roaming.status_hover.limited_usage=Only available on specific platforms.
-roaming.status_hover.no_restrictions=Available on any Bedrock platform!
+roaming.status_brief.limited_usage=การใช้งานที่จำกัด
+roaming.status_brief.no_restrictions=ใช้งานข้ามแพลตฟอร์มได้
+roaming.status_hover.limited_usage=ใช้ได้เฉพาะบนแพลตฟอร์มที่กำหนดเท่านั้น
+roaming.status_hover.no_restrictions=ใช้งานได้บน Bedrock ทุกแพลตฟอร์ม!
 
 screenshot.failure=ไม่สามารถบันทึกภาพถ่ายหน้าจอ: %s
 screenshot.success=บันทึกภาพหน้าจอเป็น %s
