@@ -1,5 +1,6 @@
 import re
 from pathlib import Path
+import datetime
 
 def analyze_thai_lines_between_markers(file_path, markers):
     try:
@@ -58,7 +59,11 @@ markers = [ "## THLanguage_Bedrock", '## Ore UI', '## Editor', '## chemistry', '
 
 results, summary = analyze_thai_lines_between_markers(file_path, markers)
 
+time = datetime.datetime.now()
+
 if isinstance(results, dict):
+    print("THLanguage_Bedrock (MIT License) © MineGarp.PED")
+    print(f"สร้างเมื่อ: {time}\n")
     for key, (total, thai_count, percentage) in results.items():
         print(f"ตั้งแต่: {key}")
         print(f"  จำนวนบรรทัดทั้งหมด: {total}")
@@ -71,3 +76,22 @@ if isinstance(results, dict):
     print(f"  คิดเป็นเปอร์เซ็นต์: {summary['overall_percentage']:.2f}%")
 else:
     print(f"เกิดข้อผิดพลาด: {results}")
+
+with open("summary.txt", "w", encoding="utf-8") as f:
+    if isinstance(results, dict):
+        f.write(f"THLanguage_Bedrock (MIT License) © MineGarp.PED\n")
+        f.write(f"สร้างเมื่อ: {time}\n\n")
+        for key, (total, thai_count, percentage) in results.items():
+           
+            f.write(f"ตั้งแต่: {key}\n")
+            f.write(f"  จำนวนบรรทัดทั้งหมด: {total}\n")
+            f.write(f"  จำนวนบรรทัดที่มีภาษาไทย: {thai_count}\n")
+            f.write(f"  คิดเป็นเปอร์เซ็นต์: {percentage:.2f}%\n\n")
+
+        f.write("**สรุปข้อมูลรวม**\n")
+        f.write(f"  จำนวนบรรทัดทั้งหมด: {summary['total_lines_overall']}\n")
+        f.write(f"  จำนวนบรรทัดที่มีภาษาไทย: {summary['thai_lines_count_overall']}\n")
+        f.write(f"  คิดเป็นเปอร์เซ็นต์: {summary['overall_percentage']:.2f}%\n")
+    else:
+        f.write(f"เกิดข้อผิดพลาด: {results}\n")
+

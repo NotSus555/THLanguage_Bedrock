@@ -25,4 +25,14 @@ jobs:
 
       - name: Run analysis
         run: |
-          python checklines.py
+          python checklines.py > summary.txt
+
+      - name: Create McPack file
+        run: |
+          zip -r THLanguage_Bedrock.mcpack THLanguage_RP summary.txt
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: THLanguage_Bedrock
+          path: THLanguage_Bedrock.mcpack
