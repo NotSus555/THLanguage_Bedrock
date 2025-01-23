@@ -32,7 +32,7 @@ jobs:
           zip -r THLanguage_Bedrock.mcpack THLanguage_RP summary.txt
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: THLanguage_Bedrock
           path: THLanguage_Bedrock.mcpack
