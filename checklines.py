@@ -1,7 +1,6 @@
 import re
 from pathlib import Path
 import datetime
-import pytz
 
 def analyze_thai_lines_between_markers(file_path, markers):
     try:
@@ -60,8 +59,7 @@ markers = [ "## THLanguage_Bedrock", '## Ore UI', '## Editor', '## chemistry', '
 
 results, summary = analyze_thai_lines_between_markers(file_path, markers)
 
-timezone = pytz.timezone('Asia/Bangkok')
-time = datetime.datetime.now(timezone).strftime("%d/%m/%Y %H:%M:%S")
+time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
 if isinstance(results, dict):
     print("THLanguage_Bedrock (MIT License) © MineGarp.PED")
