@@ -1,3 +1,5 @@
+## THLanguage_Bedrock (MIT License) © MineGarp.PED 
+
 ## Comments can be added anywhere on a valid line by starting with '##'
 ##
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
@@ -16832,3 +16834,5 @@ worlds.storage.permission.settings=Please open Android Settings and update app p
 worlds.storage.android.settings=Open Android Settings
 worlds.storage.permission.dialog.title=Device Permission Needed
 worlds.storage.missing=Are your worlds missing? Try changing Minecraft's storage location:
+
+## END

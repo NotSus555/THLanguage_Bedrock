@@ -54,7 +54,7 @@ def analyze_thai_lines_between_markers(file_path, markers):
 
 filename = "th_TH.lang"
 file_path = next(Path(".").rglob(filename), None)
-markers = [ "## Comments", '## Ore UI', '## Editor', '## chemistry', '## education', 'END']
+markers = [ "## THLanguage_Bedrock", '## Ore UI', '## Editor', '## chemistry', '## education', '## END']
 
 results, summary = analyze_thai_lines_between_markers(file_path, markers)
 
