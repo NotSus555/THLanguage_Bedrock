@@ -26,7 +26,7 @@ def analyze_thai_lines_between_markers(file_path, markers):
 
                 for line in lines[start_index + 1 : end_index]:
                 
-                    if not line.strip() or line.strip().startswith("##"):
+                    if not line.strip() or line.strip().startswith("#") or line.strip().startswith("##"):
                         continue
 
                     total_lines += 1
@@ -60,7 +60,7 @@ results, summary = analyze_thai_lines_between_markers(file_path, markers)
 
 if isinstance(results, dict):
     for key, (total, thai_count, percentage) in results.items():
-        print(f"ช่วง: {key}")
+        print(f"ตั้งแต่: {key}")
         print(f"  จำนวนบรรทัดทั้งหมด: {total}")
         print(f"  จำนวนบรรทัดที่มีภาษาไทย: {thai_count}")
         print(f"  คิดเป็นเปอร์เซ็นต์: {percentage:.2f}%\n")
