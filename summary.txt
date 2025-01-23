@@ -1,5 +1,5 @@
 THLanguage_Bedrock (MIT License) © MineGarp.PED
-สร้างเมื่อ: 2025-01-24 01:46:04.760178
+สร้างเมื่อ: 24/01/2025 02:30:07
 
 ตั้งแต่: ## THLanguage_Bedrock to ## Ore UI
   จำนวนบรรทัดทั้งหมด: 10823
