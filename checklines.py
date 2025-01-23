@@ -63,7 +63,7 @@ time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
 if isinstance(results, dict):
     print("THLanguage_Bedrock (MIT License) © MineGarp.PED")
-    print(f"สร้างเมื่อ: {time}\n")
+    print(f"สร้างเมื่อ: {time} (UTC)\n")
     for key, (total, thai_count, percentage) in results.items():
         print(f"ตั้งแต่: {key}")
         print(f"  จำนวนบรรทัดทั้งหมด: {total}")
