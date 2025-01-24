@@ -80,7 +80,7 @@ else:
 with open("summary.txt", "w", encoding="utf-8") as f:
     if isinstance(results, dict):
         f.write(f"THLanguage_Bedrock (MIT License) © MineGarp.PED\n")
-        f.write(f"สร้างเมื่อ: {time}\n\n")
+        f.write(f"สร้างเมื่อ: {time} (UTC)\n\n")
         for key, (total, thai_count, percentage) in results.items():
            
             f.write(f"ตั้งแต่: {key}\n")
