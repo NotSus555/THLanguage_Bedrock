@@ -59,7 +59,7 @@ markers = [ "## THLanguage_Bedrock", '## Ore UI', '## Editor', '## chemistry', '
 
 results, summary = analyze_thai_lines_between_markers(file_path, markers)
 
-time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+time = datetime.datetime.utcnow().strftime("%d/%m/%Y %H:%M:%S")
 
 if isinstance(results, dict):
     print("THLanguage_Bedrock (MIT License) © MineGarp.PED")

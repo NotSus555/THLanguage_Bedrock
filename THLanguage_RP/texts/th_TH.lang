@@ -8301,18 +8301,18 @@ selectTemplate.suggestedContent.button=See More Templates
 selectTemplate.createdBy=Created by %s
 selectTemplate.inventory=My Marketplace Packs
 selectTemplate.seeMore=See More
-selectTemplate.editor.generateRandom=Create New Project
+selectTemplate.editor.generateRandom=สร้างโปรเจกต์ใหม่
 
 
-sign.edit=Edit sign message
+sign.edit=แก้ไขข้อความบนป้าย
 
-skin.New=New
+skin.New=ใหม่
 
-skin.Standard.Custom=Custom
-skin.Standard.CustomSlim=Custom
-skin.Standard.Dummy=Custom
+skin.Standard.Custom=กำหนดเอง
+skin.Standard.CustomSlim=กำหนดเอง
+skin.Standard.Dummy=กำหนดเอง
 
-skinpack.Education=Education Edition Skins
+skinpack.Education=สกิน Education Edition
 
 skins.browse=Browse
 skins.buy.buyButton=Buy
@@ -8422,8 +8422,8 @@ stat.useItem=%1$s Used
 stat.walkOneCm=Distance Walked
 stat.workbenchInteraction=Interactions with Crafting Table
 
-stats.tooltip.type.achievement=Achievement
-stats.tooltip.type.statistic=Statistic
+stats.tooltip.type.achievement=ความสำเร็จ
+stats.tooltip.type.statistic=สถิติ
 
 start.beta.icon=เบต้า
 
@@ -8563,23 +8563,23 @@ store.realmsPlus.content.popularPacks=Popular Packs in Realms Plus:
 store.realmsPlus.content.viewAllPacks=VIEW ALL PACKS
 store.realmsPlus.content.contentDescription=Tap into the source of amazing Minecraft content! With Realms Plus, you get instant access to 150+ marketplace items like mash-ups, worlds, skin packs and epic adventures – with new additions each month. Your content is stored on your own personal server, and made available on any platform where you enjoy both Realms and Minecraft Marketplace. Up to 10 players can play at one time, and they get access to the worlds in your Realm for free!
 
-store.realmsPlus.freeTrial=START FREE TRIAL
+store.realmsPlus.freeTrial=เริ่มต้นใช้งานฟรี
 
-store.realmsPlus.purchase.warningDialog.title=Notice
-store.realmsPlus.purchase.warningDialog.body=Realms Plus includes Marketplace Pass content. We suggest that you cancel your Marketplace Pass subscription after signing up for Realms Plus.	### {StrContains="Marketplace Pass"}
-store.realmsPlus.purchase.warningDialog.checkbox=I understand
-store.realmsPlus.purchase.warningDialog.button.back=Go Back
-store.realmsPlus.purchase.warningDialog.button.continue=Purchase
+store.realmsPlus.purchase.warningDialog.title=หมายเหตุ
+store.realmsPlus.purchase.warningDialog.body=Realms Plus มีเนื้อหา Marketplace Pass เราขอแนะนำให้คุณยกเลิกการสมัคร Marketplace Pass หลังจากสมัคร Realms Plus แล้ว	### {StrContains="Marketplace Pass"}
+store.realmsPlus.purchase.warningDialog.checkbox=ฉันเข้าใจ
+store.realmsPlus.purchase.warningDialog.button.back=ย้อนกลับ
+store.realmsPlus.purchase.warningDialog.button.continue=ซื้อ
 
 store.csb.brand.1=MARKETPLACE	### {StrContains="MARKETPLACE"}
 store.csb.brand.2=PASS	### {StrContains="PASS"}
 
 store.csb=Marketplace Pass	### {StrContains="Marketplace Pass"}
-store.csb.content=Content
-store.csb.faq=FAQ
-store.csb.buyNow=SUBSCRIBE NOW ## Maximum 13 characters
-store.csb.buyNowPerMonth=Purchase for %s/month
-store.csb.signInToSubscribe=Sign in to subscribe to Marketplace Pass	### {StrContains="Marketplace Pass"}
+store.csb.content=เนื้อหา
+store.csb.faq=คำถามที่พบบ่อย
+store.csb.buyNow=สมัครสมาชิกทันที ## Maximum 13 characters
+store.csb.buyNowPerMonth=ซื้อเพียง %s/เดือน
+store.csb.signInToSubscribe=ลงชื่อเข้าใช้เพื่อสมัครใช้ Marketplace Pass	### {StrContains="Marketplace Pass"}
 store.csb.buyNowTrialPerMonth=Start Trial ## Maximum 25 characters
 store.csb.errorNoOffer=ERROR NO OFFER FOUND
 store.csb.manageSubscription=MANAGE SUBSCRIPTION
