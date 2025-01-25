@@ -30,11 +30,7 @@ jobs:
 
       - name: Create McPack file
         run: |
-          mkdir -p THLanguage_Bedrock
-          cp -r THLanguage_RP/* THLanguage_Bedrock/
-          cd THLanguage_Bedrock
-          zip -r ../THLanguage_Bedrock.mcpack ./*
-          cd ..
+          zip -r THLanguage_Bedrock.mcpack THLanguage_RP/*
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

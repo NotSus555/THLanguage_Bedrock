@@ -11439,16 +11439,16 @@ clientscript.success.debuggerConnect=Client debugger connected to host %s on por
 clientscript.success.debuggerClosed=Client debugger closed
 
 ## World Recovery
-world_recovery.description=Click the button below to open a file picker you can use to locate and select your 'minecraftWorlds' folder.%1%1Look inside the 'games/com.mojang' folders, starting from the root of your device or SD card.%1%1Once selected, we will copy your worlds to the new external storage location.%1%1You must have enough space available on your device to hold copies of your worlds.   ## %1 is line breaks
-world_recovery.title=World Recovery
-world_recovery.select_worlds=Select Worlds
-world_recovery.error.title=Error Recovering Worlds
-world_recovery.error.invalid_directory=You must select a directory ending in '%s'.
-world_recovery.error.insufficient_space=Insufficient space to do recovery. Required: %1. Available: %2.
-world_recovery.error.generic=An error occurred: %s
-world_recovery.success=World Recovery succeeded!
-world_recovery.init=Beginning recovery process...
-world_recovery.progress=Recovering %2 files (%3).%1%1Progress: %4%% complete%1Files copied: %5 / %2  ## %1 is line breaks, %2 is file count, %3 is total size, %4 is percent complete, %5 is current file count
+world_recovery.description=คลิกปุ่มด้านล่างเพื่อเปิดตัวเลือกไฟล์ที่คุณสามารถใช้ค้นหาและเลือกโฟลเดอร์ 'minecraftWorlds' ของคุณ%1%1ดูภายในโฟลเดอร์ 'games/com.mojang' โดยเริ่มจากรูทของอุปกรณ์หรือการ์ด SD ของคุณ เราจะคัดลอกโลกของคุณไปยังตำแหน่งจัดเก็บข้อมูลภายนอกใหม่ %1%1คุณต้องมีพื้นที่ว่างเพียงพอบนอุปกรณ์ของคุณเพื่อเก็บสำเนาของโลกของคุณ ## %1 is line breaks
+world_recovery.title=กู้คืนโลก
+world_recovery.select_worlds=เลือกโลก
+world_recovery.error.title=ข้อผิดพลาดในการกู้คืนโลก
+world_recovery.error.invalid_directory=คุณต้องเลือกไดเร็กทอรีที่ลงท้ายด้วย '%s'
+world_recovery.error.insufficient_space=พื้นที่ไม่เพียงพอสำหรับการกู้คืน ที่ต้องการ: %1 พร้อมใช้งาน: %2
+world_recovery.error.generic=เกิดข้อผิดพลาด: %s
+world_recovery.success=กู้คืนโลกสำเร็จแล้ว!
+world_recovery.init=เริ่มต้นกระบวนการกู้คืน...
+world_recovery.progress=การกู้คืนไฟล์ %2 (%3).%1%1ความคืบหน้า: %4%% %1ไฟล์ที่คัดลอก: %5 / %2  ## %1 is line breaks, %2 is file count, %3 is total size, %4 is percent complete, %5 is current file count
 
 ## Gatherings
 gathering.button.liveEventFallback=ไลฟ์อีเวนต์
