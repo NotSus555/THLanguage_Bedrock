@@ -44,8 +44,6 @@ edu.cloudError.generic.linkDescription=Learn more about this error
 edu.cloudError.generic.message=Something went wrong when uploading your world to the cloud.
 edu.cloudError.generic.download.message=Something went wrong when downloading your world from the cloud.
 edu.cloudError.generic.upload.title=Upload failed #### {MaxLength="45"}
-edu.cloudError.largeWorld.message=This world will only be saved to this local device. The maximum file size supported for cloud upload is 250MB.
-edu.cloudError.largeWorld.title=World too big #### {MaxLength="45"}
 edu.cloudError.local.download.title=World Download Error #### {MaxLength="45"}
 edu.cloudError.local.download.message=There was a problem downloading the latest version from the cloud. You can open the version last saved on this device and decide later which world version you want to keep.
 edu.cloudError.local.download.linkDescription=Learn more about download errors
@@ -55,6 +53,7 @@ edu.cloudError.local.sync.message=There was a problem syncing to the cloud. Your
 edu.cloudError.notfound.download.message=We can't locate this world on the cloud. Exit and return to My Worlds to get a refreshed view of your worlds.
 edu.cloudError.notfound.download.title=File not found on OneDrive #### {MaxLength="45"}
 edu.cloudError.outOfStorage.linkDescription=How to back up your worlds when you're out of space on OneDrive #### {MaxLength="64"}
+edu.cloudError.outOfStorage.download.linkDescription=Learn more about local storage
 edu.cloudError.outOfStorage.download.message=Your device is out of space! Why not delete some stuff you don't need so that you can keep saving new stuff?
 edu.cloudError.outOfStorage.message=Your OneDrive doesn't have enough room for this world.
 edu.cloudError.outOfStorage.title=Your upload didn't make it to the cloud #### {MaxLength="45"}
@@ -112,6 +111,8 @@ library.item.description=DESCRIPTION
 library.item.overview=OVERVIEW
 library.item.expandable.readLess=Read Less
 library.item.expandable.readMore=Read More
+library.item.download.noSpace.title=Not Enough Space
+library.item.download.noSpace.body=You do not have enough space available on your device to download this world.
 
 library.item.section.languages=SUPPORTED LANGUAGES
 library.item.section.languages.tip=If this lesson is not available in your preferred language, Immersive Reader can be used to translate in-game text including books, signs, boards, and NPC dialog.
@@ -548,3 +549,5 @@ worlds.storage.permission.settings=Please open Android Settings and update app p
 worlds.storage.android.settings=Open Android Settings
 worlds.storage.permission.dialog.title=Device Permission Needed
 worlds.storage.missing=Are your worlds missing? Try changing Minecraft's storage location:
+
+bookAndQuill.unsignedName=Unsigned Book

@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Global Lighting
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR Fallbacks
 resourcePack.editor.datatransferaccessors.point_lights=Point Lights
 resourcePack.editor.datatransferaccessors.water=Water
+resourcePack.editor.datatransferaccessors.shadows=Shadows
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Deferred Lighting Settings
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Immediate Re
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Respawn Radius
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simulation Distance
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Beds Work
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Required Sleeping Players (%1%)
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Required Sleeping Players (%1$s)
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Only 1 player
 resourcePack.editor.exportProject.multiplayerSettings=Multiplayer Settings
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Multiplayer Game
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Player Access
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Editor Resources
 
 
 resourcePack.editor.toolRail.Terrain.title=Terrain
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Toggle Terrain Tool
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Switch Terrain Mode
 resourcePack.editor.toolRail.Terrain.Mode.title=Terrain Mode
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Smooth Mode
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Smooth over terrain based on smoothing strength
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Smooth Strength
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Roughen Mode
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Roughen terrain based on roughening strength
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Roughen Strength
 resourcePack.editor.toolRail.Terrain.description=Terrain tool smooths or roughens terrain
 
 
@@ -692,6 +699,42 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Entity Spawn
 resourcePack.editor.toolRail.summonTool.tool.tip=Click to summon entities
 resourcePack.editor.toolRail.summonTool.tool.title=Summon Tool
 
+resourcePack.editor.toolRail.workbenchSettings.title=Workbench
+resourcePack.editor.toolRail.workbenchTool.title=Workbench
+resourcePack.editor.toolRail.workbenchTool.description=Quickly change block states
+resourcePack.editor.toolRail.workbenchTool.howToUse=Left-click on highlighted blocks to change their state (open/close, rotate, invert, etc.). Try using Shift and Control key modifiers as well! Please note that this feature only works on blocks with modifiable properties (e.g., doors, fences, etc.).
+resourcePack.editor.toolRail.workbenchTool.tooltip=Change block states
+resourcePack.editor.toolRail.workbenchTool.block=Block
+resourcePack.editor.toolRail.workbenchTool.leftClick=Left Click
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Left Click
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Left Click
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Left Click
+resourcePack.editor.toolRail.workbenchTool.stripWood=Strip/unstrip wood	###This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Ladder location
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Auto align
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=Auto Align Facing Direction	###This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=Auto Align Rotation	###This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Top/Bottom
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Rotate
+resourcePack.editor.toolRail.workbenchTool.heightProp=Layers
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Candle Count
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Turtle Egg Count
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Sea Pickle Count
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Toggle hanging from another block
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Toggle Post
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Top/Bottom
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Open/Close
+resourcePack.editor.toolRail.workbenchTool.litProp=Lit/Unlit
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Dripstone Thickness
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Facing Direction
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Rotate
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Facing Direction
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Facing Direction
+
 
 resourcePack.editor.transaction.keyBinding.redo=Redo
 resourcePack.editor.transaction.keyBinding.undo=Undo
@@ -704,16 +747,24 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Move Left
 resourcePack.editor.viewport.keyBinding.moveRight=Move Right
 resourcePack.editor.viewport.keyBinding.moveUp=Move Up
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Increase Fly Speed
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Decrease Fly Speed
 
 resourcePack.editor.viewSettings.compass.tip=Show the directional compass
 resourcePack.editor.viewSettings.compass.title=Show Compass
 resourcePack.editor.viewSettings.chunk.tip=Show the outline of chunk boundaries in the map
 resourcePack.editor.viewSettings.chunk.title=Show Chunk Boundaries
+resourcePack.editor.viewSettings.nightVision.tip=Show the world as-if you have night vision
+resourcePack.editor.viewSettings.nightVision.title=Night Vision
 resourcePack.editor.viewSettings.invisible.tip=Show invisible blocks (e.g. void, barriers, etc)
 resourcePack.editor.viewSettings.invisible.title=Show Invisible Blocks
 resourcePack.editor.viewSettings.flySpeed.tip=Increase Fly Speed to maneuver the map faster
 resourcePack.editor.viewSettings.flySpeed.title=Fly Speed Multiplier
-resourcePack.editor.viewSettings.menu=View Settings
-resourcePack.editor.viewSettings.title=View Settings
+resourcePack.editor.viewSettings.menu=Settings
+resourcePack.editor.viewSettings.title=Settings
 
 resourcePack.editor.hotbar.defaultDisplayName=Default
+
+resourcePack.editor.reloadScripts.response.tooMany=Too many players are connected to the server.  Script reloading is only supported on hosts with a single player connected.
+resourcePack.editor.reloadScripts.response.genericError=An error occcurred while attempting to reload scripts.
+resourcePack.editor.reloadScripts.response.noAdminRights=You do not have permission to reload scripts.
