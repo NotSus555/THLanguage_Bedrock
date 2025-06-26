@@ -68,5 +68,3 @@
 <a href="https://github.com/MineGarp-PED/THLanguage_Bedrock/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MineGarp-PED/THLanguage_Bedrock" />
 </a>
-
----
