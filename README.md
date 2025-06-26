@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/MineGarp-PED/THLanguage_Bedrock?style=social)](https://github.com/MineGarp-PED/THLanguage_Bedrock/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/MineGarp-PED/THLanguage_Bedrock?style=social)](https://github.com/MineGarp-PED/THLanguage_Bedrock/network/members)
 [![Discord](https://img.shields.io/discord/992026973746511912?label=Discord&logo=discord)](https://discord.gg/mvZChPs72R)
-![Minecraft 1.21](https://img.shields.io/badge/Minecraft-1.21.90-brightgreen.svg)
+![Minecraft Bedrock 1.21.90](https://img.shields.io/badge/Minecraft_Bedrock-1.21.90-brightgreen.svg)
 
 โปรเจกต์รีซอร์ซแพ็กภาษาไทยสำหรับเกม **Minecraft: Bedrock Edition** ที่สมบูรณ์และอัปเดตที่สุด จัดทำและดูแลโดยชุมชน **มายก๊าบดอทเป็ด (MineGarp.PED)** โดยมีเป้าหมายเพื่อมอบประสบการณ์การเล่นเกมฉบับภาษาไทยที่ถูกต้องและเป็นธรรมชาติที่สุดสำหรับผู้เล่นทุกคน
 
