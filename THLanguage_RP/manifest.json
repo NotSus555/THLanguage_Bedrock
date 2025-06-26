@@ -4,7 +4,7 @@
         "description": "รีซอร์ซแพ็กภาษาไทย Thai Language Resource Packs จัดทำโดย มายก๊าบดอทเป็ด (MineGarp.PED)",
         "name": "THLanguage_Bedrock",
         "uuid": "3d11bf9c-a5a6-4d9a-a7ec-fbfeb12b3690",
-        "pack_scope": "global",
+        "pack_scope": "all",
         "version": [1, 0, 0],
         "min_engine_version": [1, 20, 0]
     },
