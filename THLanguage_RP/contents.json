@@ -1,0 +1,23 @@
+{
+  "content": [
+    {
+      "path": "manifest.json"
+    },
+    {
+      "path": "pack_icon.png"
+    },
+    {
+      "path": "contents.json"
+    },
+    {
+      "path": "texts/languages.json"
+    },
+    {
+      "path": "texts/language_names.json"
+    },
+    {
+      "path": "texts/th_TH.lang"
+    }
+  ],
+  "version": 1
+}
