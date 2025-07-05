@@ -9,14 +9,14 @@
     {
       "path": "contents.json"
     },
-      {
+    {
       "path": "subpacks/gb/texts/languages.json"
     },
     {
       "path": "subpacks/gb/texts/language_names.json"
     },
     {
-      "path": "subpacks/gb/texts/th_TH.lang"
+      "path": "subpacks/gb/texts/en_GB.lang"
     },
     {
       "path": "subpacks/th/texts/languages.json"
