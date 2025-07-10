@@ -1,0 +1,26 @@
+{
+  "fonts" : [
+    {
+      "font_format": "ttf",
+      "font_name": "MinecraftTen",
+      "version": 1,
+      "font_file": "font/Minecraft-TenTH",
+      "lowPerformanceCompatible": true     
+    },
+    {
+      "font_format": "ttf",
+      "font_name": "Mojang",
+      "version": 1,
+      "font_file": "font/Mojang",
+      "lowPerformanceCompatible": true
+    },
+    {
+      "font_format": "ttf",
+      "font_name": "iannnnn",
+      "version": 1,
+      "font_file": "font/2005_iannnnnAMD",
+      "lowPerformanceCompatible": true
+    }
+  ],
+  "version" : 1
+}

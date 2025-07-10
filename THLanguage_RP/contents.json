@@ -10,22 +10,622 @@
       "path": "contents.json"
     },
     {
-      "path": "subpacks/gb/texts/languages.json"
+      "path": "texts/en_GB.lang"
     },
     {
-      "path": "subpacks/gb/texts/language_names.json"
+      "path": "texts/language_names.json"
     },
     {
-      "path": "subpacks/gb/texts/en_GB.lang"
+      "path": "texts/languages.json"
     },
     {
-      "path": "subpacks/th/texts/languages.json"
+      "path": "subpacks/AMD/font/2005_iannnnnAMD.ttf"
     },
     {
-      "path": "subpacks/th/texts/language_names.json"
+      "path": "subpacks/AMD/font/default8.png"
     },
     {
-      "path": "subpacks/th/texts/th_TH.lang"
+      "path": "subpacks/AMD/font/font_metadata.json"
+    },
+    {
+      "path": "subpacks/AMD/font/glyph_00.png"
+    },
+    {
+      "path": "subpacks/AMD/font/glyph_0E.png"
+    },
+    {
+      "path": "subpacks/AMD/font/Minecraft-TenTH.ttf"
+    },
+    {
+      "path": "subpacks/AMD/font/Mojang.ttf"
+    },
+    {
+      "path": "subpacks/AMD/ui/adhoc_inprogess_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/adhoc_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/anvil_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/anvil_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/beacon_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/beacon_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/blast_furnace_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/book_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/brewing_stand_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/brewing_stand_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/cartography_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/cartography_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/chalkboard_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/chat_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/chat_settings_menu_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/chest_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/choose_realm_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/coin_purchase_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/command_block_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/crafter_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/content_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_banner.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_buy_now_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_purchase_amazondevicewarning_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_purchase_warning_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_subscription_panel.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_upsell_dialog.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_view_packs_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/csb_welcome_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/faq_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/csb_sections/landing_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/custom_templates_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/day_one_experience_intro_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/day_one_experience_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/death_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/disconnect_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/emote_wheel_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/enchanting_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/enchanting_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/expanded_skin_pack_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/furnace_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/furnace_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/gamepad_disconnected.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/gamepad_layout_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/gameplay_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/game_tip_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/gamma_calibration_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/gathering_info_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/global_pause_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/grindstone_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/grindstone_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/horse_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/horse_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/host_options_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/how_to_play_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/how_to_play_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/hud_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/immersive_reader.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/inventory_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/inventory_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/invite_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/in_bed_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/item_detail_description_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/jigsaw_editor_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/late_join_pregame_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/library_modal_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/local_world_picker_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/loom_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/loom_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/manage_feed_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/manifest_validation_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_dropdowns.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_image_row.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_label.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_text_row.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/mob_effect_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/non_xbl_user_management_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/npc_interact_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/online_safety_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/pack_settings_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/panorama_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/patch_notes_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/pause_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/pdp_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/pdp_screenshots_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/perf_turtle.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/permissions_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/persona_cast_character_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/persona_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/persona_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/persona_sdl.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/play_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/pocket_containers.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/popup_dialog.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/portfolio_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/post_rating_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/profile_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/progress_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/rating_prompt.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realmsPlus_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realmsPlus_sections/content_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realmsPlus_sections/faq_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realmsPlus_sections/landing_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_buy_now_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_purchase_warning_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_view_packs_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realmsplus_upgrade_notice_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_allowlist.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_create.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_invite_link_settings_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_pending_invitations.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_plus_ended_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_settings_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_slots_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/realms_stories_transition_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/redstone_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/resource_packs_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/safe_zone_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/scoreboards.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/screenshot_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/select_world_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/server_form.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/settings_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/settings_sections/controls_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/settings_sections/general_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/settings_sections/realms_world_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/settings_sections/settings_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/settings_sections/world_section.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/sidebar_navigation.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/sign_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/simple_inprogress_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/skin_pack_purchase_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/skin_picker_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/smithing_table_2_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/smithing_table_2_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/smithing_table_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/smithing_table_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/smoker_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/start_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/stonecutter_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/stonecutter_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/storage_management.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/storage_management_popup.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/storage_migration_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/storage_migration_generic_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_data_driven_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_filter_menu_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_inventory_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_item_list_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_progress_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_promo_timeline_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_sales_item_list_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_search_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/store_sort_menu_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/structure_editor_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/submit_feedback_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/tabbed_upsell_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/test_anims_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/thanks_for_testing_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/third_party_store_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/toast_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/token_faq_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/trade_2_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/trade_2_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/trade_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/trade_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/trial_upsell_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ugc_viewer_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_art_assets_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_common_classic.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_edu_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_friendsbutton.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_holo_cursor.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_iconbutton.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_purchase_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_template_buttons.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_template_dialogs.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_template_tabs.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/ui_template_toggles.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/update_dimensions.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/update_version.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/win10_trial_conversion_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/world_conversion_complete_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/world_recovery_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/world_templates_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/xbl_console_qr_signin.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/xbl_console_signin.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/xbl_console_signin_succeeded.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/xbl_immediate_signin.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/xbl_optional_signin.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/_global_variables.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/_ui_defs.json"
     }
   ],
   "version": 1
