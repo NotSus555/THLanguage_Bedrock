@@ -19,7 +19,7 @@
       "path": "texts/languages.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/2005_iannnnnPlaypenSans.ttf"
+      "path": "subpacks/PlaypenSans/font/PlaypenSansThai-SemiBold.ttf"
     },
     {
       "path": "subpacks/PlaypenSans/font/default8.png"
@@ -34,10 +34,13 @@
       "path": "subpacks/PlaypenSans/font/glyph_0E.png"
     },
     {
-      "path": "subpacks/PlaypenSans/font/Minecraft-TenTH.ttf"
+      "path": "subpacks/PlaypenSans/font/glyph_01.png"
     },
     {
-      "path": "subpacks/PlaypenSans/font/Mojang.ttf"
+      "path": "subpacks/PlaypenSans/font/glyph_02.png"
+    },
+    {
+      "path": "subpacks/PlaypenSans/font/Minecraft-TenTH.ttf"
     },
     {
       "path": "subpacks/PlaypenSans/ui/adhoc_inprogess_screen.json"
