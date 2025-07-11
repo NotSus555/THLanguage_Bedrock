@@ -5,7 +5,7 @@
         "name": "THLanguage_Bedrock",
         "uuid": "3d11bf9c-a5a6-4d9a-a7ec-fbfeb12b3690",
         "pack_scope": "all",
-        "version": [1, 0, 3],
+        "version": [1, 0, 4],
         "min_engine_version": [1, 21, 90]
     },
     "metadata": {
@@ -25,6 +25,11 @@
         {
 			"folder_name": "AMD",
 			"name": "เอเอ็มดี",
+			"memory_tier": 1
+		},
+        {
+			"folder_name": "PlaypenSans",
+			"name": "เพลย์เพน",
 			"memory_tier": 1
 		},
         {
