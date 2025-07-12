@@ -19,13 +19,13 @@
       "path": "texts/languages.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/PlaypenSansThai-SemiBold.ttf"
+      "path": "fonts/PlaypenSansThai-SemiBold.ttf"
     },
     {
       "path": "subpacks/PlaypenSans/font/default8.png"
     },
     {
-      "path": "subpacks/PlaypenSans/font/font_metadata.json"
+      "path": "fonts/font_metadata.json"
     },
     {
       "path": "subpacks/PlaypenSans/font/glyph_00.png"
@@ -40,7 +40,7 @@
       "path": "subpacks/PlaypenSans/font/glyph_02.png"
     },
     {
-      "path": "subpacks/PlaypenSans/font/Minecraft-TenTH.ttf"
+      "path": "fonts/Minecraft-TenTH.ttf"
     },
     {
       "path": "subpacks/PlaypenSans/ui/adhoc_inprogess_screen.json"
@@ -631,13 +631,10 @@
       "path": "subpacks/PlaypenSans/ui/_ui_defs.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/PlaypenSansThai-SemiBold.ttf"
+      "path": "fonts/PlaypenSansThai-SemiBold.ttf"
     },
     {
       "path": "subpacks/PlaypenSans/font/default8.png"
-    },
-    {
-      "path": "subpacks/PlaypenSans/font/font_metadata.json"
     },
     {
       "path": "subpacks/PlaypenSans/font/glyph_00.png"
@@ -653,9 +650,6 @@
     },
     {
       "path": "subpacks/PlaypenSans/font/glyph_02.png"
-    },
-    {
-      "path": "subpacks/PlaypenSans/font/Minecraft-TenTH.ttf"
     },
     {
       "path": "subpacks/PlaypenSans/ui/adhoc_inprogess_screen.json"
