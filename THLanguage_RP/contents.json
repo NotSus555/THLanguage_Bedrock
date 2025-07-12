@@ -1237,7 +1237,7 @@
       "path": "subpacks/PlaypenSans/ui/_global_variables.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/_ui_defs.json"
+      "path": "splashes.json"
     }
   ],
   "version": 1
