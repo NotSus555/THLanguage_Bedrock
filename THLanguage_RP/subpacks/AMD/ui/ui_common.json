@@ -3044,7 +3044,7 @@
 
     "variables": [
       {
-        "requires": "(not $is_low_memory_device)", // We don't load MinecraftTen in these cases so we need to revert to Mojangles.
+        "requires": "(not $is_low_memory_device)", // We don't load MinecraftTen in these cases so we need to revert to iannnnnAMD.
         "font_scale_factor": 1.39,
         "offset": [ 0, -2 ] // Because of how the font is rendered it looks like it is offset down from the center of the render area
       }
@@ -3928,7 +3928,7 @@
     "color": "$item_hover_text_color",
     // Hover texts get formatted and localized before they make it to the UI.
     // Localizing them twice risks breaking the formatted text.
-    "localize": true,
+    "localize": false
     // Disable profanity filter for this control so that
     // we can enable it on the fly only for items with custom names
   },
