@@ -31,7 +31,7 @@
                 "layer": 2,
                 "text_alignment": "left",
                 "color": "$xbl_signin_text_color",
-                "font_type": "smooth"
+                "font_type": "iannnnnAMD"
               }
             }
           ]
@@ -51,7 +51,7 @@
           "layer": 2,
           "text_alignment": "center",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -67,7 +67,7 @@
                 "layer": 2,
                 "text_alignment": "center",
                 "color": "$xbl_signin_text_color",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "font_scale_factor": "$xbl_signin_font_scale_factor",
                 "bindings": [
                   {
@@ -93,7 +93,7 @@
           "layer": 2,
           "text_alignment": "center",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -109,7 +109,7 @@
                 "layer": 2,
                 "text_alignment": "center",
                 "color": "$xbl_signin_text_color",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "font_scale_factor": "$xbl_signin_font_scale_factor",
                 "bindings": [
                   {

@@ -22,6 +22,7 @@
 
   "common_text_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$main_header_text_color",
     "layer": 1
   },
@@ -44,7 +45,7 @@
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
           "text": "$axis_label",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$axis_color"
         }
       },
@@ -75,7 +76,7 @@
               "label@structure_editor.common_text_label": {
                 "size": [ "default", 10 ],
                 "text": "$axis_selection_panel_label",
-                "font_type":"iannnnn"
+                "font_type": "iannnnnAMD"
               }
             }
           ]
@@ -229,7 +230,7 @@
               "first_label@structure_editor.common_text_label": {
                 "size": [ "default", 10 ],
                 "text": "$first_label_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color"
               }
             }
@@ -251,7 +252,7 @@
               "second_label@structure_editor.common_text_label": {
                 "size": [ "default", 10 ],
                 "text": "$second_label_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color"
               }
             }
@@ -269,8 +270,7 @@
       {
         "label@structure_editor.common_text_label": {
           "size": [ "100%", 10 ],
-          "text": "structure_block.include_entities",
-          "font_type":"iannnnn"
+          "text": "structure_block.include_entities"
         }
       },
       {
@@ -307,8 +307,7 @@
       {
         "label@structure_editor.common_text_label": {
           "size": [ "100%", 10 ],
-          "text": "structure_block.waterlog_block",
-          "font_type":"iannnnn"
+          "text": "structure_block.waterlog_block"
         }
       },
       {
@@ -352,7 +351,7 @@
         "label@structure_editor.common_text_label": {
           "size": [ "100%", 10 ],
           "text": "structure_block.show_bounding_box",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -390,7 +389,7 @@
         "label@structure_editor.common_text_label": {
           "size": [ "100%", 10 ],
           "text": "3d_export.include_players",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -428,7 +427,7 @@
         "label@structure_editor.common_text_label": {
           "size": [ "100%", 10 ],
           "text": "3d_export.remove_blocks",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -615,7 +614,7 @@
         "label": {
           "type": "label",
           "text": "$checkbox_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$checkbox_text_color"
         }
       },
@@ -730,7 +729,7 @@
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
           "text": "structure_block.integrity",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -755,7 +754,7 @@
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
           "text": "structure_block.seed",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -775,7 +774,6 @@
       },
       {
         "rotation_slider@settings_common.option_slider": {
-          "ignored": "($is_holographic)",
           "$option_label": "#rotation_slider_label",
           "$slider_name": "rotation",
           "$slider_value_binding_name": "#rotation",
@@ -794,7 +792,7 @@
         "mirror_label": {
           "type": "label",
           "text": "structure_block.mirror",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$main_header_text_color"
         }
       },
@@ -826,7 +824,7 @@
         "animation_time_label": {
           "type": "label",
           "text": "structure_block.animation_time",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$main_header_text_color"
         }
       },
@@ -866,8 +864,7 @@
           "offset": [ 5, 0 ],
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
-          "text": "structure_block.data_label",
-          "font_type":"iannnnn"
+          "text": "structure_block.data_label"
         }
       },
       {
@@ -1625,7 +1622,7 @@
           "layer": 7,
           "color": "$structure_editor_text",
           "text": "structure_block.save.successful",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "shadow": true,
           "alpha": "@structure_editor.anim_save_message_text_alpha"
         }
@@ -1650,7 +1647,7 @@
           "layer": 7,
           "color": "$structure_editor_text",
           "text": "structure_block.import.successful",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "shadow": true,
           "alpha": "@structure_editor.anim_save_message_text_alpha"
         }
@@ -1675,7 +1672,7 @@
           "layer": 7,
           "color": "$structure_editor_text",
           "text": "structure_block.import.failed",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "shadow": true,
           "alpha": "@structure_editor.anim_save_message_text_alpha"
         }
@@ -1691,7 +1688,7 @@
     "layer": 7,
     "color": "$structure_editor_text",
     "text": "structure_block.export.disabled_message",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "shadow": true,
     "bindings": [
       {
@@ -1835,7 +1832,7 @@
                     "progress_label@structure_editor.common_text_label": {
                       "size": [ "default", 10 ],
                       "text": "structure_block.progress.generating",
-                      "font_type":"iannnnn"
+                      "font_type": "iannnnnAMD"
                     }
                   }
                 ]
@@ -1865,8 +1862,7 @@
     "type": "custom",
     "renderer": "gradient_renderer",
     "color1": [ 0.188, 0.188, 0.188, 0.37 ],
-    "color2": [ 0.188, 0.188, 0.188, 0.627 ],
-    "ignored": "$is_holographic"
+    "color2": [ 0.188, 0.188, 0.188, 0.627 ]
   },
 
   "corner_text_panel": {
@@ -2077,7 +2073,7 @@
           "offset": [ 40, 6 ],
           "layer": 4,
           "text": "structure_block.title",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$title_text_color"
         }
       },

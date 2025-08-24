@@ -10,7 +10,6 @@
   "normal_description_label": {
     "type": "label",
     "text": "$trial_description_test",
-    "font_type":"iannnnn",
     "size": [ "100%", 10 ],
     "color": "$body_text_color",
     "anchor_from": "center",
@@ -39,7 +38,7 @@
     "color": "$title_text_color",
     "layer": 2,
     "text": "trial.upsell.trialLabel",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "center",
     "anchor_to": "center"
   },
@@ -75,8 +74,7 @@
       {
         "line1@normal_description_label": {
           "size": [ "100%", "default" ],
-          "text": "trial.upsell.expiredDescription.line1",
-          "font_type":"iannnnn"
+          "text": "trial.upsell.expiredDescription.line1"
         }
       },
       {
@@ -88,26 +86,26 @@
       {
         "line2@normal_description_label": {
           "text": "trial.upsell.expiredDescription.line2",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
         "line3@normal_description_label": {
           "text": "trial.upsell.expiredDescription.line3",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
         "line4@normal_description_label": {
           "text": "trial.upsell.expiredDescription.line4",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
         "line5@normal_description_label": {
           "size": [ "100%", 20 ],
           "text": "trial.upsell.expiredDescription.line5",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       }
     ]

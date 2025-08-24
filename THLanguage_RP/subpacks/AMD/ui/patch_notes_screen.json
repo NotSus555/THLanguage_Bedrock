@@ -120,9 +120,9 @@
       {
         "text_label": {
           "type": "label",
-          "font_type":"iannnnn",
           "color": "$text_color",
           "text": "#patch_link_button_text",
+          "font_type": "iannnnnAMD",
           "size": [ "default", "default" ],
           "max_size": [ "100%", "default" ],
           "bindings": [
@@ -310,7 +310,7 @@
           "color": "$body_text_color",
           "size": [ "100%-4px", "default" ],
           "text": "#patch_description",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#patch_description",
@@ -464,7 +464,7 @@
                             "type": "label",
                             "color": "$light_button_default_text_color",
                             "text": "$toggle_label_text",
-                            "font_type":"iannnnn",
+                            "font_type": "iannnnnAMD",
                             "size": [ "default", "default" ],
                             "anchor_from": "center",
                             "anchor_to": "center"
@@ -509,7 +509,6 @@
 
     "$custom_title_label": "common_dialogs.standard_title_label",
     "$text_name": "#dialog_title",
-    "$font_type":"iannnnn",
     "$title_text_binding_type": "global",
     "$use_custom_title_control": true,
 

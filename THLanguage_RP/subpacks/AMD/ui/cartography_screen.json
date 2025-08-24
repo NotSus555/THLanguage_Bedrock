@@ -7,8 +7,8 @@
 
   "title_label": {
     "type": "label",
-    "font_type":"iannnnn",
     "text": "tile.cartography_table.name",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color"
   },
 
@@ -169,8 +169,8 @@
       {
         "map_name_label": {
           "type": "label",
-          "font_type":"iannnnn",
           "text": "map.name",
+          "font_type": "iannnnnAMD",
           "color": "$title_text_color"
         }
       },
@@ -235,10 +235,10 @@
 
   "output_description_label": {
     "type": "label",
-    "font_type":"iannnnn",
     "anchor_from": "bottom_middle",
     "anchor_to": "top_middle",
     "text": "#text",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", 10 ],
     "text_alignment": "center",
     "color": "$title_text_color",

@@ -3,7 +3,7 @@
 
   "generic_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$pocket_title_text_color",
     "anchor_from": "center",
     "anchor_to": "center"
@@ -348,9 +348,9 @@
           "controls": [
             {
               "title_label@brewing_stand_pocket.generic_label": {
+                "layer": 1,
                 "text": "$container_title",
-                "font_type":"iannnnn",
-                "layer": 1
+                "localize": "$localize_title"
               }
             }
           ]

@@ -146,7 +146,7 @@
     "type": "label",
     "size": [ "100%", "default" ],
     "text": "store.realmsPlus.content.friendsGetAccess",
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "color": "$store_white_text_color"
   },
   "pack_type_row_panel": {
@@ -187,7 +187,7 @@
                 "size": [ "100%", "default" ],
                 "color": "$body_text_color",
                 "text": "$pack_type_description_text",
-                "font_type": "smooth"
+                "font_type": "iannnnnAMD"
               }
             }
           ]
@@ -252,7 +252,6 @@
     "type": "label",
     "size": [ "100% - 4%", "default" ],
     "text": "#packs_label",
-    "font_type":"iannnnn",
     "color": "$body_text_color",
     "bindings": [
       {
@@ -275,7 +274,6 @@
     "type": "label",
     "size": [ "100% - 4%", "default" ],
     "text": "store.realmsPlus.content.marketplacePass",
-    "font_type":"iannnnn",
     "color": "$light_button_default_text_color"
   },
 
@@ -377,15 +375,6 @@
                     "binding_name": "#key_art_texture_path",
                     "binding_name_override": "#texture"
                   }
-                ],
-                "controls": [
-                  {
-                    "csb_chevron@csb_content.csb_content_chevron": {
-                      "anchor_from": "bottom_left",
-                      "anchor_to": "bottom_left",
-                      "offset": [ 0, 0.5 ]
-                    }
-                  }
                 ]
               }
             },
@@ -443,10 +432,5 @@
         }
       }
     ]
-  },
-
-  "realms_plus_content_chevron@realmsPlus.markdown_background": {
-    "size": [ "100%c", 12 ],
-    "layer": 1
   }
 }

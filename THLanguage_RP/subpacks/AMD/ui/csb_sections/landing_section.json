@@ -65,11 +65,15 @@
           "$pressed_button_name": "button.action_button",
           "bindings": [
             {
-              "binding_name": "#buy_visible",
+              "binding_name": "#call_to_action_button_visible",
               "binding_name_override": "#visible"
             }
           ],
           "$buy_now_bindings": [
+            {
+              "binding_name": "(not #has_csb_subscription)",
+              "binding_name_override": "#enabled"
+            }
           ]
         }
       },
@@ -149,7 +153,6 @@
     "type": "label",
     "size": [ "100% - 6px", "default" ],
     "text": "store.csb.landing.header",
-    "font_type":"iannnnn",
     "color": "$light_button_default_text_color"
   },
 
@@ -157,7 +160,6 @@
     "type": "label",
     "size": [ "100% - 6px", "default" ],
     "text": "#free_trial_header_text",
-    "font_type":"iannnnn",
     "color": "$light_button_default_text_color",
     "bindings": [
       {
@@ -257,6 +259,7 @@
           "size": [ "100% - 4px", "100%cm" ],
           "anchor_to": "top_left",
           "$info_text_line": "#landing_info_text",
+          "$font_scale_factor": 1.1,
           "$text_bindings": [
             {
               "binding_name": "#landing_info_text"
@@ -283,6 +286,14 @@
       },
       {
         "vertical_small_spacer_2@csb_landing.vertical_small_spacer": {}
+      },
+      {
+        "info_text_bullet_8@csb_landing.info_text_bullet": {
+          "$info_text_line": "store.csb.landing.info.line8"
+        }
+      },
+      {
+        "vertical_small_spacer_8@csb_landing.vertical_small_spacer": {}
       },
       {
         "info_text_bullet_3@csb_landing.info_text_bullet": {
@@ -405,7 +416,7 @@
           "type": "label",
           "text": "•",
           "size": [ 4, "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$store_white_text_color"
         }
       },
@@ -443,13 +454,15 @@
   "info_text_body": {
     "type": "panel",
     "size": [ "fill", "100%cm" ],
+    "$font_scale_factor|default": 1.0,
     "controls": [
       {
         "text_body": {
           "type": "label",
           "text": "$info_text_line",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
+          "font_scale_factor": "$font_scale_factor",
           "color": "$store_white_text_color",
           "bindings": "$text_bindings"
         }

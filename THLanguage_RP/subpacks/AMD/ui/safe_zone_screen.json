@@ -70,7 +70,7 @@
     "type": "label",
     "layer": 1,
     "text": "options.safeZone.title",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color"
   },
 
@@ -84,7 +84,7 @@
           "layer": 1,
           "size": [ "100% - 6px", "default" ],
           "text": "options.safeZone.description",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color",
           "anchor_to": "center",
           "anchor_from": "center"

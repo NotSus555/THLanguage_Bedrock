@@ -63,7 +63,7 @@
 
   "loading_friends@invite.panel_text": {
     "text": "realmsInvitationScreen.loadingFriends",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", 20 ],
     "font_size": "normal",
     "anchor_from": "center",
@@ -323,7 +323,7 @@
     "anchor_to": "top_left",
     "anchor_from": "top_left",
     "text": "#xbl_gamertag",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "offset": [ 42, 5 ],
     "bindings": [
       {
@@ -339,7 +339,7 @@
     "anchor_from": "bottom_left",
     "offset": [ 42, 0 ],
     "text": "#current_game_label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#current_game_label",
@@ -354,7 +354,7 @@
     "anchor_from": "top_left",
     "offset": [ 42, 5 ],
     "text": "#third_party_tag",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#third_party_tag",
@@ -1243,7 +1243,7 @@
                 "anchor_to": "center",
                 "color": "$body_text_color",
                 "text": "#page_counter_label",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "bindings": [
                   {
                     "binding_name": "#page_counter_label",
@@ -1342,6 +1342,7 @@
 
   "frame_label@invite.label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "size": [ "default", 10 ],
@@ -1369,7 +1370,7 @@
             {
               "frame_label@invite.frame_label": {
                 "text": "$err_message_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$error_text_color"
               }
             }
@@ -1384,7 +1385,7 @@
             {
               "frame_label@frame_label": {
                 "text": "thirdPartyConsole.invite.OnlineFriends",
-                "font_type":"iannnnn"
+                "font_type": "iannnnnAMD"
               }
             }
           ],
@@ -1426,7 +1427,7 @@
                 "layer": 1,
                 "shadow": false,
                 "text": "crossPlatformToggle.crossPlatformDisabled.invite",
-                "font_type":"iannnnn"
+                "font_type": "iannnnnAMD"
               }
             }
           ],
@@ -1458,7 +1459,7 @@
             {
               "frame_label@invite.frame_label": {
                 "text": "invite.OnlineFriends",
-                "font_type":"iannnnn"
+                "font_type": "iannnnnAMD"
               }
             }
           ],
@@ -1502,7 +1503,7 @@
             {
               "frame_label@invite.frame_label": {
                 "text": "thirdPartyConsole.invite.OfflineFriends",
-                "font_type":"iannnnn"
+                "font_type": "iannnnnAMD"
               }
             }
           ],
@@ -1556,7 +1557,7 @@
             {
               "frame_label@invite.frame_label": {
                 "text": "invite.OfflineFriends",
-                "font_type":"iannnnn"
+                "font_type": "iannnnnAMD"
               }
             }
           ],
@@ -1660,7 +1661,7 @@
     "size": [ "default", 30 ],
     "max_size": [ "100% - 14px", 30 ],
     "text": "#no_xbox_live_friends_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
     "bindings": [
@@ -1674,7 +1675,7 @@
     "size": [ "default", 30 ],
     "max_size": [ "100% - 14px", 30 ],
     "text": "thirdPartyConsole.invite.noFriends",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle"
   },
@@ -1763,7 +1764,7 @@
         "button_label": {
           "type": "label",
           "text": "$button_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "layer": 3,
           "color": "$label_color",
           "text_alignment": "center",

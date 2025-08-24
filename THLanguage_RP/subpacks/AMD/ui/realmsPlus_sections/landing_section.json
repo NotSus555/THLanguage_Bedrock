@@ -150,7 +150,6 @@
     "type": "label",
     "size": [ "100% - 6 px", "default" ],
     "text": "#free_trial_header_text",
-    "font_type":"iannnnn",
     "color": "$store_white_text_color",
     "bindings": [
       {
@@ -384,7 +383,7 @@
           "type": "label",
           "text": "store.realmsPlus.landing.info2.recentlyAdded",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$csb_upsell_pink-3"
         }
       },
@@ -521,7 +520,7 @@
         "info_text_bullet_bullet": {
           "type": "label",
           "text": "- ",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$store_white_text_color"
         }
       },
@@ -530,7 +529,7 @@
           "type": "label",
           "text": "$info_text_line",
           "size": [ "fill", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$store_white_text_color",
           "bindings": "$text_bindings"
         }
@@ -547,7 +546,7 @@
           "type": "label",
           "text": "$info_text_line",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$store_white_text_color",
           "bindings": [
             {

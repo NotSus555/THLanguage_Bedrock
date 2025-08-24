@@ -281,7 +281,7 @@
       {
         "name_label@edu_common.light_label": {
           "text": "npcscreen.name",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       { "name_padding@npc_interact.label_padding": {} },
@@ -290,7 +290,7 @@
       {
         "dialog_label@edu_common.light_label": {
           "text": "npcscreen.dialog",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       { "dialog_post_padding@npc_interact.label_padding": {} },
@@ -300,7 +300,7 @@
       {
         "appearance_label@edu_common.light_label": {
           "text": "npcscreen.appearance",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       { "appearance_post_padding@npc_interact.label_padding": {} },
@@ -528,7 +528,7 @@
           "anchor_to": "left_middle",
           "max_size": [ "70%", "100%" ],
           "text": "$toggle_label_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "offset": [ 32, 0 ]
         }
       }
@@ -575,7 +575,7 @@
 
   "button_name_label@edu_common.dark_label": {
     "text": "npcscreen.action.buttonname",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         // Actions on close are not allowed for url actions, so show this label instead
@@ -629,8 +629,7 @@
     "controls": [
       {
         "title@npc_interact.action_title": {
-          "text": "$action_title",
-          "font_type":"iannnnn"
+          "text": "$action_title"
         }
       },
       { "label_pad@common.empty_panel": { "size": [ "100%", 2 ] } },
@@ -800,7 +799,7 @@
                   {
                     "text_url_a@npc_interact.help_label": {
                       "text": "$text_url_a",
-                      "font_type":"iannnnn"
+                      "font_type": "iannnnnAMD"
                     }
                   },
                   {
@@ -811,7 +810,7 @@
                   {
                     "text_url_b@npc_interact.help_label": {
                       "text": "$text_url_b",
-                      "font_type":"iannnnn"
+                      "font_type": "iannnnnAMD"
                     }
                   }
                 ]
@@ -852,7 +851,7 @@
                   {
                     "text_command_a@npc_interact.help_label": {
                       "text": "$text_command_a",
-                      "font_type":"iannnnn"
+                      "font_type": "iannnnnAMD"
                     }
                   },
                   {
@@ -863,7 +862,7 @@
                   {
                     "text_command_b@npc_interact.help_label": {
                       "text": "$text_command_b",
-                      "font_type":"iannnnn"
+                      "font_type": "iannnnnAMD"
                     }
                   }
                 ]
@@ -1176,7 +1175,7 @@
     "type": "label",
     "color": "$text_color",
     "text": "#student_button_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#student_button_text",
@@ -1480,7 +1479,7 @@
   "gamepad_helper_exit_text": {
     "type": "label",
     "text": "controller.buttonTip.exit",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$gamepad_description_text_color"
   },
 

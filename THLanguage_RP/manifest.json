@@ -2,11 +2,11 @@
     "format_version": 2,
     "header": {
         "description": "รีซอร์ซแพ็กภาษาไทย Thai Language Resource Pack จัดทำโดย มายก๊าบดอทเป็ด (MineGarp.PED)",
-        "name": "THLanguage_Bedrock",
+        "name": "Thai Language Resource Pack",
         "uuid": "3d11bf9c-a5a6-4d9a-a7ec-fbfeb12b3690",
         "pack_scope": "all",
-        "version": [1, 0, 7],
-        "min_engine_version": [1, 21, 94]
+        "version": [1, 1, 9],
+        "min_engine_version": [1, 21, 101]
     },
     "metadata": {
         "authors": ["MineGarp.PED (มายก๊าบดอทเป็ด)"],
@@ -15,10 +15,10 @@
     },
     "modules": [
         {
-            "description": "รีซอร์ซแพ็กภาษาไทย Thai Language Resource Pack จัดทำโดย มายก๊าบดอทเป็ด (MineGarp.PED) NotSus Fork",
+            "description": "รีซอร์ซแพ็กภาษาไทย Thai Language Resource Pack จัดทำโดย มายก๊าบดอทเป็ด (MineGarp.PED) พัฒนาต่อโดย ImNotSus555 เครดิตฟอนต์: 2005_iannnnnAMD โดย iannnnn Minecraft-TenTH โดย iannnnn เช่นเดิม แก้ไขให้อ่านง่ายขึ้นโดย ImNotSus555 PlaypenSans โดย TypeTogether, Sirin Gunkloy, Laura Meseguer, Veronika Burian, José Scaglione ",
             "type": "resources",
             "uuid": "1269ef24-59c0-4804-803b-8ed501460932",
-            "version": [1, 0, 6]
+            "version": [1, 1, 9]
         }
     ],
 	"subpacks": [
@@ -28,7 +28,7 @@
 			"memory_tier": 1
 		},
         {
-			"folder_name": "PlaypenSans",
+			"folder_name": "Playpens",
 			"name": "เพลย์เพน",
 			"memory_tier": 1
 		},
@@ -41,7 +41,7 @@
      "settings": [
         {
             "type": "label",
-            "text": "§lฟอนต์เริ่มต้น (Default):§r ฟอนต์เดิมของตัวเกมเลย"
+            "text": "§lฟอนต์เริ่มต้น (Default):§r ฟอนต์เดิมของตัวเกมเลย Minecraft-TenTH โดย iannnnn แก้ไขให้อ่านง่ายขึ้นโดย ImNotSus555"
         },
         {
             "type": "label",

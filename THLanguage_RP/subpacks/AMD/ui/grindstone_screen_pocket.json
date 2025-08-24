@@ -16,7 +16,7 @@
     "anchor_from": "center",
     "anchor_to": "center",
     "text": "container.repairAndDisenchant",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color"
   },
 
@@ -165,7 +165,7 @@
                 "type": "label",
                 "color": "$pocket_title_text_color",
                 "text": "tile.grindstone.name",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "layer": 1
               }
             }

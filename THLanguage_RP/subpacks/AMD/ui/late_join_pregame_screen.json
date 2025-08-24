@@ -24,7 +24,7 @@
                 "type": "label",
                 "color": "$main_header_text_color",
                 "text": "#animating_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "bindings": [
                   {
                     "binding_name": "#animating_text_visible",

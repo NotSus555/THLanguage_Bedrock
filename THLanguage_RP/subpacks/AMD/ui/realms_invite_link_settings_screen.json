@@ -33,7 +33,7 @@
       {
         "description@realms_settings.label_text": {
           "text": "$description_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "100%", "default" ],
           "color": "$light_button_secondary_default_text_color"
         }
@@ -45,7 +45,7 @@
 
   "invite_link_url@realms_settings.label_text": {
     "text": "#realm_invite_link_url",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "tts_override_control_value": "#realm_invite_link_url_TTS",
     "color": "$body_text_color",
     "size": [ "100%", "100%" ],
@@ -133,7 +133,7 @@
       {
         "invite_link_title@realms_settings.label_text": {
           "text": "#dialog_title",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "100%", 12 ],
           "color": "$body_text_color",
           "bindings": [
@@ -204,7 +204,7 @@
       {
         "share_link_title@realms_settings.label_text": {
           "text": "realmsSettingsScreen.inviteLinkShare",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "100%", 12 ],
           "color": "$body_text_color"
         }
@@ -254,7 +254,7 @@
       {
         "remove_link_title@realms_settings.label_text": {
           "text": "realmsSettingsScreen.inviteLinkRemove",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "100%", 12 ],
           "color": "$body_text_color"
         }
@@ -283,8 +283,8 @@
 
   "invite_link_expiration@realms_settings.label_text": {
     "text": "#invite_link_expiration_time",
+    "font_type": "iannnnnAMD",
     "tts_override_control_value": "#invite_link_expiration_time_TTS",
-    "font_type":"iannnnn",
     "color": "$body_text_color",
     "bindings": [
       {
@@ -309,7 +309,7 @@
       {
         "expiry_title@realms_settings.label_text": {
           "text": "realmsSettingsScreen.inviteLinkExpirationLabel",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "100% - 8px", 10 ],
           "color": "$body_text_color"
         }

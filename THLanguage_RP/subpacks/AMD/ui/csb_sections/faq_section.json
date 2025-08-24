@@ -37,7 +37,6 @@
   "faq_text_question": {
     "type": "label",
     "text": "$faq_question",
-    "font_type":"iannnnn",
     "size": [ "100%", "default" ],
     "color": "$store_white_text_color"
   },
@@ -52,7 +51,7 @@
           "type": "label",
           "text": "$faq_answer",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": 0.9,
           "color": "$store_white_text_color"
         }
@@ -70,7 +69,7 @@
           "type": "label",
           "text": "#faq_price_text",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": 0.9,
           "color": "$store_white_text_color",
           "bindings": [
@@ -210,7 +209,6 @@
           "type": "label",
           "size": [ "100%", "default" ],
           "text": "store.csb.faq.header",
-          "font_type":"iannnnn",
           "font_scale_factor": 1.2,
           "text_alignment": "center",
           "color": "$store_white_text_color",
@@ -317,7 +315,18 @@
         }
       },
       {
-        "faq_question_9_divider@csb_faq.faq_section_divider": {}
+        "faq_question_9_divider@csb_faq.faq_section_divider": {}  
+      },
+      {
+        "faq_question_10@csb_faq.image_left_faq_question_body": {
+          "$faq_question": "store.csb.faq.question10",
+          "$faq_answer": "store.csb.faq.answer10",
+          "$image_size": [ 50, "50%x" ],
+          "$image_texture": "textures/ui/promo_axolotl"
+        }
+      },
+      {
+        "faq_question_10_divider@csb_faq.faq_section_divider": {}
       },
       {
         "faq_button@csb_faq.faq_bottom_button": {

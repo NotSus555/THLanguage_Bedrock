@@ -81,7 +81,6 @@
               "sort_const_word_top": {
                 "type": "label",
                 "text": "store.search.sort_menu.sortConstWord",
-                "font_type":"iannnnn",
                 "color": "$text_color",
                 "size": [ "100%", 10 ]
               }
@@ -96,7 +95,7 @@
               "current_sort_value_label_bottom": {
                 "type": "label",
                 "text": "#sort_type_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$text_color",
                 "alpha": 0.7,
                 "size": [ "100%", 10 ],

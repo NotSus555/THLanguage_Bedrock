@@ -27,7 +27,7 @@
         }
       ],
       "text": "$safety_description_text",
-      "font_type":"iannnnn"
+      "font_type": "iannnnnAMD"
     },
 
     "ip_safety_description": {
@@ -37,7 +37,7 @@
       "$safety_description_text|default": "onlinePlay.untrustedIp.message",
 
       "text": "$safety_description_text",
-      "font_type":"iannnnn"
+      "font_type": "iannnnnAMD"
     },
   
     "online_safety_label_panel@common.scrolling_panel": {
@@ -104,7 +104,7 @@
                         "type": "label",
                         "color": "$light_button_default_text_color",
                         "text": "$toggle_label_text",
-                        "font_type":"iannnnn",
+                        "font_type": "iannnnnAMD",
                         "size": [ "default", "default" ],
                         "anchor_from": "center",
                         "anchor_to": "center"

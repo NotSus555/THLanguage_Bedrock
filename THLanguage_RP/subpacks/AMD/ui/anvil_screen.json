@@ -12,7 +12,7 @@
 
   "generic_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "color": "$title_text_color",
@@ -39,7 +39,7 @@
     "anchor_from": "bottom_middle", // the parent
     "anchor_to": "bottom_middle", // this control
     "text": "container.repair",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
 
   // panel to position the icon
@@ -304,7 +304,7 @@
     "offset": [ 0, 0 ],
     "color": "$anvil_cost_success_text_color",
     "text": "#text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "controls": [
       {
         "gray@resource_packs.gray_image": {

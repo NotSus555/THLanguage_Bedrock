@@ -118,7 +118,6 @@
           "$screen_header_title|default": "#screen_header_title",
           "$screen_header_title_binding_type|default": "none",
           "text": "$screen_header_title",
-          "font_type":"iannnnn",
           "bindings": [
             {
               "binding_type": "$screen_header_title_binding_type",
@@ -212,7 +211,7 @@
                 "type": "label",
                 "layer": 2,
                 "text": "$button_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$title_text_color",
                 "text_alignment": "center",
                 "bindings": [
@@ -411,6 +410,10 @@
     "$toggle_enabled_binding_type|default": "none",
     "$toggle_enabled_binding_condition|default": "visible",
     "$toggle_enabled_binding_name|default": "#toggle_enabled",
+    "$toggle_focus_id_binding_type|default": "none",
+    "$toggle_focus_id_binding_condition|default": "visible",
+    "$toggle_focus_id_binding_name|default": "#toggle_focus_id",
+    "$toggle_focus_id_collection_name|default": "",
     "$toggle_grid_collection_name|default": "",
     "$toggle_collection_details_type|default": "none",
     "$toggle_collection_detail_name|default": "",
@@ -460,7 +463,7 @@
     "tts_control_type_order_priority": "$toggle_tts_type_priority",
     "tts_index_priority": "$toggle_tts_index_priority",
     "tts_inherit_siblings": "$toggle_tts_inherit_siblings",
-	  "tts_ignore_count": false,
+    "tts_ignore_count": false,
 
     "button_mappings": [
       {
@@ -543,6 +546,13 @@
         "binding_type": "global",
         "binding_name": "$toggle_focus_bind",
         "binding_name_override": "#focus_enabled"
+      },
+      {
+        "binding_type": "$toggle_focus_id_binding_type",
+        "binding_condition": "$toggle_focus_id_binding_condition",
+        "binding_collection_name": "$toggle_focus_id_collection_name",
+        "binding_name": "$toggle_focus_id_binding_name",
+        "binding_name_override": "#focus_identifier"
       }
     ]
   },
@@ -599,7 +609,6 @@
     "shadow": false,
     "color": [ 1.0, 1.0, 1.0, 1.0 ],
     "text": "Override this text, this is the default!",
-    "font_type":"iannnnn",
     "always_rotate": false,
     "rotate_speed": 0.1,
     "hover_color": [ 1.0, 1.0, 0.2, 1.0 ],
@@ -623,6 +632,7 @@
 
   "button_text": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$generic_button_text_color",
     "layer": 1,
     "shadow": false
@@ -642,6 +652,7 @@
   "new_button_label": {
     "$text_color|default": "$light_button_default_text_color",
     "type": "label",
+    "font_type": "iannnnnAMD",
     "layer": 3,
     "color": "$text_color",
     "shadow": false,
@@ -745,7 +756,6 @@
             {
               "transparent_grey": {
                 "type": "image",
-                "ignored": "$is_holographic",
                 "texture": "textures/ui/slider_locked_transparent_fade",
                 "alpha": 0.5,
                 "layer": 5,
@@ -824,7 +834,6 @@
       {
         "transparent_grey": {
           "type": "image",
-          "ignored": "$is_holographic",
           "texture": "textures/ui/slider_locked_transparent_fade",
           "alpha": 0.5,
           "layer": 4,
@@ -924,6 +933,9 @@
     "$slider_enabled_binding_type|default": "none",
     "$slider_enabled_binding_condition|default": "visible",
     "$slider_enabled_binding_name|default": "#slider_enabled",
+    "$slider_timeout_binding_type|default": "none",
+    "$slider_timeout_binding_condition|default": "once",
+    "$slider_timeout_binding_name|default": "#slider_timeout",
 
     "$slider_tts_binding_type|default": "global",
     "$slider_tts_binding_condition|default": "visible",
@@ -1042,7 +1054,8 @@
     ],
     "property_bag": {
       "#slider_steps": 1,
-      "#slider_value": 0
+      "#slider_value": 0,
+      "#slider_timeout": 0.25
     },
     "bindings": [
       {
@@ -1077,8 +1090,14 @@
         "binding_condition": "$slider_tts_header_binding_condition",
         "binding_collection_name": "$slider_header_collection_name",
         "binding_name": "$slider_tts_header"
+      },
+      {
+        "binding_type": "$slider_timeout_binding_type",
+        "binding_condition": "$slider_timeout_binding_condition",
+        "binding_collection_name": "$slider_collection_name",
+        "binding_name": "$slider_timeout_binding_name",
+        "binding_name_override": "#slider_timeout"
       }
-
     ]
   },
 
@@ -1356,6 +1375,7 @@
 
   "text_edit_box_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
 
     "localize": false,
     "enable_profanity_filter": "$enable_profanity_filter",
@@ -1385,7 +1405,6 @@
     "$text_color_binding_type|default": "none",
 
     "text": "#item_name",
-    "font_type":"iannnnn",
     "$text_edit_box_binding_type": "global",
     "$text_edit_box_binding_collection_name": "",
 
@@ -1416,6 +1435,7 @@
 
   "text_edit_box_place_holder_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
 
     "localize": true,
     "shadow": "$shadow",
@@ -1440,7 +1460,6 @@
     "$place_holder_text|default": "",
 
     "text": "$place_holder_text",
-    "font_type":"iannnnn",
     "$text_edit_box_placeholder_binding_type": "global",
     "$text_edit_box_placeholder_binding_collection_name": "",
 
@@ -2160,7 +2179,6 @@
   },
 
   "dirt_background": {
-    "ignored": "($is_holographic and not $is_living_room_mode)",
     "type": "image",
     "texture": "textures/ui/bg32",
     "layer": 1,
@@ -2168,12 +2186,12 @@
   },
 
   "portal_background": {
-    "ignored": "$is_holographic",
     "type": "image",
     "texture": "textures/ui/portalBg",
     "layer": 1,
     "tiled": true
   },
+
   "empty_progress_bar": {
     "type": "image",
     "texture": "textures/ui/empty_progress_bar",
@@ -2188,6 +2206,26 @@
     "bindings": [
       {
         "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio"
+      }
+    ]
+  },
+
+  "empty_progress_bar_beveled": {
+    "type": "image",
+    "texture": "textures/ui/progress_bar_beveled_empty",
+    "color": "#color"
+  },
+
+  "progress_bar_beveled_overlay": {
+    "type": "image",
+    "texture": "textures/ui/progress_bar_beveled_overlay",
+    "fill": true,
+    "clip_direction": "left",
+    "color": "#color",
+    "bindings": [
+      {
+        "binding_name": "$progress_percentage_binding_name",
         "binding_name_override": "#clip_ratio"
       }
     ]
@@ -2302,7 +2340,7 @@
     "$single_label_size|default": [ "default", 10 ],
     "$underline_control|default": "common.empty_panel",
     "$single_line_font_scale_factor|default": 1,
-    "$font_type|default": "smooth",
+    "$font_type|default": "iannnnnAMD",
     "$font_size|default": "normal",
     "controls": [
       {
@@ -2313,9 +2351,8 @@
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "layer": 2,
-          "font_type": "$font_type",
+          "font_type": "iannnnnAMD",
           "font_size": "$font_size",
-          "enable_profanity_filter": false,
 
           "font_scale_factor": "$single_line_font_scale_factor",
 
@@ -2343,7 +2380,7 @@
     "color": "$gamepad_helper_icon_description_text_color",
     "shadow": "$gamepad_helper_icon_description_shadow",
     "text": "$icon_description_bind",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "$icon_description_bind|default": "#gamepad_helper_icon_description",
     "$icon_description_bind_type|default": "global",
     "$icon_description_bind_condition|default": "always_when_visible",
@@ -2569,7 +2606,7 @@
     "offset": [ 1, 0 ],
     "shadow": true,
     "text": "$description_bind",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "$description_bind"
@@ -2619,7 +2656,7 @@
                       "size": "$icon_label_size",
                       "offset": "$icon_label_offset",
                       "text": "$keyboard_character",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "color": "$text_color",
                       "layer": 1,
                       "$keyboard_character_bindings|default": [],
@@ -2864,12 +2901,6 @@
     "layer": 2,
     "$fill_alpha|default": 0.8,
     "$dialog_background_texture|default": "textures/ui/control",
-    "variables": [
-      {
-        "requires": "$is_holographic",
-        "$fill_alpha": 1.0
-      }
-    ],
     "controls": [
       {
         "control": {
@@ -2958,6 +2989,7 @@
 
   "section_heading_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "layer": 1,
     "anchor_from": "top_left",
     "anchor_to": "top_left",
@@ -3339,7 +3371,7 @@
               "progressive_select_text": {
                 "type": "label",
                 "text": "#progressive_select_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "offset": "$fill_bar_offset",
                 "layer": 2,
                 "color": "$item_stack_count_color",
@@ -3572,7 +3604,6 @@
     "type": "image",
     "texture": "textures/ui/screen_background",
     "layer": -10,
-    "ignored": "$is_holographic",
     "$screen_background_alpha|default": 0.75,
     "alpha": "$screen_background_alpha"
   },
@@ -3589,7 +3620,7 @@
     "$stack_count_binding_name|default": "#inventory_stack_count",
     "$stack_count_binding_condition|default": "none",
     "text": "$stack_count_binding_name",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "$stack_count_binding_name",
@@ -3893,14 +3924,13 @@
     "layer": 1,
     "alpha": "$alpha_anim",
     "text": "#selected_hover_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$item_hover_text_color",
     // Hover texts get formatted and localized before they make it to the UI.
     // Localizing them twice risks breaking the formatted text.
-    "localize": false,
+    "localize": true,
     // Disable profanity filter for this control so that
     // we can enable it on the fly only for items with custom names
-    "enable_profanity_filter": false
   },
 
   "selected_item_details_factory": {
@@ -3964,7 +3994,7 @@
                 "layer": 1,
                 "alpha": "$alpha_anim_text",
                 "text": "#notification_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$item_lock_notification_text_color"
               }
             }
@@ -5267,7 +5297,7 @@
     "shadow": true,
     "color": "$selected_item_stack_count_color",
     "text": "#inventory_selected_item_stack_count",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#inventory_selected_item_stack_count",
@@ -5504,7 +5534,7 @@
           "offset": [ 7, 3 ],
           "layer": 2,
           "text": "container.inventory",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       }
     ]
@@ -5955,7 +5985,6 @@
 
   "base_screen": {
     "type": "screen",
-    "vr_mode": "$is_holographic",
     "$screen_content|default": "common.base_screen_empty_panel",
     "$additional_screen_content|default": "common.base_screen_empty_panel",
     "$screen_bg_content|default": "common.base_screen_empty_panel",
@@ -6040,7 +6069,7 @@
             // PE edition and VR
             {
               //Pocket Texel Size:  [320, 210]
-              "requires": "($pocket_screen or $is_holographic)",
+              "requires": "($pocket_screen)",
               "$narrow_screen_size": [ "90.3225%", "100% - 4px" ], // Realms Pending Invitations, Add Players
               "$play_screen_size": [ "83.4375%", "100% - 4px" ], // Play Screen
               "$tabbed_upsell_screen_size": [ 310, 173 ], // Trial Tabbed Upsell Screen
@@ -6172,6 +6201,10 @@
         }
       }
     ]
+  },
+
+  "render_below_base_screen@common.base_screen": {
+    "force_render_below": true
   },
 
   "safezone_buffer": {
@@ -6337,7 +6370,7 @@
     "type": "panel",
     "size": [ "100%", "100%" ],
     "controls": [
-      { "bundle_cursor_tooltip@gameplay.bundle_cursor_tooltip": {} },
+      { "bundle_tooltip_factory_wrapper@gameplay.bundle_tooltip_factory_wrapper": {} },
       { "bundle_touch_tooltip@gameplay.bundle_touch_tooltip": {} }
     ],
     "bindings": [
@@ -6708,8 +6741,8 @@
                 "text": "$tooltip_text_binding_name",
                 "$tooltip_text_color|default": "$f_color_format",
                 "color": "$tooltip_text_color",
-                "$tooltip_text_font_type|default": "default",
-                "font_type": "$tooltip_text_font_type",
+                "$tooltip_text_font_type|default": "iannnnnAMD",
+                "font_type": "iannnnnAMD",
                 "$tooltip_text_binding_type|default": "$tooltip_button_binding_type",
                 "$tooltip_text_bindings|default": [
                   {
@@ -6765,6 +6798,15 @@
     "layer": 200, // always on top
     "anchor_from": "top_middle",
     "anchor_to": "bottom_middle",
+    "$dynamic_tooltip_popup_with_custom_content_bindings|default": [
+      {
+        "binding_name": "$tooltip_popup_visible_binding",
+        "binding_name_override": "#visible",
+        "binding_collection_name": "$tooltip_button_collection_name",
+        "binding_type": "$tooltip_button_binding_type"
+      }
+    ],
+    "bindings": "$dynamic_tooltip_popup_with_custom_content_bindings",
     "controls": [
       {
         "tooltip_content@$tooltip_content": {}
@@ -6785,14 +6827,6 @@
           "texture": "$tooltip_popup_chevron_texture"
         }
       }
-    ],
-    "bindings": [
-      {
-        "binding_name": "$tooltip_popup_visible_binding",
-        "binding_name_override": "#visible",
-        "binding_collection_name": "$tooltip_button_collection_name",
-        "binding_type": "$tooltip_button_binding_type"
-      }
     ]
   },
 
@@ -6812,6 +6846,15 @@
     "layer": 200, // always on top
     "anchor_from": "top_middle",
     "anchor_to": "bottom_middle",
+    "$dynamic_tooltip_popup_with_image_and_text_bindings|default": [
+      {
+        "binding_name": "$tooltip_popup_visible_binding",
+        "binding_name_override": "#visible",
+        "binding_collection_name": "$tooltip_button_collection_name",
+        "binding_type": "$tooltip_button_binding_type"
+      }
+    ],
+    "bindings": "$dynamic_tooltip_popup_with_image_and_text_bindings",
     "controls": [
       {
         "image_and_text_stack_panel": {
@@ -6879,9 +6922,9 @@
                 "$tooltip_text_binding_type|default": "$tooltip_button_binding_type",
                 "$tts_override_control_value|default": "$tooltip_text_binding_name",
                 "text": "$tooltip_text_binding_name",
+                "font_type": "iannnnnAMD",
                 "tts_override_control_value": "$tts_override_control_value",
-                "$tooltip_text_font_type|default": "default",
-                "font_type": "$tooltip_text_font_type",
+                "$tooltip_text_font_type|default": "iannnnnAMD",
                 "$tooltip_text_font_scale|default": 1,
                 "font_scale_factor": "$tooltip_text_font_scale",
                 "$tooltip_text_color|default": "$f_color_format",
@@ -6914,14 +6957,6 @@
           "$tooltip_popup_chevron_texture|default": "textures/ui/tooltip_default_chevron",
           "texture": "$tooltip_popup_chevron_texture"
         }
-      }
-    ],
-    "bindings": [
-      {
-        "binding_name": "$tooltip_popup_visible_binding",
-        "binding_name_override": "#visible",
-        "binding_collection_name": "$tooltip_button_collection_name",
-        "binding_type": "$tooltip_button_binding_type"
       }
     ]
   },
@@ -7117,6 +7152,7 @@
 
   "text_cycler@common.common_cycler": {
     "type": "label_cycler",
+    "font_type": "iannnnnAMD",
     "text_labels": "$text_cycler_labels"
   },
 

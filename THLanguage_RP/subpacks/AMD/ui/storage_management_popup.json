@@ -139,7 +139,7 @@
           "anchor_to": "top_left",
 
           "text": "#dependency_label_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#dependency_label_text"
@@ -254,7 +254,7 @@
                             "anchor_to": "top_left",
                             "layer": 2,
                             "text": "storageManager.dependency.breakItem",
-                            "font_type":"iannnnn"
+                            "font_type": "iannnnnAMD"
                           }
                         }
                       ]

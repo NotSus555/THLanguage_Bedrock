@@ -8,13 +8,13 @@
 
   "message": {
     "type": "label",
-    "font_type":"iannnnn",
     "color": "$body_text_color",
     "anchor_to": "center",
     "anchor_from": "center",
     "layer": 2,
     "shadow": false,
-    "text": "globalPauseScreen.message"
+    "text": "globalPauseScreen.message",
+    "font_type": "iannnnnAMD"
   },
 
   "quit_button@common_buttons.light_text_form_fitting_button": {
@@ -36,13 +36,6 @@
   "pause_screen_content": {
     "type": "panel",
     "$fill_alpha|default": 0.8,
-    "variables": [
-      {
-        "requires": "$is_holographic",
-        "$fill_alpha": 1.0
-      }
-    ],
-
     "controls": [
       {
         "transparentFill": {

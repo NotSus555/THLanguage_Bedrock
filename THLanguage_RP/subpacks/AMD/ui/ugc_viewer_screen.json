@@ -11,7 +11,7 @@
     "type": "label",
     "color": "$dark_button_default_text_color",
     "text": "#text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", "default" ],
     "bindings": [
       {

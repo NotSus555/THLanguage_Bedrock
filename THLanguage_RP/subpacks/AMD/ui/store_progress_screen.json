@@ -52,7 +52,7 @@
                 "type": "label",
                 "size": [ "100%", "default" ],
                 "text": "#tooltip_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$store_white_text_color",
                 "bindings": [
                   {

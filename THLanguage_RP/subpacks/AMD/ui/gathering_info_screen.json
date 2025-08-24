@@ -139,7 +139,7 @@
                     "gathering_id_label": {
                       "type": "label",
                       "text": "#gathering_id_label",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "size": [ "100%", "20px" ],
                       "color": "$alert_label_background_color",
                       "text_alignment": "center",
@@ -408,7 +408,7 @@
   "sign_in_title": {
     "type": "label",
     "text": "gathering.info.signIn.title",
-    "font_type": "MinecraftTen-TH",
+    "font_type": "MinecraftTen",
     "color": "$body_text_color",
     "size": [ "100%", "default" ]
   },
@@ -416,7 +416,7 @@
   "sign_in_body": {
     "type": "label",
     "text": "gathering.info.signIn.body",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", "default" ],
     "color": "$body_text_color"
   },
@@ -424,7 +424,7 @@
   "qr_title": {
     "type": "label",
     "text": "#qr_title_text",
-    "font_type": "MinecraftTen-TH",
+    "font_type": "MinecraftTen",
     "color": "$body_text_color",
     "size": [ "100%", "default" ],
     "bindings": [
@@ -438,7 +438,7 @@
   "qr_body": {
     "type": "label",
     "text": "#qr_body_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", "default" ],
     "color": "$body_text_color",
     "bindings": [
@@ -453,7 +453,7 @@
     "type": "label",
     "text": "#title_text",
     "size": [ "100%", "default" ],
-    "font_type": "MinecraftTen-TH",
+    "font_type": "MinecraftTen",
     "anchor_to": "top_left",
     "anchor_from": "top_left",
     "color": "$body_text_color",
@@ -467,7 +467,7 @@
   "body_panel": {
     "type": "label",
     "text": "#body_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", "default" ],
     "anchor_to": "top_left",
     "anchor_from": "top_left",

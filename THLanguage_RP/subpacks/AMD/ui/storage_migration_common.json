@@ -54,7 +54,7 @@
                 "text_alignment": "center",
                 "size": [ "100%", "default" ],
                 "text": "#file_size_progress",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color",
                 "bindings": [
                   {
@@ -100,7 +100,7 @@
   "label": {
     "type": "label",
     "size": [ "100%", "default" ],
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "line_padding": 1.5,
     "color": "$body_text_color"
   },
@@ -256,7 +256,7 @@
       {
         "description@storage_migration_common.label": {
           "text": "$description_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "100%", "default" ]
         }
       },
@@ -276,7 +276,7 @@
             {
               "file_text@storage_migration_common.label": {
                 "text": "$file_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "size": [ "default", "default" ]
               }
             },
@@ -289,7 +289,7 @@
             {
               "file_size_total@storage_migration_common.label": {
                 "text": "#file_size_total",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "size": [ "default", "default" ],
                 "bindings": [
                   {
@@ -307,7 +307,7 @@
             {
               "file_size_available@storage_migration_common.label": {
                 "text": "#file_size_available",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "size": [ "default", "default" ],
                 "visible": false,
                 "bindings": [
@@ -327,7 +327,7 @@
       {
         "file_location@storage_migration_common.label": {
           "text": "#file_location",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "100%", "default" ],
           "bindings": [
             {
@@ -355,7 +355,7 @@
       {
         "description@storage_migration_common.label": {
           "text": "#file_size_needed",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "fill", "default" ],
           "bindings": [
             {

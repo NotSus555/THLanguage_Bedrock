@@ -25,9 +25,9 @@
       {
         "label_text": {
           "type": "label",
-          "font_type":"iannnnn",
           "size": [ "100%", "default" ],
           "text": "$text",
+          "font_type": "iannnnnAMD",
           "text_alignment": "center",
           "color": "$text_color"
         }

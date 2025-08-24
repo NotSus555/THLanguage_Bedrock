@@ -153,14 +153,14 @@
 
   "brewing_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "layer": 2,
     "offset": [ 0, -3 ],
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
     "text": "$container_title",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color",
-    "layer": 2
+    "localize": "$localize_title"
   },
 
   "brewingstand_output_item@common.container_item": {

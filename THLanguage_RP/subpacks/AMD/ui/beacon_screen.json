@@ -645,14 +645,14 @@
       {
         "primary_power_label@beacon.beacon_label": {
           "text": "tile.beacon.primary",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "offset": [ -54, 6 ]
         }
       },
       {
         "secondary_power_label@beacon.beacon_label": {
           "text": "tile.beacon.secondary",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "offset": [ 52, 6 ]
         }
       }

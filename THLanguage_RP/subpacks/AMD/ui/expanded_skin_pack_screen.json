@@ -12,14 +12,14 @@
 
   "title_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "default", "default" ],
     "color": "$title_text_color"
   },
 
   "label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "center",
     "anchor_to": "center",
     "offset": [ 0, 0 ],
@@ -439,8 +439,8 @@
             {
               "pack_name": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "text": "#pack_name",
+                "font_type": "iannnnnAMD",
                 "color": "$generic_button_text_color",
                 "bindings": [
                   {
@@ -452,8 +452,8 @@
             {
               "creator_name": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "text": "#creator_name",
+                "font_type": "iannnnnAMD",
                 "color": "$generic_button_text_color",
                 "bindings": [
                   {
@@ -650,7 +650,6 @@
                   {
                     "change_skin_title@expanded_skin_pack.title_label": {
                       "text": "$back_button_text",
-                      "font_type":"iannnnn",
                       "anchor_from": "left_middle",
                       "anchor_to": "left_middle"
                     }
@@ -678,7 +677,6 @@
               "preview_skin_name@expanded_skin_pack.title_label": {
                 "ignored": "$education_edition",
                 "text": "#skin_name",
-                "font_type":"iannnnn",
                 // In the edge case where the skin name is too long to fit,
                 // even with the main title pushed as far to the left as it can
                 // go, then the skin name should truncate.  Since the label's
@@ -752,7 +750,7 @@
     ],
     "$default_text_color": [ 0.3, 0.3, 0.3 ],
     "$screen_content": "expanded_skin_pack.skin_picker_screen_content",
-    "$screen_bg_content": "persona.persona_screen_background_content",
+    "$screen_bg_content": "persona_common.persona_screen_background_content",
     "$header_safezone_control": "common_store.store_top_bar_filler",
     "$header_bar_control": "common_store.store_top_bar",
     "$is_full_screen_layout": true

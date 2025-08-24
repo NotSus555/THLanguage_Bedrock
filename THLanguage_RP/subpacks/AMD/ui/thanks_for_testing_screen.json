@@ -38,7 +38,7 @@
           "type": "label",
           "color": "$text_color",
           "text": "trial.thanks_for_testing.button",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       }
     ]
@@ -57,7 +57,7 @@
           "size": [ "100%", "default" ],
           "$text_font_scale_factor|default": 0.9,
           "font_scale_factor": "$text_font_scale_factor",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text": "$text",
           "color": "$text_color"
         }
@@ -74,6 +74,7 @@
         "tab_content_title_panel@thanks_for_testing.label_panel": {
           "size": [ "100%", 13 ],
           "$text": "$title_text",
+          "$font_type": "iannnnnAMD",
           "$text_color": "$main_header_text_color",
           "$text_font_scale_factor": 1.33
         }
@@ -82,7 +83,8 @@
         "tab_content_description_panel@thanks_for_testing.label_panel": {
           "size": [ "100%", "100%c" ],
           "$text_color": "$body_text_color",
-          "$text": "$description_text"
+          "$text": "$description_text",
+          "$font_type": "iannnnnAMD"
         }
       },
       {
@@ -90,7 +92,8 @@
           "ignored": "(not $multiline_description)",
           "size": [ "100%", "100%c" ],
           "$text_color": "$body_text_color",
-          "$text": "$description_text_line_2"
+          "$text": "$description_text_line_2",
+          "$font_type": "iannnnnAMD"
         }
       }
     ]
@@ -548,7 +551,7 @@
     ]
   },
 
-  "tabbed_Upsell_content": {
+  "tabbed_upsell_content": {
     "type": "stack_panel",
     "size": [ "100%", "100%" ],
     "orientation": "vertical",
@@ -615,11 +618,11 @@
     "type": "panel",
     "controls": [
       {
-        "tabbed_Upsell_screen_content@common_dialogs.main_panel_no_buttons": {
+        "tabbed_upsell_screen_content@common_dialogs.main_panel_no_buttons": {
           "size": "$tabbed_upsell_screen_size",
           "$title_panel": "common_dialogs.standard_title_label",
           "$text_name": "trial.thanks_for_testing.title",
-          "$child_control": "thanks_for_testing.tabbed_Upsell_content",
+          "$child_control": "thanks_for_testing.tabbed_upsell_content",
           "$show_close_button": true,
           "layer": 2
         }

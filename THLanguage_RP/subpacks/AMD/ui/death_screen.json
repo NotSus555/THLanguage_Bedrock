@@ -26,6 +26,7 @@
       {
         "you_died_label": {
           "type": "label",
+          "font_type": "iannnnnAMD",
           "color": "$death_text_color",
           "text": "deathScreen.message",
           "shadow": true,
@@ -46,6 +47,7 @@
           "color": "$death_text_color",
           "enable_profanity_filter": true,
           "text": "#death_reason_text",
+          "font_type": "iannnnnAMD",
           "max_size": [ "70%", "fill" ],
           "text_alignment": "center",
           "shadow": true,
@@ -196,6 +198,7 @@
           "anchor_to": "top_middle",
           "offset": [ 0, "85%" ],
           "text": "progressScreen.generating",
+          "font_type": "iannnnnAMD",
           "font_size": "normal",
           "bindings": [
             {
@@ -214,8 +217,7 @@
     "type": "custom",
     "renderer": "gradient_renderer",
     "color1": [ 0.313, 0, 0, 0.37 ],
-    "color2": [ 0.5, 0.188, 0.188, 0.627 ],
-    "ignored": "$is_holographic"
+    "color2": [ 0.5, 0.188, 0.188, 0.627 ]
   },
 
 

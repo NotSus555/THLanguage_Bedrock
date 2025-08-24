@@ -18,9 +18,9 @@
 
   "title_text": {
     "type": "label",
-    "font_type":"iannnnn",
     "layer": 1,
     "text": "thirdPartyConsole.adhoc.title",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color",
     "shadow": false
   },
@@ -33,6 +33,7 @@
           "type": "label",
           "layer": 1,
           "text": "thirdPartyConsole.adhoc.desc",
+          "font_type": "iannnnnAMD",
           "color": "$sub_header_text_color",
           "shadow": false
         }

@@ -13,6 +13,7 @@
 
   "common_text_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "size": ["default", 10],
     "color": "$main_header_text_color",
     "layer": 1
@@ -60,7 +61,6 @@
             {
               "toggle_label@jigsaw_editor.common_text_label": {
                 "text": "$toggle_label_text",
-                "font_type":"iannnnn",
                 "bindings": [
                   {
                     "binding_name": "$toggle_label_text"
@@ -75,7 +75,6 @@
             {
               "toggle_label_disabled@jigsaw_editor.common_text_label": {
                 "text": "$toggle_label_text",
-                "font_type":"iannnnn",
                 "color": "$light_button_locked_text_color",
                 "bindings": [
                   {
@@ -100,8 +99,7 @@
     "controls": [
       {
         "data_title@jigsaw_editor.common_text_label": {
-          "text": "$data_title",
-          "font_type":"iannnnn"
+          "text": "$data_title"
         }
       },
       {
@@ -123,8 +121,7 @@
     "controls": [
       {
         "data_title@jigsaw_editor.common_text_label": {
-          "text": "$data_title",
-          "font_type":"iannnnn"
+          "text": "$data_title"
         }
       },
       {
@@ -318,7 +315,6 @@
           "offset": [40, 6],
 
           "text": "jigsaw_block.title",
-          "font_type":"iannnnn",
           "color": "$title_text_color"
         }
       },

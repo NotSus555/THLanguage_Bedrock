@@ -218,11 +218,11 @@
 
   "header": {
     "type": "label",
-    "font_type":"iannnnn",
     "max_size": [ "100%", "default" ],
     "size": [ "default", "default" ],
     "color": "$book_page_number_color",
-    "text": "$header_text"
+    "text": "$header_text",
+    "font_type": "iannnnnAMD"
   },
 
   "text_centering_panel_inventory": {
@@ -595,7 +595,6 @@
 
   "page_number_label": {
     "type": "label",
-    "font_type":"iannnnn",
     "offset": [ 0, 13 ],
     "layer": 5,
     "color": "$book_page_number_color",
@@ -604,7 +603,7 @@
 
     "localize": false,
     "text": "#page_number",
-
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#page_number",
@@ -776,12 +775,12 @@
 
   "title_label": {
     "type": "label",
-    "font_type":"iannnnn",
     "offset": [ 0, 30 ],
     "layer": 2,
     "anchor_to": "top_middle",
     "anchor_from": "top_middle",
     "text": "book.editTitle",
+    "font_type": "iannnnnAMD",
     "color": "$book_title_label_color",
 
     "bindings": [
@@ -818,11 +817,11 @@
 
   "author_label": {
     "type": "label",
-    "font_type":"iannnnn",
     "size": [ "default", 18 ],
     "offset": [ 0, 4 ],
 
     "text": "book.byAuthor",
+    "font_type": "iannnnnAMD",
     "color": "$book_author_label_color"
   },
 
@@ -881,7 +880,6 @@
 
   "warning_label": {
     "type": "label",
-    "font_type":"iannnnn",
     "offset": [ 0, 86 ],
     "size": [ "100%-30px", "100%" ],
     "layer": 2,
@@ -889,6 +887,7 @@
     "anchor_from": "top_middle",
 
     "text": "book.finalizeWarning",
+    "font_type": "iannnnnAMD",
     "text_alignment": "left",
     "color": "$book_warning_color",
 

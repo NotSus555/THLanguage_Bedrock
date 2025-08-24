@@ -7,16 +7,7 @@
       "path": "pack_icon.png"
     },
     {
-      "path": "splashes.json"
-    },
-    {
       "path": "subpacks/AMD/font/2005_iannnnnAMD.ttf"
-    },
-    {
-      "path": "subpacks/AMD/font/Minecraft-TenTH.ttf"
-    },
-    {
-      "path": "subpacks/AMD/font/Mojang.ttf"
     },
     {
       "path": "subpacks/AMD/font/default8.png"
@@ -31,10 +22,16 @@
       "path": "subpacks/AMD/font/glyph_0E.png"
     },
     {
-      "path": "subpacks/AMD/ui/_global_variables.json"
+      "path": "subpacks/AMD/font/Minecraft-TenTH.ttf"
     },
     {
-      "path": "subpacks/AMD/ui/_ui_defs.json"
+      "path": "subpacks/AMD/font/Mojang.ttf"
+    },
+    {
+      "path": "subpacks/AMD/ui/achievement_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/add_external_server_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/adhoc_inprogess_screen.json"
@@ -47,6 +44,15 @@
     },
     {
       "path": "subpacks/AMD/ui/anvil_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/authentication_modals.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/authentication_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/auto_save_info_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/beacon_screen.json"
@@ -65,6 +71,9 @@
     },
     {
       "path": "subpacks/AMD/ui/brewing_stand_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/bundle_purchase_warning_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/cartography_screen.json"
@@ -88,49 +97,37 @@
       "path": "subpacks/AMD/ui/choose_realm_screen.json"
     },
     {
+      "path": "subpacks/AMD/ui/cloud_upload_screen.json"
+    },
+    {
       "path": "subpacks/AMD/ui/coin_purchase_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/command_block_screen.json"
     },
     {
+      "path": "subpacks/AMD/ui/confirm_delete_account_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/content_log.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/content_log_history_screen.json"
+    },
+    {
       "path": "subpacks/AMD/ui/crafter_screen_pocket.json"
     },
     {
-      "path": "subpacks/AMD/ui/csb_sections/content_section.json"
+      "path": "subpacks/AMD/ui/create_world_upsell_screen.json"
     },
     {
-      "path": "subpacks/AMD/ui/csb_sections/csb_banner.json"
+      "path": "subpacks/AMD/ui/credits_screen.json"
     },
     {
-      "path": "subpacks/AMD/ui/csb_sections/csb_buy_now_screen.json"
+      "path": "subpacks/AMD/ui/csb_purchase_error_screen.json"
     },
     {
-      "path": "subpacks/AMD/ui/csb_sections/csb_common.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/csb_sections/csb_purchase_amazondevicewarning_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/csb_sections/csb_purchase_warning_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/csb_sections/csb_subscription_panel.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/csb_sections/csb_upsell_dialog.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/csb_sections/csb_view_packs_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/csb_sections/csb_welcome_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/csb_sections/faq_section.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/csb_sections/landing_section.json"
+      "path": "subpacks/AMD/ui/csb_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/custom_templates_screen.json"
@@ -145,7 +142,25 @@
       "path": "subpacks/AMD/ui/death_screen.json"
     },
     {
+      "path": "subpacks/AMD/ui/debug_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/dev_console_screen.json"
+    },
+    {
       "path": "subpacks/AMD/ui/disconnect_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/display_logged_error_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/edu_discovery_dialog.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/edu_featured.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/edu_pause_screen_pause_button.json"
     },
     {
       "path": "subpacks/AMD/ui/emote_wheel_screen.json"
@@ -157,16 +172,22 @@
       "path": "subpacks/AMD/ui/enchanting_screen_pocket.json"
     },
     {
+      "path": "subpacks/AMD/ui/encyclopedia_screen.json"
+    },
+    {
       "path": "subpacks/AMD/ui/expanded_skin_pack_screen.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/feed_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/file_upload_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/furnace_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/furnace_screen_pocket.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/game_tip_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/gamepad_disconnected.json"
@@ -176,6 +197,9 @@
     },
     {
       "path": "subpacks/AMD/ui/gameplay_common.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/game_tip_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/gamma_calibration_screen.json"
@@ -191,6 +215,9 @@
     },
     {
       "path": "subpacks/AMD/ui/grindstone_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/AMD/ui/holographic_postrender_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/horse_screen.json"
@@ -214,9 +241,6 @@
       "path": "subpacks/AMD/ui/immersive_reader.json"
     },
     {
-      "path": "subpacks/AMD/ui/in_bed_screen.json"
-    },
-    {
       "path": "subpacks/AMD/ui/inventory_screen.json"
     },
     {
@@ -226,7 +250,7 @@
       "path": "subpacks/AMD/ui/invite_screen.json"
     },
     {
-      "path": "subpacks/AMD/ui/item_detail_description_screen.json"
+      "path": "subpacks/AMD/ui/in_bed_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/jigsaw_editor_screen.json"
@@ -251,18 +275,6 @@
     },
     {
       "path": "subpacks/AMD/ui/manifest_validation_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_dropdowns.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_image_row.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_label.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_text_row.json"
     },
     {
       "path": "subpacks/AMD/ui/mob_effect_screen.json"
@@ -307,7 +319,7 @@
       "path": "subpacks/AMD/ui/persona_common.json"
     },
     {
-      "path": "subpacks/AMD/ui/persona_screen.json"
+      "path": "subpacks/AMD/ui/persona_popups.json"
     },
     {
       "path": "subpacks/AMD/ui/persona_sdl.json"
@@ -325,12 +337,6 @@
       "path": "subpacks/AMD/ui/portfolio_screen.json"
     },
     {
-      "path": "subpacks/AMD/ui/post_rating_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/profile_screen.json"
-    },
-    {
       "path": "subpacks/AMD/ui/progress_screen.json"
     },
     {
@@ -340,22 +346,7 @@
       "path": "subpacks/AMD/ui/realmsPlus_screen.json"
     },
     {
-      "path": "subpacks/AMD/ui/realmsPlus_sections/content_section.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/realmsPlus_sections/faq_section.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/realmsPlus_sections/landing_section.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_buy_now_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_purchase_warning_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_view_packs_screen.json"
+      "path": "subpacks/AMD/ui/realmsplus_upgrade_notice_screen.json"
     },
     {
       "path": "subpacks/AMD/ui/realms_allowlist.json"
@@ -385,9 +376,6 @@
       "path": "subpacks/AMD/ui/realms_stories_transition_screen.json"
     },
     {
-      "path": "subpacks/AMD/ui/realmsplus_upgrade_notice_screen.json"
-    },
-    {
       "path": "subpacks/AMD/ui/redstone_screen.json"
     },
     {
@@ -410,21 +398,6 @@
     },
     {
       "path": "subpacks/AMD/ui/settings_screen.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/settings_sections/controls_section.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/settings_sections/general_section.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/settings_sections/realms_world_section.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/settings_sections/settings_common.json"
-    },
-    {
-      "path": "subpacks/AMD/ui/settings_sections/world_section.json"
     },
     {
       "path": "subpacks/AMD/ui/sidebar_navigation.json"
@@ -616,631 +589,1450 @@
       "path": "subpacks/AMD/ui/xbl_immediate_signin.json"
     },
     {
-      "path": "subpacks/AMD/ui/xbl_optional_signin.json"
+      "path": "subpacks/AMD/ui/_global_variables.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/Minecraft-TenTH.ttf"
+      "path": "subpacks/AMD/ui/_ui_defs.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/PlaypenSansThai-SemiBold.ttf"
+      "path": "subpacks/AMD/ui/csb_sections/content_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/default8.png"
+      "path": "subpacks/AMD/ui/csb_sections/csb_banner.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/font_metadata.json"
+      "path": "subpacks/AMD/ui/csb_sections/csb_buy_now_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/glyph_00.png"
+      "path": "subpacks/AMD/ui/csb_sections/csb_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/glyph_01.png"
+      "path": "subpacks/AMD/ui/csb_sections/csb_purchase_amazondevicewarning_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/glyph_02.png"
+      "path": "subpacks/AMD/ui/csb_sections/csb_purchase_warning_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/glyph_0E.png"
+      "path": "subpacks/AMD/ui/csb_sections/csb_subscription_panel.json"
     },
     {
-      "path": "subpacks/PlaypenSans/font/glyph_1E.png"
+      "path": "subpacks/AMD/ui/csb_sections/csb_upsell_dialog.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/_global_variables.json"
+      "path": "subpacks/AMD/ui/csb_sections/csb_view_packs_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/_ui_defs.json"
+      "path": "subpacks/AMD/ui/csb_sections/csb_welcome_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/adhoc_inprogess_screen.json"
+      "path": "subpacks/AMD/ui/csb_sections/faq_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/adhoc_screen.json"
+      "path": "subpacks/AMD/ui/csb_sections/landing_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/anvil_screen.json"
+      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_dropdowns.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/anvil_screen_pocket.json"
+      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_image_row.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/beacon_screen.json"
+      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_label.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/beacon_screen_pocket.json"
+      "path": "subpacks/AMD/ui/marketplace_sdl/sdl_text_row.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/blast_furnace_screen.json"
+      "path": "subpacks/AMD/ui/realmsPlus_sections/content_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/book_screen.json"
+      "path": "subpacks/AMD/ui/realmsPlus_sections/faq_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/brewing_stand_screen.json"
+      "path": "subpacks/AMD/ui/realmsPlus_sections/landing_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/brewing_stand_screen_pocket.json"
+      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_buy_now_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/cartography_screen.json"
+      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_purchase_warning_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/cartography_screen_pocket.json"
+      "path": "subpacks/AMD/ui/realmsPlus_sections/realmsPlus_view_packs_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/chalkboard_screen.json"
+      "path": "subpacks/AMD/ui/settings_sections/controls_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/chat_screen.json"
+      "path": "subpacks/AMD/ui/settings_sections/general_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/chat_settings_menu_screen.json"
+      "path": "subpacks/AMD/ui/settings_sections/realms_world_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/chest_screen.json"
+      "path": "subpacks/AMD/ui/settings_sections/settings_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/choose_realm_screen.json"
+      "path": "subpacks/AMD/ui/settings_sections/social_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/coin_purchase_screen.json"
+      "path": "subpacks/AMD/ui/settings_sections/world_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/command_block_screen.json"
+      "path": "subpacks/Default/font/font_metadata.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/crafter_screen_pocket.json"
+      "path": "subpacks/Default/font/Minecraft-TenTH.ttf"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/content_section.json"
+      "path": "subpacks/Default/font/Mojangles-TH.ttf"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_banner.json"
+      "path": "subpacks/Default/ui/achievement_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_buy_now_screen.json"
+      "path": "subpacks/Default/ui/add_external_server_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_common.json"
+      "path": "subpacks/Default/ui/adhoc_inprogess_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_purchase_amazondevicewarning_screen.json"
+      "path": "subpacks/Default/ui/adhoc_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_purchase_warning_screen.json"
+      "path": "subpacks/Default/ui/anvil_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_subscription_panel.json"
+      "path": "subpacks/Default/ui/anvil_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_upsell_dialog.json"
+      "path": "subpacks/Default/ui/authentication_modals.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_view_packs_screen.json"
+      "path": "subpacks/Default/ui/authentication_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/csb_welcome_screen.json"
+      "path": "subpacks/Default/ui/auto_save_info_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/faq_section.json"
+      "path": "subpacks/Default/ui/beacon_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/csb_sections/landing_section.json"
+      "path": "subpacks/Default/ui/beacon_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/custom_templates_screen.json"
+      "path": "subpacks/Default/ui/blast_furnace_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/day_one_experience_intro_screen.json"
+      "path": "subpacks/Default/ui/book_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/day_one_experience_screen.json"
+      "path": "subpacks/Default/ui/brewing_stand_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/death_screen.json"
+      "path": "subpacks/Default/ui/brewing_stand_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/disconnect_screen.json"
+      "path": "subpacks/Default/ui/bundle_purchase_warning_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/emote_wheel_screen.json"
+      "path": "subpacks/Default/ui/cartography_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/enchanting_screen.json"
+      "path": "subpacks/Default/ui/cartography_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/enchanting_screen_pocket.json"
+      "path": "subpacks/Default/ui/chalkboard_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/expanded_skin_pack_screen.json"
+      "path": "subpacks/Default/ui/chat_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/furnace_screen.json"
+      "path": "subpacks/Default/ui/chat_settings_menu_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/furnace_screen_pocket.json"
+      "path": "subpacks/Default/ui/chest_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/game_tip_screen.json"
+      "path": "subpacks/Default/ui/choose_realm_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/gamepad_disconnected.json"
+      "path": "subpacks/Default/ui/cloud_upload_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/gamepad_layout_screen.json"
+      "path": "subpacks/Default/ui/coin_purchase_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/gameplay_common.json"
+      "path": "subpacks/Default/ui/command_block_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/gamma_calibration_screen.json"
+      "path": "subpacks/Default/ui/confirm_delete_account_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/gathering_info_screen.json"
+      "path": "subpacks/Default/ui/content_log.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/global_pause_screen.json"
+      "path": "subpacks/Default/ui/content_log_history_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/grindstone_screen.json"
+      "path": "subpacks/Default/ui/crafter_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/grindstone_screen_pocket.json"
+      "path": "subpacks/Default/ui/create_world_upsell_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/horse_screen.json"
+      "path": "subpacks/Default/ui/credits_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/horse_screen_pocket.json"
+      "path": "subpacks/Default/ui/csb_purchase_error_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/host_options_screen.json"
+      "path": "subpacks/Default/ui/csb_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/how_to_play_common.json"
+      "path": "subpacks/Default/ui/custom_templates_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/how_to_play_screen.json"
+      "path": "subpacks/Default/ui/day_one_experience_intro_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/hud_screen.json"
+      "path": "subpacks/Default/ui/day_one_experience_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/immersive_reader.json"
+      "path": "subpacks/Default/ui/death_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/in_bed_screen.json"
+      "path": "subpacks/Default/ui/debug_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/inventory_screen.json"
+      "path": "subpacks/Default/ui/dev_console_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/inventory_screen_pocket.json"
+      "path": "subpacks/Default/ui/disconnect_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/invite_screen.json"
+      "path": "subpacks/Default/ui/display_logged_error_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/item_detail_description_screen.json"
+      "path": "subpacks/Default/ui/edu_discovery_dialog.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/jigsaw_editor_screen.json"
+      "path": "subpacks/Default/ui/edu_featured.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/late_join_pregame_screen.json"
+      "path": "subpacks/Default/ui/edu_pause_screen_pause_button.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/library_modal_screen.json"
+      "path": "subpacks/Default/ui/emote_wheel_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/local_world_picker_screen.json"
+      "path": "subpacks/Default/ui/enchanting_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/loom_screen.json"
+      "path": "subpacks/Default/ui/enchanting_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/loom_screen_pocket.json"
+      "path": "subpacks/Default/ui/encyclopedia_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/manage_feed_screen.json"
+      "path": "subpacks/Default/ui/expanded_skin_pack_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/manifest_validation_screen.json"
+      "path": "subpacks/Default/ui/feed_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/marketplace_sdl/sdl_dropdowns.json"
+      "path": "subpacks/Default/ui/file_upload_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/marketplace_sdl/sdl_image_row.json"
+      "path": "subpacks/Default/ui/furnace_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/marketplace_sdl/sdl_label.json"
+      "path": "subpacks/Default/ui/furnace_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/marketplace_sdl/sdl_text_row.json"
+      "path": "subpacks/Default/ui/gamepad_disconnected.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/mob_effect_screen.json"
+      "path": "subpacks/Default/ui/gamepad_layout_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/non_xbl_user_management_screen.json"
+      "path": "subpacks/Default/ui/gameplay_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/npc_interact_screen.json"
+      "path": "subpacks/Default/ui/game_tip_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/online_safety_screen.json"
+      "path": "subpacks/Default/ui/gamma_calibration_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/pack_settings_screen.json"
+      "path": "subpacks/Default/ui/gathering_info_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/panorama_screen.json"
+      "path": "subpacks/Default/ui/global_pause_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/patch_notes_screen.json"
+      "path": "subpacks/Default/ui/grindstone_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/pause_screen.json"
+      "path": "subpacks/Default/ui/grindstone_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/pdp_screen.json"
+      "path": "subpacks/Default/ui/holographic_postrender_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/pdp_screenshots_section.json"
+      "path": "subpacks/Default/ui/horse_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/perf_turtle.json"
+      "path": "subpacks/Default/ui/horse_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/permissions_screen.json"
+      "path": "subpacks/Default/ui/host_options_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/persona_cast_character_screen.json"
+      "path": "subpacks/Default/ui/how_to_play_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/persona_common.json"
+      "path": "subpacks/Default/ui/how_to_play_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/persona_screen.json"
+      "path": "subpacks/Default/ui/hud_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/persona_sdl.json"
+      "path": "subpacks/Default/ui/immersive_reader.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/play_screen.json"
+      "path": "subpacks/Default/ui/inventory_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/pocket_containers.json"
+      "path": "subpacks/Default/ui/inventory_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/popup_dialog.json"
+      "path": "subpacks/Default/ui/invite_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/portfolio_screen.json"
+      "path": "subpacks/Default/ui/in_bed_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/post_rating_screen.json"
+      "path": "subpacks/Default/ui/jigsaw_editor_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/profile_screen.json"
+      "path": "subpacks/Default/ui/late_join_pregame_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/progress_screen.json"
+      "path": "subpacks/Default/ui/library_modal_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/rating_prompt.json"
+      "path": "subpacks/Default/ui/local_world_picker_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realmsPlus_screen.json"
+      "path": "subpacks/Default/ui/loom_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realmsPlus_sections/content_section.json"
+      "path": "subpacks/Default/ui/loom_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realmsPlus_sections/faq_section.json"
+      "path": "subpacks/Default/ui/manage_feed_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realmsPlus_sections/landing_section.json"
+      "path": "subpacks/Default/ui/manifest_validation_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realmsPlus_sections/realmsPlus_buy_now_screen.json"
+      "path": "subpacks/Default/ui/mob_effect_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realmsPlus_sections/realmsPlus_purchase_warning_screen.json"
+      "path": "subpacks/Default/ui/non_xbl_user_management_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realmsPlus_sections/realmsPlus_view_packs_screen.json"
+      "path": "subpacks/Default/ui/npc_interact_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_allowlist.json"
+      "path": "subpacks/Default/ui/online_safety_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_common.json"
+      "path": "subpacks/Default/ui/pack_settings_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_create.json"
+      "path": "subpacks/Default/ui/panorama_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_invite_link_settings_screen.json"
+      "path": "subpacks/Default/ui/patch_notes_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_pending_invitations.json"
+      "path": "subpacks/Default/ui/pause_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_plus_ended_screen.json"
+      "path": "subpacks/Default/ui/pdp_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_settings_screen.json"
+      "path": "subpacks/Default/ui/pdp_screenshots_section.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_slots_screen.json"
+      "path": "subpacks/Default/ui/perf_turtle.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realms_stories_transition_screen.json"
+      "path": "subpacks/Default/ui/permissions_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/realmsplus_upgrade_notice_screen.json"
+      "path": "subpacks/Default/ui/persona_cast_character_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/redstone_screen.json"
+      "path": "subpacks/Default/ui/persona_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/resource_packs_screen.json"
+      "path": "subpacks/Default/ui/persona_popups.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/safe_zone_screen.json"
+      "path": "subpacks/Default/ui/persona_sdl.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/scoreboards.json"
+      "path": "subpacks/Default/ui/play_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/screenshot_screen.json"
+      "path": "subpacks/Default/ui/pocket_containers.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/select_world_screen.json"
+      "path": "subpacks/Default/ui/popup_dialog.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/server_form.json"
+      "path": "subpacks/Default/ui/portfolio_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/settings_screen.json"
+      "path": "subpacks/Default/ui/progress_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/settings_sections/controls_section.json"
+      "path": "subpacks/Default/ui/rating_prompt.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/settings_sections/general_section.json"
+      "path": "subpacks/Default/ui/realmsPlus_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/settings_sections/realms_world_section.json"
+      "path": "subpacks/Default/ui/realmsplus_upgrade_notice_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/settings_sections/settings_common.json"
+      "path": "subpacks/Default/ui/realms_allowlist.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/settings_sections/world_section.json"
+      "path": "subpacks/Default/ui/realms_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/sidebar_navigation.json"
+      "path": "subpacks/Default/ui/realms_create.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/sign_screen.json"
+      "path": "subpacks/Default/ui/realms_invite_link_settings_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/simple_inprogress_screen.json"
+      "path": "subpacks/Default/ui/realms_pending_invitations.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/skin_pack_purchase_screen.json"
+      "path": "subpacks/Default/ui/realms_plus_ended_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/skin_picker_screen.json"
+      "path": "subpacks/Default/ui/realms_settings_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/smithing_table_2_screen.json"
+      "path": "subpacks/Default/ui/realms_slots_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/smithing_table_2_screen_pocket.json"
+      "path": "subpacks/Default/ui/realms_stories_transition_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/smithing_table_screen.json"
+      "path": "subpacks/Default/ui/redstone_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/smithing_table_screen_pocket.json"
+      "path": "subpacks/Default/ui/resource_packs_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/smoker_screen.json"
+      "path": "subpacks/Default/ui/safe_zone_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/start_screen.json"
+      "path": "subpacks/Default/ui/scoreboards.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/stonecutter_screen.json"
+      "path": "subpacks/Default/ui/screenshot_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/stonecutter_screen_pocket.json"
+      "path": "subpacks/Default/ui/select_world_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/storage_management.json"
+      "path": "subpacks/Default/ui/server_form.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/storage_management_popup.json"
+      "path": "subpacks/Default/ui/settings_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/storage_migration_common.json"
+      "path": "subpacks/Default/ui/sidebar_navigation.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/storage_migration_generic_screen.json"
+      "path": "subpacks/Default/ui/sign_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_common.json"
+      "path": "subpacks/Default/ui/simple_inprogress_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_data_driven_screen.json"
+      "path": "subpacks/Default/ui/skin_pack_purchase_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_filter_menu_screen.json"
+      "path": "subpacks/Default/ui/skin_picker_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_inventory_screen.json"
+      "path": "subpacks/Default/ui/smithing_table_2_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_item_list_screen.json"
+      "path": "subpacks/Default/ui/smithing_table_2_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_progress_screen.json"
+      "path": "subpacks/Default/ui/smithing_table_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_promo_timeline_screen.json"
+      "path": "subpacks/Default/ui/smithing_table_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_sales_item_list_screen.json"
+      "path": "subpacks/Default/ui/smoker_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_search_screen.json"
+      "path": "subpacks/Default/ui/start_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/store_sort_menu_screen.json"
+      "path": "subpacks/Default/ui/stonecutter_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/structure_editor_screen.json"
+      "path": "subpacks/Default/ui/stonecutter_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/submit_feedback_screen.json"
+      "path": "subpacks/Default/ui/storage_management.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/tabbed_upsell_screen.json"
+      "path": "subpacks/Default/ui/storage_management_popup.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/test_anims_screen.json"
+      "path": "subpacks/Default/ui/storage_migration_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/thanks_for_testing_screen.json"
+      "path": "subpacks/Default/ui/storage_migration_generic_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/third_party_store_screen.json"
+      "path": "subpacks/Default/ui/store_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/toast_screen.json"
+      "path": "subpacks/Default/ui/store_data_driven_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/token_faq_screen.json"
+      "path": "subpacks/Default/ui/store_filter_menu_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/trade_2_screen.json"
+      "path": "subpacks/Default/ui/store_inventory_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/trade_2_screen_pocket.json"
+      "path": "subpacks/Default/ui/store_item_list_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/trade_screen.json"
+      "path": "subpacks/Default/ui/store_progress_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/trade_screen_pocket.json"
+      "path": "subpacks/Default/ui/store_promo_timeline_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/trial_upsell_screen.json"
+      "path": "subpacks/Default/ui/store_sales_item_list_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ugc_viewer_screen.json"
+      "path": "subpacks/Default/ui/store_search_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_art_assets_common.json"
+      "path": "subpacks/Default/ui/store_sort_menu_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_common.json"
+      "path": "subpacks/Default/ui/structure_editor_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_common_classic.json"
+      "path": "subpacks/Default/ui/submit_feedback_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_edu_common.json"
+      "path": "subpacks/Default/ui/tabbed_upsell_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_friendsbutton.json"
+      "path": "subpacks/Default/ui/test_anims_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_holo_cursor.json"
+      "path": "subpacks/Default/ui/thanks_for_testing_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_iconbutton.json"
+      "path": "subpacks/Default/ui/third_party_store_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_purchase_common.json"
+      "path": "subpacks/Default/ui/toast_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_template_buttons.json"
+      "path": "subpacks/Default/ui/token_faq_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_template_dialogs.json"
+      "path": "subpacks/Default/ui/trade_2_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_template_tabs.json"
+      "path": "subpacks/Default/ui/trade_2_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/ui_template_toggles.json"
+      "path": "subpacks/Default/ui/trade_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/update_dimensions.json"
+      "path": "subpacks/Default/ui/trade_screen_pocket.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/update_version.json"
+      "path": "subpacks/Default/ui/trial_upsell_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/win10_trial_conversion_screen.json"
+      "path": "subpacks/Default/ui/ugc_viewer_screen.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/world_conversion_complete_screen.json"
+      "path": "subpacks/Default/ui/ui_art_assets_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/world_recovery_screen.json"
+      "path": "subpacks/Default/ui/ui_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/world_templates_screen.json"
+      "path": "subpacks/Default/ui/ui_common_classic.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/xbl_console_qr_signin.json"
+      "path": "subpacks/Default/ui/ui_edu_common.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/xbl_console_signin.json"
+      "path": "subpacks/Default/ui/ui_friendsbutton.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/xbl_console_signin_succeeded.json"
+      "path": "subpacks/Default/ui/ui_holo_cursor.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/xbl_immediate_signin.json"
+      "path": "subpacks/Default/ui/ui_iconbutton.json"
     },
     {
-      "path": "subpacks/PlaypenSans/ui/xbl_optional_signin.json"
+      "path": "subpacks/Default/ui/ui_purchase_common.json"
+    },
+    {
+      "path": "subpacks/Default/ui/ui_template_buttons.json"
+    },
+    {
+      "path": "subpacks/Default/ui/ui_template_dialogs.json"
+    },
+    {
+      "path": "subpacks/Default/ui/ui_template_tabs.json"
+    },
+    {
+      "path": "subpacks/Default/ui/ui_template_toggles.json"
+    },
+    {
+      "path": "subpacks/Default/ui/update_dimensions.json"
+    },
+    {
+      "path": "subpacks/Default/ui/update_version.json"
+    },
+    {
+      "path": "subpacks/Default/ui/win10_trial_conversion_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/world_conversion_complete_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/world_recovery_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/world_templates_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/xbl_console_qr_signin.json"
+    },
+    {
+      "path": "subpacks/Default/ui/xbl_console_signin.json"
+    },
+    {
+      "path": "subpacks/Default/ui/xbl_console_signin_succeeded.json"
+    },
+    {
+      "path": "subpacks/Default/ui/xbl_immediate_signin.json"
+    },
+    {
+      "path": "subpacks/Default/ui/_global_variables.json"
+    },
+    {
+      "path": "subpacks/Default/ui/_ui_defs.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/content_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_banner.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_buy_now_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_common.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_purchase_amazondevicewarning_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_purchase_warning_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_subscription_panel.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_upsell_dialog.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_view_packs_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/csb_welcome_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/faq_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/csb_sections/landing_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/marketplace_sdl/sdl_dropdowns.json"
+    },
+    {
+      "path": "subpacks/Default/ui/marketplace_sdl/sdl_image_row.json"
+    },
+    {
+      "path": "subpacks/Default/ui/marketplace_sdl/sdl_label.json"
+    },
+    {
+      "path": "subpacks/Default/ui/marketplace_sdl/sdl_text_row.json"
+    },
+    {
+      "path": "subpacks/Default/ui/realmsPlus_sections/content_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/realmsPlus_sections/faq_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/realmsPlus_sections/landing_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/realmsPlus_sections/realmsPlus_buy_now_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/realmsPlus_sections/realmsPlus_purchase_warning_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/realmsPlus_sections/realmsPlus_view_packs_screen.json"
+    },
+    {
+      "path": "subpacks/Default/ui/settings_sections/controls_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/settings_sections/general_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/settings_sections/realms_world_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/settings_sections/settings_common.json"
+    },
+    {
+      "path": "subpacks/Default/ui/settings_sections/social_section.json"
+    },
+    {
+      "path": "subpacks/Default/ui/settings_sections/world_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/font/default8.png"
+    },
+    {
+      "path": "subpacks/Playpens/font/font_metadata.json"
+    },
+    {
+      "path": "subpacks/Playpens/font/glyph_00.png"
+    },
+    {
+      "path": "subpacks/Playpens/font/glyph_01.png"
+    },
+    {
+      "path": "subpacks/Playpens/font/glyph_02.png"
+    },
+    {
+      "path": "subpacks/Playpens/font/glyph_0E.png"
+    },
+    {
+      "path": "subpacks/Playpens/font/glyph_1E.png"
+    },
+    {
+      "path": "subpacks/Playpens/font/Minecraft-TenTH.ttf"
+    },
+    {
+      "path": "subpacks/Playpens/font/PlaypenSansThai-SemiBold.ttf"
+    },
+    {
+      "path": "subpacks/Playpens/ui/achievement_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/add_external_server_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/adhoc_inprogess_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/adhoc_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/anvil_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/anvil_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/authentication_modals.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/authentication_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/auto_save_info_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/beacon_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/beacon_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/blast_furnace_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/book_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/brewing_stand_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/brewing_stand_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/bundle_purchase_warning_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/cartography_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/cartography_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/chalkboard_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/chat_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/chat_settings_menu_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/chest_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/choose_realm_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/cloud_upload_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/coin_purchase_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/command_block_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/confirm_delete_account_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/content_log.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/content_log_history_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/crafter_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/create_world_upsell_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/credits_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_purchase_error_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/custom_templates_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/day_one_experience_intro_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/day_one_experience_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/death_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/debug_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/dev_console_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/disconnect_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/display_logged_error_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/edu_discovery_dialog.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/edu_featured.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/edu_pause_screen_pause_button.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/emote_wheel_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/enchanting_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/enchanting_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/encyclopedia_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/expanded_skin_pack_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/feed_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/file_upload_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/furnace_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/furnace_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/gamepad_disconnected.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/gamepad_layout_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/gameplay_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/game_tip_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/gamma_calibration_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/gathering_info_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/global_pause_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/grindstone_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/grindstone_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/holographic_postrender_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/horse_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/horse_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/host_options_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/how_to_play_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/how_to_play_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/hud_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/immersive_reader.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/inventory_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/inventory_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/invite_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/in_bed_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/jigsaw_editor_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/late_join_pregame_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/library_modal_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/local_world_picker_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/loom_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/loom_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/manage_feed_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/manifest_validation_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/mob_effect_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/non_xbl_user_management_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/npc_interact_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/online_safety_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/pack_settings_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/panorama_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/patch_notes_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/pause_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/pdp_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/pdp_screenshots_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/perf_turtle.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/permissions_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/persona_cast_character_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/persona_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/persona_popups.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/persona_sdl.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/play_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/pocket_containers.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/popup_dialog.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/portfolio_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/progress_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/rating_prompt.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realmsPlus_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realmsplus_upgrade_notice_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_allowlist.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_create.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_invite_link_settings_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_pending_invitations.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_plus_ended_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_settings_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_slots_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realms_stories_transition_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/redstone_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/resource_packs_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/safe_zone_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/scoreboards.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/screenshot_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/select_world_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/server_form.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/settings_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/sidebar_navigation.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/sign_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/simple_inprogress_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/skin_pack_purchase_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/skin_picker_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/smithing_table_2_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/smithing_table_2_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/smithing_table_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/smithing_table_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/smoker_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/start_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/stonecutter_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/stonecutter_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/storage_management.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/storage_management_popup.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/storage_migration_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/storage_migration_generic_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_data_driven_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_filter_menu_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_inventory_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_item_list_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_progress_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_promo_timeline_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_sales_item_list_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_search_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/store_sort_menu_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/structure_editor_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/submit_feedback_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/tabbed_upsell_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/test_anims_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/thanks_for_testing_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/third_party_store_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/toast_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/token_faq_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/trade_2_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/trade_2_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/trade_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/trade_screen_pocket.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/trial_upsell_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ugc_viewer_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_art_assets_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_common_classic.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_edu_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_friendsbutton.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_holo_cursor.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_iconbutton.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_purchase_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_template_buttons.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_template_dialogs.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_template_tabs.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/ui_template_toggles.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/update_dimensions.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/update_version.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/win10_trial_conversion_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/world_conversion_complete_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/world_recovery_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/world_templates_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/xbl_console_qr_signin.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/xbl_console_signin.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/xbl_console_signin_succeeded.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/xbl_immediate_signin.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/_global_variables.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/_ui_defs.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/content_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_banner.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_buy_now_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_purchase_amazondevicewarning_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_purchase_warning_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_subscription_panel.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_upsell_dialog.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_view_packs_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/csb_welcome_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/faq_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/csb_sections/landing_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/marketplace_sdl/sdl_dropdowns.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/marketplace_sdl/sdl_image_row.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/marketplace_sdl/sdl_label.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/marketplace_sdl/sdl_text_row.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realmsPlus_sections/content_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realmsPlus_sections/faq_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realmsPlus_sections/landing_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realmsPlus_sections/realmsPlus_buy_now_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realmsPlus_sections/realmsPlus_purchase_warning_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/realmsPlus_sections/realmsPlus_view_packs_screen.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/settings_sections/controls_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/settings_sections/general_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/settings_sections/realms_world_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/settings_sections/settings_common.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/settings_sections/social_section.json"
+    },
+    {
+      "path": "subpacks/Playpens/ui/settings_sections/world_section.json"
     },
     {
       "path": "texts/en_GB.lang"
     },
     {
+      "path": "texts/languages.json"
+    },
+    {
       "path": "texts/language_names.json"
     },
     {
-      "path": "texts/languages.json"
+      "path": "textures/textures_list.json"
+    },
+    {
+      "path": "textures/ui/titleTH.json"
+    },
+    {
+      "path": "textures/ui/titleTH.png"
     }
   ],
   "version": 1

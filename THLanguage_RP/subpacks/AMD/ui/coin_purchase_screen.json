@@ -36,10 +36,11 @@
             {
               "coins_without_bonus": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "layer": 3,
                 "offset": [ 0, 1 ],
                 "text": "$coin_text_binding",
+                "font_type": "iannnnnAMD",
+                
                 "color": "$store_white_text_color",
                 "tts_override_control_value": "$accesibility_binding",
                 "bindings": [
@@ -92,7 +93,7 @@
             {
               "coins_without_bonus": {
                 "type": "label",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "layer": 3,
                 "offset": [ 0, 1 ],
                 "text": "#coins_without_bonus",
@@ -181,28 +182,17 @@
         "call_out_background": {
           "type": "image",
           "size": [ "100% + 4px", "100%" ],
-          "layer": 1,
+          "layer": -8,
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
           "texture": "textures/ui/cointier_backdrop",
           "controls": [
             {
-              "bevel": {
+              "call_out_border": {
                 "type": "image",
                 "size": [ "100% + 2px", "100% + 6px" ],
                 "offset": [ 0, -3 ],
-                "layer": 2,
-                "anchor_from": "top_middle",
-                "anchor_to": "top_middle",
-                "texture": "textures/ui/coin_bevel"
-              }
-            },
-            {
-              "call_out_border": {
-                "type": "image",
-                "size": [ "100% + 2px", "100% + 5px" ],
-                "offset": [ 0, -3 ],
-                "layer": 3,
+                "layer": 10,
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "texture": "textures/ui/focus_border_white",
@@ -265,7 +255,7 @@
           "layer": 2,
           "color": "$coin_header_text_color",
           "text_alignment": "center",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text": "#call_out_text",
           "bindings": [
             {
@@ -379,10 +369,10 @@
             {
               "plus_label": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "size": [ "default", 10 ],
                 "layer": 1,
                 "text": "+",
+                "font_type": "iannnnnAMD",
                 "color": "$store_white_text_color"
               }
             }
@@ -442,9 +432,9 @@
             {
               "bonus_label": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "size": [ "default", "100%" ],
                 "text": "store.coin.bonus",
+                "font_type": "iannnnnAMD",
                 "color": "$store_white_text_color",
                 "layer": 6
               }
@@ -501,8 +491,8 @@
             {
               "currency_price_panel": {
                 "type": "image",
-                "offset": [ 0, 4 ],
-                "size": [ "100% + 8px", 14 ],
+                "offset": [ 0, 4.5 ],
+                "size": [ "100% + 8px", 15 ],
                 "layer": -4,
                 "texture": "textures/ui/bonus_banner",
                 "color": "$coin_color",
@@ -626,10 +616,10 @@
             {
               "plus_label": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "size": [ "default", 10 ],
                 "layer": 2,
                 "text": "+",
+                "font_type": "iannnnnAMD",
                 "color": "$store_white_text_color"
               }
             }
@@ -689,9 +679,9 @@
             {
               "bonus_label": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "size": [ "default", "100%" ],
                 "text": "store.coin.bonus",
+                "font_type": "iannnnnAMD",
                 "layer": 2,
                 "color": "$store_white_text_color", // Sadly the unit test doesn't detect bindings so we have to put this here even through we will overwrite it or we won't pass the builds :'(
                 "bindings": [
@@ -770,9 +760,9 @@
                   {
                     "bonus_coins": {
                       "type": "label",
-                      "font_type":"iannnnn",
                       "layer": 1,
                       "text": "#bonus_coins",
+                      "font_type": "iannnnnAMD",
                       "size": [ "default", 10 ],
                       "color": "$store_white_text_color", // Sadly the unit test doesn't detect bindings so we have to put this here even through we will overwrite it or we won't pass the builds :'(
                       "tts_override_control_value": "#accessibility_bonus_coins",
@@ -827,9 +817,9 @@
             {
               "currency_price_panel": {
                 "type": "image",
-                "offset": [ 0, 3 ],
-                "layer": 2,
-                "size": [ "100% + 9px", 14 ],
+                "offset": [ 0, 3.5 ],
+                "layer": -4,
+                "size": [ "100% + 9px", 15 ],
                 "texture": "textures/ui/bonus_banner",
                 "color": "$coin_color",
                 "bindings": [
@@ -881,7 +871,7 @@
     "text": "#price_text",
     "layer": 5,
     "text_alignment": "center",
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_type": "$store_factory_collection_details",
@@ -995,7 +985,6 @@
 
   "not_enough_coins": {
     "type": "label",
-    "font_type":"iannnnn",
     "size": [ "100%", "default" ],
     "color": "$store_white_text_color",
     "anchor_from": "top_middle",
@@ -1003,6 +992,7 @@
     "text_alignment": "center",
     "layer": 3,
     "text": "#coins_text",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#coins_required_for_purchase",
@@ -1110,7 +1100,13 @@
             },
             {
               "binding_name": "#has_coin_offers",
-              "binding_name_override": "#visible"
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "$store_factory_collection_details",
+              "binding_collection_name": "$store_factory_collection_name",
+              "binding_collection_prefix": "$store_factory_collection_prefix"
             }
           ]
         }
@@ -1145,7 +1141,13 @@
           "bindings": [
             {
               "binding_name": "(not #coin_loading_visible)",
-              "binding_name_override": "#visible"
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "$store_factory_collection_details",
+              "binding_collection_name": "$store_factory_collection_name",
+              "binding_collection_prefix": "$store_factory_collection_prefix"
             }
           ]
         }
@@ -1158,7 +1160,13 @@
           "bindings": [
             {
               "binding_name": "#coin_loading_visible",
-              "binding_name_override": "#visible"
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "$store_factory_collection_details",
+              "binding_collection_name": "$store_factory_collection_name",
+              "binding_collection_prefix": "$store_factory_collection_prefix"
             }
           ]
         }
@@ -1169,7 +1177,13 @@
           "bindings": [
             {
               "binding_name": "#coin_loading_visible",
-              "binding_name_override": "#visible"
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "$store_factory_collection_details",
+              "binding_collection_name": "$store_factory_collection_name",
+              "binding_collection_prefix": "$store_factory_collection_prefix"
             }
           ]
         }
@@ -1177,14 +1191,20 @@
       {
         "no_offers_panel": {
           "type": "label",
-          "font_type":"iannnnn",
           "size": [ "100%", "100%" ],
           "text": "store.minecoin.notavailable",
+          "font_type": "iannnnnAMD",
           "color": "$generic_button_text_color",
           "bindings": [
             {
               "binding_name": "(not #has_coin_offers)",
-              "binding_name_override": "#visible"
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "$store_factory_collection_details",
+              "binding_collection_name": "$store_factory_collection_name",
+              "binding_collection_prefix": "$store_factory_collection_prefix"
             }
           ]
         }
@@ -1293,7 +1313,7 @@
                     "title_label": {
                       "type": "label",
                       "size": [ "100%", 10 ],
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "layer": 1,
                       "text": "#coin_bundle_title",
                       "color": "$store_white_text_color",
@@ -1674,7 +1694,13 @@
           "bindings": [
             {
               "binding_name": "#coin_loading_visible",
-              "binding_name_override": "#visible"
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "$store_factory_collection_details",
+              "binding_collection_name": "$store_factory_collection_name",
+              "binding_collection_prefix": "$store_factory_collection_prefix"
             }
           ]
         }
@@ -1687,7 +1713,13 @@
           "bindings": [
             {
               "binding_name": "#coin_loading_visible",
-              "binding_name_override": "#visible"
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "$store_factory_collection_details",
+              "binding_collection_name": "$store_factory_collection_name",
+              "binding_collection_prefix": "$store_factory_collection_prefix"
             }
           ]
         }
@@ -1698,7 +1730,13 @@
           "bindings": [
             {
               "binding_name": "(not #coin_loading_visible)",
-              "binding_name_override": "#visible"
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "$store_factory_collection_details",
+              "binding_collection_name": "$store_factory_collection_name",
+              "binding_collection_prefix": "$store_factory_collection_prefix"
             }
           ]
         }

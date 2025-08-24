@@ -192,11 +192,12 @@
         "text": {
           "type": "label",
           "color": "$chat_text_color",
+          "enable_profanity_filter": true,
           "localize": false,
           "size": [ "100%", "default" ],
           "text": "#text",
           "text_tts": "#text_tts",
-          "font_type": "$chat_font_type",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": "$chat_font_scale_factor",
           "line_padding": "$chat_line_spacing"
         }
@@ -453,12 +454,13 @@
       {
         "text": {
           "type": "label",
+          "font_type": "iannnnnAMD",
           "color": "$chat_text_color",
+          "enable_profanity_filter": true,
           "offset": [ 2, 0 ],
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
           "text": "#text",
-          "font_type":"iannnnn",
           "localize": false,
           "bindings": [
             {
@@ -585,9 +587,9 @@
       {
         "title_panel": {
           "type": "label",
+          "font_type": "iannnnnAMD",
           "size": [ "default", 10 ],
           "text": "#text",
-          "font_type":"iannnnn",
           "offset": [ 0, -1 ],
           "color": "$title_text_color",
           "layer": 2,
@@ -693,7 +695,7 @@
     "$dropdown_content": "chat.coordinate_dropdown_content"
   },
 
-  "popup_toast@persona.popup": {
+  "popup_toast@persona_popups.popup_common": {
     "layer": 100,
     "$display_time": 0.75,
     "$transition_in_time": 0.15,
@@ -703,11 +705,10 @@
     "$toast_text_alignment": "center",
     "$toast_anchor_from": "center",
     "$toast_anchor_to": "center",
-    "$toast_font_type": "smooth",
+    "$toast_font_type": "iannnnnAMD",
     "$offset_anims": [],
     "$alpha_anims": []
   },
-
 
   "copy_coordinate_button@chat.small_button": {
     "$button_content": "chat.copy_image",
@@ -806,7 +807,7 @@
                                   "type": "label",
                                   "size": [ "default", 10 ],
                                   "text": "#text",
-                                  "font_type":"iannnnn",
+                                  "font_type": "iannnnnAMD",
                                   "color": "$main_header_text_color",
                                   "layer": 2,
                                   "bindings": [

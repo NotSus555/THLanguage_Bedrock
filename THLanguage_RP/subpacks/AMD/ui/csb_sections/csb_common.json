@@ -39,7 +39,7 @@
           "anchor_to": "left_middle",
           "offset": [ 18, 0 ],
           "text": "#item_realms_expiration_label",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "layer": 6,
           "bindings": [
             {

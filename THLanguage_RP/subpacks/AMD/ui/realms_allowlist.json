@@ -340,7 +340,7 @@
           "color": "$main_header_text_color",
           "offset": [ 1, -1 ],
           "text": "realmsInvitationScreen.invitedPlayers",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "font_size": "normal",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
@@ -369,7 +369,7 @@
           "color": "$main_header_text_color",
           "offset": [ 1, -1 ],
           "text": "realmsInvitationScreen.playerFilterTitle",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "font_size": "normal",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
@@ -392,7 +392,7 @@
           "color": "$main_header_text_color",
           "offset": [ 1, -1 ],
           "text": "realmsInvitationScreen.members",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "font_size": "normal",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
@@ -411,7 +411,7 @@
           "color": "$main_header_text_color",
           "offset": [ 1, -1 ],
           "text": "#member_loading_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "font_size": "normal",
           "anchor_from": "bottom_right",
           "anchor_to": "bottom_right",
@@ -446,7 +446,7 @@
           "offset": [ 1, -1 ],
           "color": "$main_header_text_color",
           "text": "realmsInvitationScreen.blocked",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "font_size": "normal",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
@@ -475,7 +475,7 @@
           "color": "$main_header_text_color",
           "offset": [ 1, -1 ],
           "text": "realmsInvitationScreen.friends",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "font_size": "normal",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
@@ -494,7 +494,6 @@
 
   "no_invites_label@realms_allowlist.panel_text": {
     "text": "realmsInvitationScreen.noInvites",
-    "font_type":"iannnnn",
     "size": [ "100%", 20 ],
     "font_size": "normal",
     "anchor_from": "center",
@@ -510,7 +509,6 @@
 
   "loading_friends@realms_allowlist.panel_text": {
     "text": "realmsInvitationScreen.loadingFriends",
-    "font_type":"iannnnn",
     "size": [ "100%", 20 ],
     "font_size": "normal",
     "anchor_from": "center",
@@ -1046,6 +1044,7 @@
 
   "panel_text": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$dark_grid_item_text_color",
     "shadow": false,
     "layer": 5,
@@ -1056,7 +1055,6 @@
   "gamertag_label@realms_allowlist.panel_text": {
     "offset": [ 1, 1 ],
     "text": "#gamertag",
-    "font_type":"iannnnn",
     "font_size": "normal",
     "anchor_to": "top_left",
     "anchor_from": "top_left",
@@ -1072,7 +1070,6 @@
   "third_party_profile_name_label@realms_allowlist.panel_text": {
     "offset": [ 1, 1 ],
     "text": "#third_party_profile_name",
-    "font_type":"iannnnn",
     "font_size": "normal",
     "anchor_to": "top_left",
     "anchor_from": "top_left",
@@ -1088,7 +1085,6 @@
   "real_name_label@realms_allowlist.panel_text": {
     "offset": [ 1, "100%" ],
     "text": "#real_name",
-    "font_type":"iannnnn",
     "font_size": "normal",
     "anchor_to": "bottom_left",
     "anchor_from": "bottom_left",
@@ -1321,7 +1317,7 @@
     "anchor_from": "center",
     "anchor_to": "center",
     "text": "realmsInvitationScreen.unblock",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "text_alignment": "center",
     "size": [ "100%", 15 ],
     "offset": [ 0, 2 ]
@@ -1532,7 +1528,7 @@
         "page_text": {
           "type": "label",
           "text": "$this_page_index_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$sub_header_text_color",
           "anchor_from": "center",
           "anchor_to": "center",

@@ -535,12 +535,12 @@
       {
         "button_label": {
           "type": "label",
-          "font_type":"iannnnn",
           "size": [ "100%", "default" ],
           "layer": 5,
           "color": "$text_color",
           "text_alignment": "center",
           "text": "$button_text_binding_name",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_type": "collection",

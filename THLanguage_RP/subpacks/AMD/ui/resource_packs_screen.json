@@ -109,12 +109,12 @@
       {
         "tab_button_text": {
           "type": "label",
-          "font_type":"iannnnn",
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
           "max_size": [ "100% - 34px", "100%" ],
           "offset": [ 34, 0 ],
           "text": "$button_text",
+          "font_type": "iannnnnAMD",
           "layer": 3,
           "color": "$text_color",
           "alpha": "$content_alpha"
@@ -180,21 +180,21 @@
     "size": [ "default", 10 ],
     "max_size": [ "100%", 10 ],
     "text": "$button.remove",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
 
   "plus_text@resource_packs.gray_label": {
     "size": [ "default", 10 ],
     "max_size": [ "100%", 10 ],
     "text": "$button.add",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
 
   "store_text@resource_packs.gray_label": {
     "size": [ "default", 10 ],
     "max_size": [ "100%", 10 ],
     "text": "$view_in_store",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
 
   "error_image": {
@@ -785,7 +785,7 @@
                       "size": [ "default", "100%" ],
                       "max_size": [ "50%", "100%" ],
                       "text": "$warnings_text",
-                      "font_type":"MinecraftTen",
+                      "font_type": "MinecraftTen",
                       "font_scale_factor": 0.8,
                       "color": "$warning_text_color"
                     }
@@ -795,7 +795,7 @@
                       "size": [ "default", "100%" ],
                       "max_size": [ "50%", "100%" ],
                       "text": "#num_warnings",
-                      "font_type":"MinecraftTen",
+                      "font_type": "MinecraftTen",
                       "font_scale_factor": 0.8,
                       "color": "$main_header_text_color",
                       "bindings": [
@@ -829,7 +829,7 @@
                       "size": [ "default", "100%" ],
                       "max_size": [ "50%", "100%" ],
                       "text": "$errors_text",
-                      "font_type":"MinecraftTen",
+                      "font_type": "MinecraftTen",
                       "font_scale_factor": 0.8,
                       "color": "$error_text_color"
                     }
@@ -839,7 +839,7 @@
                       "size": [ "default", "100%" ],
                       "max_size": [ "50%", "100%" ],
                       "text": "#num_errors",
-                      "font_type":"MinecraftTen",
+                      "font_type": "MinecraftTen",
                       "font_scale_factor": 0.8,
                       "color": "$main_header_text_color",
                       "bindings": [
@@ -871,7 +871,7 @@
                     "expired_text@common.minecraftTenLabel": {
                       "size": [ "100%", "100%" ],
                       "text": "$expired_text",
-                      "font_type":"MinecraftTen",
+                      "font_type": "MinecraftTen",
                       "font_scale_factor": 0.8,
                       "color": "$realms_text_color"
                     }
@@ -938,7 +938,7 @@
                       "size": [ "default", "default" ],
                       "max_size": [ "50%", "default" ],
                       "text": "$errors_text",
-                      "font_type":"MinecraftTen",
+                      "font_type": "MinecraftTen",
                       "font_scale_factor": 0.8,
                       "color": "$error_text_color"
                     }
@@ -948,7 +948,7 @@
                       "size": [ "default", "default" ],
                       "max_size": [ "50%", "default" ],
                       "text": "#num_errors",
-                      "font_type":"MinecraftTen",
+                      "font_type": "MinecraftTen",
                       "font_scale_factor": 0.8,
                       "bindings": [
                         {
@@ -2383,19 +2383,18 @@
 
   "white_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$main_header_text_color"
   }, //white text, no edit
 
   "gray_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$dark_button_secondary_default_text_color"
   }, //grey text,
 
   "suggested_content_offers_title_label@resource_packs.white_label": {
     "text": "$suggested_content_offers_label_text",
-    "font_type":"iannnnn",
     "$suggested_content_offers_binding_type|default": "global",
     "bindings": [
       {
@@ -2407,7 +2406,7 @@
 
   "available_packs_title_content@resource_packs.selected_packs_title_content": {
     "$title_text": "$available_label_text",
-    "$icon_texture": "textures/items/book_normal",
+    "$icon_texture": "textures/ui/sidebar_icons/my_content",
     "$count_name": "#available_count",
     "$name_collection_name": "$available_pack_items",
     "$grid_visible": "#available_grid_visible"
@@ -2429,7 +2428,7 @@
 
   "unowned_packs_title_content@resource_packs.selected_packs_title_content": {
     "$title_text": "$unowned_label_text",
-    "$icon_texture": "textures/blocks/grass_side_carried",
+    "$icon_texture": "textures/ui/sidebar_icons/marketplace",
     "$count_name": "#unowned_count",
     "$name_collection_name": "$unowned_pack_items",
     "$grid_visible": "#unowned_grid_visible"
@@ -2440,7 +2439,7 @@
     "orientation": "horizontal",
     "size": [ "100% - 6px", 15 ],
     "$title_text|default": "$selected_label_text",
-    "$icon_texture|default": "textures/blocks/grass_side_carried",
+    "$icon_texture|default": "textures/ui/player_online_icon",
     "$count_name|default": "#selected_count",
     "$name_collection_name|default": "$selected_pack_items",
     "$grid_visible|default": "#selected_grid_visible",
@@ -2450,7 +2449,7 @@
           "size": [ "default", 10 ],
           "max_size": [ "50%", 10 ],
           "text": "$title_text",
-          "font_type":"MinecraftTen",
+          "font_type": "MinecraftTen",
           "color": "$text_color"
         }
       },
@@ -2486,7 +2485,7 @@
           "size": [ "default", 10 ],
           "max_size": [ "50%", 10 ],
           "text": "$count_name",
-          "font_type":"MinecraftTen",
+          "font_type": "MinecraftTen",
           "color": "$text_color",
           "bindings": [
             {
@@ -2580,24 +2579,24 @@
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "text": "#name",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   }, //pack name text,
 
   "size_label@resource_packs.white_label": {
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "text": "#size",
-    "font_type": "smooth"
+    "font_type": "iannnnnAMD"
   }, //pack size text,
 
   "description_label@resource_packs.white_label": {
     "text": "$bottom_description_text",
-    "font_type": "smooth"
+    "font_type": "iannnnnAMD"
   }, //white text for description, no edit
 
   "pack_label@resource_packs.white_label": {
     "text": "#description",
-    "font_type": "smooth"
+    "font_type": "iannnnnAMD"
   }, //grey text for description,
 
   "selected_pack_description_label@resource_packs.pack_label": {
@@ -2770,7 +2769,7 @@
                     "label@resource_packs.description_label": {
                       "size": [ "100%-6px", "default" ],
                       "text": "$header_text",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "anchor_from": "center",
                       "anchor_to": "center"
                     }
@@ -2811,8 +2810,8 @@
                   {
                     "label": {
                       "type": "label",
-                      "font_type":"iannnnn",
                       "text": "resourcePack.warning.multiple.addon",
+                      "font_type": "iannnnnAMD",
                       "color": "$black_color"
                     }
                   }
@@ -2837,7 +2836,7 @@
                       "offset": [ 0, 1 ],
                       "$single_label_size": [ "default", "default" ],
                       "$single_line_font_scale_factor": 1.0,
-                      "$font_type": "default",
+                      "$font_type": "iannnnnAMD",
                       "$dark_button_default_text_color": "$black_color",
                       "$underline_default_color": "$black_color",
                       "$single_line_label_text": "resourcePack.warning.multiple.addon.link"
@@ -2906,10 +2905,10 @@
                         {
                           "error_label": {
                             "type": "label",
-                            "font_type":"iannnnn",
                             "color": "$light_grid_item_text_color",
                             "size": [ "100%", "default" ],
                             "text": "$in_game_error_text",
+                            "font_type": "iannnnnAMD",
                             "anchor_from": "top_left",
                             "anchor_to": "top_left",
                             "layer": 3
@@ -2947,7 +2946,7 @@
           "controls": [
             {
               "option_info_label@settings_common.option_info_label": {
-                "$used_fonttype": "smooth",
+                "$used_fonttype": "iannnnnAMD",
                 "$container_text_binding_name": "#world_template_option_locked_warning_text",
                 "$show_option_label": false
               }
@@ -3168,7 +3167,7 @@
                             "anchor_from": "top_left",
                             "anchor_to": "top_left",
                             "text": "$default_item_title",
-                            "font_type":"iannnnn",
+                            "font_type": "iannnnnAMD",
                             "layer": 1
                           }
                         }
@@ -3189,7 +3188,7 @@
                             "layer": 1,
                             "size": [ "100%-2px", "100%" ],
                             "text": "$default_item_description",
-                            "font_type": "smooth",
+                            "font_type": "iannnnnAMD",
                             "offset": [ 1, 0 ]
                           }
                         }
@@ -3360,7 +3359,7 @@
                             "size": [ "default", 10 ],
                             "max_size": [ "100%", 10 ],
                             "text": "$no_packs_text",
-                            "font": "MinecraftTen",
+                            "font_type": "MinecraftTen",
                             "color": "$main_header_text_color"
                           }
                         }

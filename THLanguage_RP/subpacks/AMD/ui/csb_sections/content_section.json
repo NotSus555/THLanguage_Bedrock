@@ -216,7 +216,7 @@
                 "color": "$body_text_color",
                 "text": "$pack_type_description_text",
                 "font_scale_factor": 0.75,
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "layer": 2
               }
             },
@@ -297,7 +297,7 @@
     "type": "label",
     "size": [ "100% - 4%", "default" ],
     "text": "store.csb.content.popularPacks",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$light_button_default_text_color"
   },
 
@@ -400,15 +400,6 @@
                     "binding_name": "#key_art_texture_path",
                     "binding_name_override": "#texture"
                   }
-                ],
-                "controls": [
-                  {
-                    "chevron@csb_content.csb_content_chevron": {
-                      "anchor_from": "bottom_left",
-                      "anchor_to": "bottom_left",
-                      "offset": [ 0, 0.5 ]
-                    }
-                  }
                 ]
               }
             },
@@ -466,12 +457,5 @@
         }
       }
     ]
-  },
-
-  "csb_content_chevron": {
-    "size": [ 25, 19 ],
-    "type": "image",
-    "texture": "textures/ui/csbChevronArrowLarge",
-    "layer": 1
   }
 }

@@ -39,7 +39,7 @@
                             "color": "$title_text_color",
                             "shadow": false,
                             "text": "gamepad_disconnect",
-                            "font_type":"iannnnn"
+                            "font_type": "iannnnnAMD"
                           }
                         },
                         {
@@ -55,7 +55,7 @@
                             "color": "$body_text_color",
                             "size": [ "100%", "default" ],
                             "text": "gamepad_disconnect.reconnectController",
-                            "font_type":"iannnnn"
+                            "font_type": "iannnnnAMD"
                           }
                         }
                       ]

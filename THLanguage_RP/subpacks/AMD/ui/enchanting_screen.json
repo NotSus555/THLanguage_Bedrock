@@ -138,7 +138,6 @@
 
   "enchant_cost": {
     "type": "label",
-    "font_type":"iannnnn",
     "color": "$enchanting_cost_success_color",
     "shadow": true,
     "offset": [ -2, -2 ],
@@ -146,6 +145,7 @@
     "anchor_from": "bottom_right",
     "anchor_to": "bottom_right",
     "text": "#cost",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#cost",
@@ -173,13 +173,14 @@
 
   "enchanting_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "layer": 2,
     "offset": [ 12, -4 ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "text": "$container_title",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color",
-    "layer": 2
+    "localize": "$localize_title"
   },
 
   "base_button@common.button": {

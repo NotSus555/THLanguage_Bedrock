@@ -3,7 +3,7 @@
 
   "generic_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$body_text_color",
     "anchor_from": "center",
     "anchor_to": "center",
@@ -387,7 +387,7 @@
           "anchor_from": "bottom_middle",
           "anchor_to": "bottom_middle",
           "text": "#text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#enchant_hint",
@@ -447,7 +447,7 @@
       {
         "level_label@enchanting_pocket.generic_label": {
           "text": "#text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "anchor_from": "bottom_middle",
           "anchor_to": "bottom_middle",
           "bindings": [
@@ -556,11 +556,12 @@
           "controls": [
             {
               "title_label@enchanting_pocket.generic_label": {
-                "text": "$container_title",
-                "font_type":"iannnnn",
-                "color": "$title_text_color",
+                "layer": 1,
                 "shadow": false,
-                "layer": 1
+                "text": "$container_title",
+                "font_type": "iannnnnAMD",
+                "color": "$title_text_color",
+                "localize": "$localize_title"
               }
             }
           ]
@@ -634,7 +635,7 @@
       {
         "item_text_label@enchanting_pocket.generic_label": {
           "text": "#enchant_error",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "alpha": "@enchanting_pocket.anim_error_text_alpha"
         }
       }

@@ -3,7 +3,7 @@
 
   "generic_label": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "center",
     "anchor_to": "center",
     "color": "$pocket_title_text_color"
@@ -520,7 +520,7 @@
           "anchor_from": "center",
           "anchor_to": "center",
           "text": "$text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$beacon_power_title_text_color"
         }
       }
@@ -541,7 +541,7 @@
       {
         "primary_power_label@beacon_pocket.beacon_power_label": {
           "$text": "tile.beacon.primary",
-          "$font_type":"iannnnn"
+          "$font_type": "iannnnnAMD"
         }
       },
       {
@@ -627,8 +627,7 @@
     "controls": [
       {
         "secondary_power_label@beacon_pocket.beacon_power_label": {
-          "$text": "tile.beacon.secondary",
-          "$font_type":"iannnnn"
+          "$text": "tile.beacon.secondary"
         }
       },
       {
@@ -828,7 +827,6 @@
                 "color": "$title_text_color",
                 "shadow": false,
                 "text": "container.beacon",
-                "font_type":"iannnnn",
                 "layer": 1
               }
             }

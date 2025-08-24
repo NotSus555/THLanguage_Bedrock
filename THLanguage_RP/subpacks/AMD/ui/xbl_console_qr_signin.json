@@ -130,7 +130,7 @@
         "left_header@common.minecraftTenLabel": {
           "size": [ "100%", 12 ],
           "text": "xbox.signin.qr.left.header",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "layer": 2,
           "text_alignment": "left"
         }
@@ -151,7 +151,7 @@
           "layer": 2,
           "text_alignment": "left",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -229,7 +229,7 @@
         "right_header@common.minecraftTenLabel": {
           "size": [ "100%", 12 ],
           "text": "xbox.signin.qr.right.header",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "layer": 2,
           "text_alignment": "left"
         }
@@ -248,7 +248,7 @@
           "layer": 2,
           "text_alignment": "left",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -276,7 +276,7 @@
                       "layer": 2,
                       "text_alignment": "center",
                       "color": "$xbl_signin_text_color",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "font_scale_factor": 1.2,
                       "bindings": [
                         {
@@ -305,7 +305,7 @@
           "layer": 2,
           "text_alignment": "left",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -333,7 +333,7 @@
                       "layer": 2,
                       "text_alignment": "center",
                       "color": "$xbl_signin_text_color",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "font_scale_factor": 1.3,
                       "bindings": [
                         {
@@ -363,7 +363,7 @@
           "layer": 2,
           "text_alignment": "left",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -381,7 +381,7 @@
           "layer": 2,
           "text_alignment": "left",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -417,7 +417,7 @@
           "layer": 2,
           "text_alignment": "left",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": 0.8
         }
       },
@@ -437,7 +437,7 @@
           "layer": 2,
           "text_alignment": "left",
           "color": "$xbl_signin_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": 0.8
         }
       }

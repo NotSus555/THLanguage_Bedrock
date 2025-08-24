@@ -156,7 +156,7 @@
     "color": "$title_text_color",
     "layer": 1,
     "text": "container.smithing_table.upgrade",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
 
   // #endregion

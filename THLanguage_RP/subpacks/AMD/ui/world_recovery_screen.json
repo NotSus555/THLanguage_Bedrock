@@ -62,7 +62,7 @@
   "description_label": {
     "type": "label",
     "text": "#recovery_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", "default" ],
     "color": "$body_text_color",
     "anchor_from": "top_middle",

@@ -88,7 +88,7 @@
           "size": [ "default", 49 ],
           "offset": [ 0, "15.0%" ],
           "text": "#wake_up_label_panel",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$main_header_text_color",
           "bindings": [
             {

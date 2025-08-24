@@ -91,7 +91,7 @@
       {
         "description@storage_migration_common.label": {
           "text": "storage_migration.finished.generic.description",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       }
     ]
@@ -124,7 +124,7 @@
       {
         "description@storage_migration_common.label": {
           "text": "#transfer_error_description",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#transfer_error_description"

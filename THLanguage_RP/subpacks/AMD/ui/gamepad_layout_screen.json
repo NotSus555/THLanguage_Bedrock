@@ -46,7 +46,7 @@
 
   "gamepad_action_text": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$generic_button_text_color",
     "shadow": true,
     "layer": 5

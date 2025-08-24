@@ -63,7 +63,7 @@
           "anchor_from": "top_middle",
           "anchor_to": "bottom_middle",
           "text": "#text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "text_alignment": "center",
           "size": [ "300%", "default" ],
           "bindings": [
@@ -334,7 +334,7 @@
           "type": "label",
           "color": "$pocket_title_text_color",
           "text": "$villager_name",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "layer": 1,
           "anchor_from": "center",
           "anchor_to": "center"

@@ -41,7 +41,6 @@
           "offset": [ 0, -1 ],
           "color": "$text_color",
           "text": "#banner_button_text",
-          "font_type":"iannnnn",
           "font_scale_factor": 0.8,
           "bindings": [
             {
@@ -369,7 +368,7 @@
                 "anchor_from": "top_middle",
                 "offset": [ 0, 8 ],
                 "text": "#row_message_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color",
                 "text_alignment": "center",
                 "bindings": [
@@ -537,7 +536,7 @@
 
   "sdl_text_aligned_panel@promo_timeline.sdl_content_aligned_panel": {
     "$aligned_control": "promo_timeline.sdl_aligned_text",
-    "$aligned_text_font_type|default": "smooth",
+    "$aligned_text_font_type|default": "iannnnnAMD",
     "$aligned_text_scale_factor|default": 1,
     "$aligned_text_color|default": "$body_text_color",
     "$aligned_text|default": "",
@@ -612,7 +611,7 @@
     "type": "label",
     "size": [ "default", "default" ],
     "max_size": [ "40%", 20 ],
-    "font_type": "$aligned_text_font_type",
+    "font_type": "iannnnnAMD",
     "font_scale_factor": "$aligned_text_scale_factor",
     "color": "$aligned_text_color",
     "text": "$aligned_text",
@@ -642,6 +641,7 @@
     "font_scale_factor": "$aligned_text_scale_factor",
     "color": "$aligned_text_color",
     "text": "$aligned_text",
+    "font_type": "MinecraftTen",
     "bindings": [
       {
         "binding_type": "$store_factory_collection_details",
@@ -1054,10 +1054,10 @@
                   {
                     "title_and_description": {
                       "type": "label",
+                      "font_type": "iannnnnAMD",
                       "size": [ "default", 10 ],
                       "color": "$main_header_text_color",
                       "text": "#promotion_day_header",
-                      "font_type":"iannnnn",
                       "bindings": [
                         {
                           "binding_type": "$store_factory_collection_details",
@@ -1559,7 +1559,7 @@
               "promo_title@common.minecraftTenLabel": {
                 "size": [ "100%", 24 ],
                 "text": "#item_title_text",
-                "font_type":"iannnnn",
+                "font_type": "MinecraftTen",
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "bindings": [
@@ -1656,7 +1656,7 @@
                             "size": [ "default", "default" ],
                             "color": "$body_text_color",
                             "text": "#promotion_day_text",
-                            "font_type":"iannnnn",
+                            "font_type": "MinecraftTen",
                             "anchor_from": "top_middle",
                             "anchor_to": "top_middle",
                             "layer": 5,
@@ -2128,7 +2128,7 @@
     "$pressed_button_name": "button.ignore_me",
     "$tooltip_button_binding_type": "none",
     "$tooltip_text_binding_name": "#promo_timer_tool_tip",
-    "$tooltip_text_font_type": "smooth",
+    "$tooltip_text_font_type": "iannnnnAMD",
     "$tooltip_text_font_scale": 0.8,
     "$tooltip_popup_override_image_panel": "promo_timeline.timer_icon_tooltip_panel",
     "$override_tooltip_popup_image": true,
@@ -2177,7 +2177,7 @@
     "$pressed_button_name": "button.ignore_me",
     "$tooltip_button_binding_type": "none",
     "$tooltip_text_binding_name": "#promo_timer_tool_tip",
-    "$tooltip_text_font_type": "smooth",
+    "$tooltip_text_font_type": "iannnnnAMD",
     "$tooltip_text_font_scale": 0.8,
     "$tooltip_popup_override_image_panel": "promo_timeline.timer_icon_tooltip_panel",
     "$override_tooltip_popup_image": true,
@@ -2227,7 +2227,7 @@
     "$pressed_button_name": "button.ignore_me",
     "$tooltip_button_binding_type": "none",
     "$tooltip_text_binding_name": "#promo_timer_tool_tip",
-    "$tooltip_text_font_type": "smooth",
+    "$tooltip_text_font_type": "iannnnnAMD",
     "$tooltip_text_font_scale": 0.8,
     "$tooltip_popup_override_image_panel": "promo_timeline.timer_icon_tooltip_panel",
     "$override_tooltip_popup_image": true,
@@ -2362,7 +2362,7 @@
         "timer_text": {
           "type": "label",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": 0.8,
           "color": "$coin_color",
           "text": "#promo_item_timer_text",
@@ -2394,7 +2394,7 @@
           "offset": [ 3, 0 ],
           "color": "$main_header_text_color",
           "text": "#promo_item_title_text",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text_alignment": "left",
           "layer": 1,
           "bindings": [
@@ -2504,7 +2504,7 @@
                 "type": "label",
                 "size": [ "default", 8 ],
                 "text_alignment": "left",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "font_scale_factor": 0.8,
                 "color": "$body_text_color",
                 "text": "$item_glyph_text_binding",
@@ -2827,7 +2827,7 @@
           "offset": [ 0, -1 ],
           "color": "$text_color",
           "text": "#promo_button_text",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "bindings": [
             {
               "binding_type": "$store_factory_collection_details",
@@ -2866,7 +2866,7 @@
     "type": "label",
     "size": [ "default", 10 ],
     "offset": [ 2, 0 ],
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "text": "storageManager.share.totalPercent",
     "color": "$store_sales_banner_text_color",
     "layer": 10
@@ -2938,7 +2938,7 @@
                       "layer": 4,
                       "color": "$text_color",
                       "text": "#promo_item_full_price",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "bindings": [
                         {
                           "binding_type": "$store_factory_collection_details",
@@ -3015,7 +3015,6 @@
                 "size": [ "default", "default" ],
                 "offset": [ 0, -1 ],
                 "text": "#promo_item_action_button_text",
-                "font_type":"iannnnn",
                 "color": "$text_color",
                 "bindings": [
                   {
@@ -3080,9 +3079,8 @@
           "size": "$description_size",
           "layer": 1,
           "color": "$body_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": 0.8,
-          "enable_profanity_filter": false,
           "$description_label_binding_name": "#promo_description_label",
           "text": "$description_label_binding_name",
           "bindings": [
@@ -3769,7 +3767,7 @@
           ],
           "controls": [
             {
-              "skin_panel@persona.skin_scroll_panel": {
+              "skin_panel@promo_timeline.skin_scroll_panel": {
                 "$scrolling_content": "promo_timeline.promo_skin_grid_panel"
               }
             }
@@ -3789,6 +3787,38 @@
             {
               "binding_name": "#promo_item_is_persona",
               "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "skin_scroll_panel@persona_sdl.scroll_section": {
+    "$scrolling_content": "promo_timeline.persona_classic_skin_grid_panel"
+  },
+
+  "persona_classic_skin_grid_panel": {
+    "type": "panel",
+    "size": [ "100% - 4px", "100%c + 2px" ],
+    "controls": [
+      {
+        "persona_skin_pack_category_grid": {
+          "type": "grid",
+          "size": [ "100%", "100%c" ],
+          "layer": 1,
+          "$skin_binding_type": "collection",
+          "$skin_collection_details": "collection_details",
+          "$skin_collection_name": "expanded_skin_pack_collection",
+          "$skin_collection_prefix": "expanded_skin_pack",
+
+          "$skin_dimension_binding|default": "#expanded_pack_dimensions",
+          "grid_dimension_binding": "$skin_dimension_binding",
+          "grid_item_template": "persona_sdl.persona_skin_picker_skin_button",
+          "collection_name": "$skin_collection_name",
+          "bindings": [
+            {
+              "binding_name": "$skin_dimension_binding"
             }
           ]
         }
@@ -3858,7 +3888,7 @@
         }
       },
       {
-        "character_loading_panel@persona.loading_icon": {
+        "character_loading_panel@persona_common.loading_icon": {
           "anchor_to": "top_right",
           "anchor_from": "top_right",
           "bindings": [
@@ -3939,7 +3969,7 @@
     ]
   },
 
-  "promo_popup_toast@persona.popup": {
+  "promo_popup_toast@persona_popups.popup_common": {
     "layer": 100,
     "$display_time": 2.0,
     "$transition_in_time": 0.15,
@@ -3949,10 +3979,10 @@
     "$toast_text_alignment": "center",
     "$toast_anchor_from": "center",
     "$toast_anchor_to": "center",
-    "$toast_font_type": "smooth",
+    "$toast_font_type": "iannnnnAMD",
     "$offset_anims": [],
     "$alpha_anims": [
-      "@persona.popup_anim_start"
+      "@persona_sdl.popup_anim_start"
     ],
     "$popup_title_binding_type": "$store_factory_binding_type",
     "$popup_title_collection_name": "$store_factory_collection_name",

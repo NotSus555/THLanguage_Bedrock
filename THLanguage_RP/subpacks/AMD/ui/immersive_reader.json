@@ -57,7 +57,7 @@
               "loading_text": {
                 "type": "label",
                 "text": "progressScreen.loading",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color",
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle"
@@ -138,7 +138,7 @@
           "max_size": [ "100%", "fill" ],
           "size": [ "default", "fill" ],
           "text": "#error_text",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": 1.2,
           "bindings": [
             {

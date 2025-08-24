@@ -94,8 +94,7 @@
             {
               "selector_group_label_0@settings_common.selector_group_label": {
                 "ignored": "($is_pregame)",
-                "text": "options.category.server",
-                "font_type":"iannnnn"
+                "text": "options.category.server"
               }
             },
             {
@@ -115,14 +114,20 @@
       },
       {
         "selector_group_label_1@settings_common.selector_group_label": {
-          "text": "$tts_section_header",
-          "font_type":"iannnnn"
+          "text": "$tts_section_header"
         }
       },
       {
         "game_button@world_section.game_button": {
           "ignored": "($nx_os)",
           "$toggle_group_forced_index": "$game_forced_index"
+        }
+      },
+      {
+        "spacer_01": {
+          "ignored": "($nx_os or not $education_edition or not $settings_spatial_pattern_fix_enabled)",
+          "type": "panel",
+          "size": "$spatialPatternsPadding"
         }
       },
       {
@@ -140,11 +145,25 @@
         }
       },
       {
+        "spacer_02": {
+          "ignored": "(not $nx_os or not $settings_spatial_pattern_fix_enabled)",
+          "type": "panel",
+          "size": "$spatialPatternsPadding"
+        }
+      },
+      {
         "switch_game_button@world_section.game_button": {
           "ignored": "(not $nx_os)",
           "$toggle_group_forced_index": "$game_forced_index",
           "$glyph_texture": "textures/ui/controller_glyph_switch",
           "$glyph_color_texture": "textures/ui/controller_glyph_color_switch"
+        }
+      },
+      {
+        "spacer_03": {
+          "ignored": "($education_edition or not $settings_spatial_pattern_fix_enabled)",
+          "type": "panel",
+          "size": "$spatialPatternsPadding"
         }
       },
       {
@@ -154,9 +173,23 @@
         }
       },
       {
+        "spacer_04": {
+          "ignored": "(not $education_edition or not $edu_save_to_cloud_on or not $edu_save_to_cloud_general_toggle_on or $is_multiplayer_client or not $settings_spatial_pattern_fix_enabled)",
+          "type": "panel",
+          "size": "$spatialPatternsPadding"
+        }
+      },
+      {
         "edu_cloud_button@world_section.edu_cloud_button": {
           "ignored": "(not $education_edition or not $edu_save_to_cloud_on or not $edu_save_to_cloud_general_toggle_on or $is_multiplayer_client)",
           "$toggle_group_forced_index": "$edu_cloud_level_forced_index"
+        }
+      },
+      {
+        "spacer_05": {
+          "ignored": "($is_publish or not $settings_spatial_pattern_fix_enabled)",
+          "type": "panel",
+          "size": "$spatialPatternsPadding"
         }
       },
       {
@@ -282,20 +315,26 @@
     "$tts_section_header": "options.category.addons",
     "controls": [
       {
-        "spacer": {
+        "spacer_01": {
           "type": "panel",
           "size": [ 0, 8 ]
         }
       },
       {
         "selector_group_label_2@settings_common.selector_group_label": {
-          "text": "$tts_section_header",
-          "font_type":"iannnnn"
+          "text": "$tts_section_header"
         }
       },
       {
         "level_texture_pack_button@world_section.level_texture_pack_button": {
           "$toggle_group_forced_index": "$level_texture_pack_toggle_index"
+        }
+      },
+      {
+        "spacer_02": {
+          "ignored": "(not $settings_spatial_pattern_fix_enabled)",
+          "type": "panel",
+          "size": "$spatialPatternsPadding"
         }
       },
       {
@@ -388,7 +427,7 @@
   "export_world_button@settings_common.action_button": {
     // std pocket should not have export until bedrock wants it
     // export is disabled in game
-    // Some platforms such as fireTV do not support file picking
+    // Some platforms do not support file picking
     // EDU supports file picking on all supported platforms except ios which is pocket
     "ignored": "(($pocket_edition or $export_disabled or not $file_picking_supported) and not $education_edition)",
     "size": [ "50%", 30 ],
@@ -863,7 +902,6 @@
       {
         "server_sim_distance_slider@settings_common.option_slider": {
           "$tts_section_header": "createWorldScreen.worldPreferences",
-          "ignored": "($is_holographic)",
           "$option_label": "#server_sim_distance_slider_label",
           "$slider_name": "server_sim_distance",
           "$slider_value_binding_name": "#server_sim_distance",
@@ -907,6 +945,17 @@
           "$option_binding_name": "#show_coordinates",
           "$option_enabled_binding_name": "#show_coordinates_enabled",
           "$toggle_name": "show_coordinates",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
+      {
+        "locator_bar_toggle@settings_common.option_toggle": {
+          "$tts_section_header": "createWorldScreen.worldSettings",
+          "$option_label": "createWorldScreen.locatorBar",
+          "$option_binding_name": "#locator_bar",
+          "$option_enabled_binding_name": "#locator_bar_enabled",
+          "$toggle_name": "locator_bar",
           "$focus_override_right": "FOCUS_OVERRIDE_STOP",
           "$toggle_binding_condition": "always_when_visible"
         }
@@ -1833,8 +1882,7 @@
   },
 
   "cross_platform_warning_label@pause.disconnected_label": {
-    "text": "",
-    "font_type":"iannnnn"
+    "text": ""
   },
 
   "multiplayer_section": {
@@ -1924,7 +1972,6 @@
       {
         "general_multiplayer_warning_label@world_section.cross_platform_warning_label": {
           "text": "#general_multiplayer_warning_text",
-          "font_type":"iannnnn",
           "bindings": [
             {
               "binding_name": "#general_multiplayer_warning_text"
@@ -1939,7 +1986,6 @@
       {
         "open_uri_button@play.open_account_setting_button": {
           "size": [ "100%", 30 ],
-          "ignored": "$is_holographic",
           "visible": false,
           "bindings": [
             {
@@ -1953,7 +1999,6 @@
         "platform_multiplayer_warning_label@world_section.cross_platform_warning_label": {
           "ignored": "(not $nx_os and not $is_ps4)",
           "text": "#platform_multiplayer_warning_text",
-          "font_type":"iannnnn",
           "bindings": [
             {
               "binding_name": "#platform_multiplayer_warning_text"
@@ -1969,7 +2014,6 @@
         "xbl_multiplayer_warning_label@world_section.cross_platform_warning_label": {
           "ignored": "(not $is_xboxlive_enabled)",
           "text": "#xbl_multiplayer_warning_text",
-          "font_type":"iannnnn",
           "bindings": [
             {
               "binding_name": "#xbl_multiplayer_warning_text"
@@ -2128,7 +2172,7 @@
                 "$single_label_size": [ "default", "default" ],
                 "$pressed_button_name": "button.cloud_help_button",
                 "$single_line_label_text": "options.cloudHelpText",
-                "$font_type": "smooth",
+                "$font_type": "iannnnnAMD",
                 "$font_size": "normal"
               }
             },
@@ -2247,9 +2291,9 @@
       {
         "base_game_version_debug_text": {
           "type": "label",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color",
           "text": "#text",
-          "font_type":"iannnnn",
           "bindings": [
             {
               "binding_name": "#base_game_version_debug_text",

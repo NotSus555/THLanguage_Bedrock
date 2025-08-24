@@ -32,7 +32,7 @@
           "color": "$body_text_color",
           "size": [ "100%", "default" ],
           "text": "gui.submitFeedback.body.text",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -57,7 +57,7 @@
             {
               "remaining_characters_count_label": {
                 "type": "label",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "size": [ "default", "default" ],
                 "anchor_from": "bottom_right",
                 "anchor_to": "bottom_right",

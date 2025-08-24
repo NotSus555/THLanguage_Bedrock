@@ -99,7 +99,8 @@
                 "size": [ "100%", "default" ],
                 "max_size": [ "100%", "100%" ],
                 "text": "$options_dropdown_toggle_label_binding",
-                "alpha": 0.0,
+                "font_type": "iannnnnAMD",
+                "alpha": 1.0,
                 "bindings": [
                   {
                     "binding_name": "$options_dropdown_toggle_label_binding",
@@ -202,8 +203,8 @@
       {
         "text_": {
           "type": "label",
-          "font_type":"iannnnn",
           "text": "$text_override",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color"
         }
       }
@@ -232,8 +233,8 @@
       {
         "start_label": {
           "type": "label",
-          "font_type":"iannnnn",
           "text": "$start_text",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color"
         }
       },
@@ -246,9 +247,9 @@
       {
         "start_label_dynamic_text": {
           "type": "label",
-          "font_type":"iannnnn",
           "color": "$body_text_color",
           "text": "#text",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "$text_binding_name",
@@ -462,11 +463,11 @@
             {
               "option_label_execute_on_first_tick": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "color": "$body_text_color",
                 "size": [ "100%", "default" ],
                 "layer": 2,
                 "text": "commandBlockScreen.executeFirstTick",
+                "font_type": "iannnnnAMD",
                 "visible": true,
                 "locked_alpha": 0.5
               }
@@ -489,12 +490,12 @@
             {
               "option_label_tick_delay": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "color": "$body_text_color",
                 "size": [ "100%", "default" ],
                 "offset": [ 2, 0 ],
                 "layer": 1,
                 "text": "commandBlockScreen.tickDelay",
+                "font_type": "iannnnnAMD",
                 "visible": true,
                 "locked_alpha": 0.5
               }
@@ -586,12 +587,12 @@
                   {
                     "option_label": {
                       "type": "label",
-                      "font_type":"iannnnn",
                       "color": "$body_text_color",
                       "size": [ "100%", "default" ],
                       "offset": [ 2, 0 ],
                       "layer": 1,
                       "text": "advMode.command",
+                      "font_type": "iannnnnAMD",
                       "visible": true,
                       "locked_alpha": 0.5
                     }
@@ -682,12 +683,12 @@
             {
               "switch_warning_label": {
                 "type": "label",
-                "font_type":"iannnnn",
                 "color": "$c_color_format",
                 "size": [ "100%", "default" ],
                 "offset": [ 2, 0 ],
                 "layer": 1,
                 "text": "advMode.command.charLimitExceeded",
+                "font_type": "iannnnnAMD",
                 "visible": true,
                 "locked_alpha": 0.5
               }
@@ -751,6 +752,17 @@
         }
       },
       {
+        "nearest_label@command_block.command_block_helper_stack": {
+          "$text_override": "advMode.nearest"
+        }
+      },
+      {
+        "nearest_label_offset": {
+          "type": "panel",
+          "size": [ "100%", 2 ]
+        }
+      },
+      {
         "command_block_previous_output_panel": {
           "type": "stack_panel",
           "orientation": "vertical",
@@ -783,11 +795,11 @@
                         {
                           "option_label": {
                             "type": "label",
-                            "font_type":"iannnnn",
                             "color": "$body_text_color",
                             "size": [ "100%", "default" ],
                             "layer": 2,
                             "text": "advMode.previousOutput",
+                            "font_type": "iannnnnAMD",
                             "visible": true,
                             "locked_alpha": 0.5
                           }
@@ -1049,12 +1061,12 @@
       {
         "title": {
           "type": "label",
-          "font_type":"iannnnn",
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
           "offset": [ 0, 8 ],
           "layer": 4,
           "text": "commandBlock.genericName",
+          "font_type": "iannnnnAMD",
           "color": "$title_text_color"
         }
       },

@@ -77,7 +77,7 @@
               "content_tier_label": {
                 "type": "label",
                 "text": "#text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color",
                 "size": [ "100%-8px", "default" ],
                 "anchor_from": "top_left",
@@ -101,7 +101,7 @@
               "unsupported_content_tier_label": {
                 "type": "label",
                 "text": "#text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$error_text_color",
                 "size": [ "100%-8px", "default" ],
                 "anchor_from": "top_left",
@@ -165,7 +165,7 @@
               "label": {
                 "type": "label",
                 "text": "#text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$error_text_color",
                 "anchor_from": "bottom_left",
                 "anchor_to": "bottom_left",

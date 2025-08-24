@@ -32,7 +32,7 @@
     "offset": [ 27, 5 ],
     "text_alignment": "left",
     "text": "#mob_effect_name",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_type": "collection",
@@ -48,7 +48,7 @@
     "anchor_to": "bottom_left",
     "offset": [ 27, -5 ],
     "text": "#mob_effect_timer",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$dark_button_secondary_default_text_color",
     "text_alignment": "left",
     "bindings": [

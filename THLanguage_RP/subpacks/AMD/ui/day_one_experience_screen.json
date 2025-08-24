@@ -12,11 +12,11 @@
 
   "tip_text": {
     "type": "label",
-    "font_type":"iannnnn",
     "color": "$body_text_color",
     "size": [ "100%", "default" ],
     "text_alignment": "center",
-    "text": "$text"
+    "text": "$text",
+    "font_type": "iannnnnAMD"
   },
 
   "tip_arrow_animation": {
@@ -53,6 +53,7 @@
     "type": "custom",
     "renderer": "name_tag_renderer",
     "size": [ "100%", 8 ],
+    "font_type": "iannnnnAMD",
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
     "layer": 3,
@@ -422,6 +423,7 @@
               "loading_legacy_worlds_label": {
                 "type": "label",
                 "text": "playscreen.fetchingLegacyWorlds",
+                "font_type": "iannnnnAMD",
                 "max_size": [ "100% - 4px", 20 ],
                 "shadow": false,
                 "offset": [ 0, 6 ],
@@ -542,7 +544,7 @@
                   {
                     "label": {
                       "type": "label",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "text_alignment": "center",
                       "text": "#next_button_text",
                       "color": "$text_color",

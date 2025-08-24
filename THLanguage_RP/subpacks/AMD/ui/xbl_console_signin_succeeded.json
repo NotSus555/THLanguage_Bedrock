@@ -33,7 +33,7 @@
     "type": "label",
     "size": [ "100%", "default" ],
     "text": "#gamertag",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "layer": 2,
     "color": "$xbl_signin_text_color",
     "bindings": [
@@ -47,7 +47,7 @@
     "type": "label",
     "size": [ "default", "default" ],
     "text": "#gamer_score",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "layer": 2,
     "color": "$xbl_signin_text_color",
     "bindings": [
@@ -118,7 +118,7 @@
           "color": "$xbl_signin_text_color",
           "layer": 1,
           "text": "$text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left"
         }

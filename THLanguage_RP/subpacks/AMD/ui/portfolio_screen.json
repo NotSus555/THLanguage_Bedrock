@@ -116,7 +116,7 @@
     "layer": 1,
     "size": [ 60, 30 ],
     "text": "#item_name",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$portfolio_body_text_color",
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
@@ -275,8 +275,8 @@
     "type": "label",
     "max_size": [ "100%", "default" ],
     "color": "$book_page_number_color",
-    "text": "$header_text",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD",
+    "text": "$header_text"
   },
 
   "screenshot_grid@edu_common.stack_panel_grid": {
@@ -308,6 +308,7 @@
   "no_pick_photos_alert_label": {
     "layer": 12,
     "type": "label",
+    "font_type": "iannnnnAMD",
     "size": [ "50%", "default" ],
     "text_alignment": "center",
     "color": "$portfolio_body_text_color",
@@ -317,8 +318,7 @@
         "binding_name_override": "#visible"
       }
     ],
-    "text": "portfolioScreen.noInventory",
-    "font_type":"iannnnn"
+    "text": "portfolioScreen.noInventory"
   },
 
   "pick_panel": {
@@ -852,8 +852,7 @@
         "binding_name_override": "#visible"
       }
     ],
-    "text": "portfolioScreen.nopics0",
-    "font_type":"iannnnn"
+    "text": "portfolioScreen.nopics0"
   },
 
 

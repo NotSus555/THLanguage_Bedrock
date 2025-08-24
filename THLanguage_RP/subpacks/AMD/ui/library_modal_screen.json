@@ -24,8 +24,7 @@
     "size": [ "100% - 4px", "default" ],
     "offset": [ 2, 2 ],
     "color": "$f_color_format",
-    "text": "$modal_text",
-    "font_type":"iannnnn"
+    "text": "$modal_text"
   },
 
   "modal_ok@library_modal.modal_button": {
@@ -129,7 +128,7 @@
     "shadow": false,
     "$welcome_text|default": "",
     "text": "$welcome_text",
-    "font_type": "smooth"
+    "font_type": "iannnnnAMD"
   },
 
   "welcome_text_panel@library_modal.text_panel": {

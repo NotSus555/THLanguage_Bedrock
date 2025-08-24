@@ -12,7 +12,7 @@
 
   "panel_text": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$main_header_text_color",
     "layer": 5,
     "anchor_from": "center",
@@ -94,7 +94,6 @@
 
   "realm_name_label@realms_pending_invitations.panel_text": {
     "text": "#realm_name",
-    "font_type":"iannnnn",
     "bindings": [
       {
         "binding_name": "#realm_name",
@@ -106,7 +105,6 @@
 
   "realm_owner_label@realms_pending_invitations.panel_text": {
     "text": "#realm_owner",
-    "font_type":"iannnnn",
     "color": "$dark_button_secondary_default_text_color",
     "bindings": [
       {
@@ -229,7 +227,6 @@
 
   "realm_accepted_panel@realms_pending_invitations.panel_text": {
     "text": "#invite_status",
-    "font_type":"iannnnn",
     "anchor_to": "top_right",
     "anchor_from": "top_right",
     "size": [ "60px", "100%" ],
@@ -325,8 +322,7 @@
                 "size": [ "default", "default" ],
                 "anchor_from": "left_middle",
                 "anchor_to": "left_middle",
-                "text": "realmsPendingInvitationsScreen.showFriendInvites",
-                "font_type":"iannnnn"
+                "text": "realmsPendingInvitationsScreen.showFriendInvites"
               }
             }
           ]
@@ -444,7 +440,7 @@
       {
         "label@realms_pending_invitations.panel_text": {
           "text": "realmsPendingInvitationsScreen.noInvites",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "size": [ "default", "default" ],
           "anchor_from": "top_middle",
           "anchor_to": "top_middle"

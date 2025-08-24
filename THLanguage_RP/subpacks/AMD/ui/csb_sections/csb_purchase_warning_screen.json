@@ -42,7 +42,7 @@
               "text": {
                 "type": "label",
                 "size": [ "100%", "default" ],
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "text_alignment": "center",
                 "text": "store.csb.purchase.warningDialog.body.line1",
                 "color": "$store_white_text_color"
@@ -87,7 +87,7 @@
               "text": {
                 "type": "label",
                 "size": [ "100%", "default" ],
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "text_alignment": "center",
                 "text": "store.csb.purchase.warningDialog.body.line2",
                 "color": "$store_white_text_color"

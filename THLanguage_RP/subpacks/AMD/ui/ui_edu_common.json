@@ -39,7 +39,7 @@
     "anchor_to": "top_left",
     "layer": 1,
     "color": "$body_text_color",
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "text_alignment": "left"
   },
 
@@ -159,7 +159,7 @@
           "offset": [ 0, 8 ],
           "layer": 4,
           "text": "$title_text",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "color": "$8_color_format"
         }
       },
@@ -183,7 +183,7 @@
                 "layer": 1,
                 "shadow": false,
                 "text": "$body_text",
-                "font_type":"iannnnn"
+                "font_type": "iannnnnAMD"
               }
             },
             { "progress_loading_bars@progress.progress_loading_bars": {} }
@@ -230,8 +230,7 @@
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "offset": [ 0, 3 ],
-                "text": "menu.loadingLevel",
-                "font_type":"iannnnn"
+                "text": "menu.loadingLevel"
               }
             },
             {
@@ -458,10 +457,10 @@
                   {
                     "title": {
                       "type": "label",
+                      "font_type": "MinecraftTen",
                       "size": [ "55%", 8 ],
                       "color": "$title_text_color",
                       "text": "$title_text",
-                      "font_type":"iannnnn",
                       "anchor_from": "left_middle",
                       "anchor_to": "left_middle",
                       "$title_text_bindings|default": [],
@@ -485,7 +484,7 @@
     "color": "$title_text_color",
     "$popup_title_text|default": "($share_source + '.item.sharepopup.title.simple')",
     "text": "$popup_title_text",
-    "font_type":"iannnnn",
+    "font_type": "MinecraftTen",
     "layer": 2
   },
 
@@ -710,7 +709,7 @@
   "joincode_body_content_stack@edu_common.body_content_stack": {
     "$body_size": [ "100% - 4px", "default" ],
     "$body_font_size": 1.1,
-    "$popup_body_text": "joincode.popup.body",
+    "$popup_body_text": "link.popup.body",
     "$icons_ignored": false,
     "$add_resources_ignored": true,
     "$edit_resources_ignored": true
@@ -1004,7 +1003,7 @@
         "text": {
           "type": "label",
           "color": "$body_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text": "$popup_body_text",
           "font_scale_factor": "$body_font_size",
           "size": "$body_size",
@@ -1390,7 +1389,7 @@
         "description": {
           "type": "label",
           "color": "$body_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text": "$page_description",
           "offset": [ 0, -0.5 ],
           "size": [ "100% - 10px", "default" ],
@@ -1430,7 +1429,7 @@
   },
 
   "joincode_edu_popup@popup_dialog.form_fit_modal_dialog_popup": {
-    "$modal_title": "($share_source + '.item.sharepopup.title.simple')",
+    "$modal_title": "link.item.sharepopup.title.simple",
     "$modal_contents": "edu_common.joincode_body_panel",
     "$modal_contents_padding": [ 6, 6 ],
     "$popup_dialog_escape_button_name": "button.close_share_popup"
@@ -1454,7 +1453,7 @@
       "teams_share_link_simple_popup": "@edu_common.teams_edu_simple_share_resource_popup",
       "teams_share_link_popup": "@edu_common.teams_edu_share_text_popup",
       "teams_share_link_resource_popup": "@edu_common.teams_edu_share_resource_popup",
-      "joincode_popup": "@edu_common.joincode_edu_popup",
+      "link_popup": "@edu_common.link_edu_popup",
       "add_resource_dialog": "@edu_common.add_resource_dialog"
     }
   },
@@ -1519,7 +1518,7 @@
                 "color": "$body_text_color",
                 "size": [ "fill", "default" ],
                 "layer": 3,
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "text": "$warning_text"
               }
             }
@@ -1611,7 +1610,7 @@
                 "$hotbar_hint_binding_name|default": "#hotbar_hint_bound_key",
                 "$hotbar_hint_binding_condition|default": "none",
                 "text": "$hotbar_hint_binding_name",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "font_size": "normal",
                 "color": "$body_text_color",
                 "offset": [ 0.25, 0.5 ],
@@ -1696,7 +1695,7 @@
                 "type": "label",
                 "offset": [ 4, 0 ],
                 "text": "$toggle_button_label",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color"
               }
             }
@@ -1822,7 +1821,7 @@
               "conflict_resolution_description": {
                 "type": "label",
                 "size": [ "100%", "default" ],
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color",
                 "text": "#edu_cloud_conflict_resolution_description",
                 "bindings": [
@@ -1862,7 +1861,7 @@
                     "local_world_name_label": {
                       "type": "label",
                       "size": [ "100%", "default" ],
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "color": "$body_text_color",
                       "text": "#edu_cloud_conflict_resolution_local_name",
                       "bindings": [
@@ -1877,7 +1876,7 @@
                     "local_world_last_changed_label": {
                       "type": "label",
                       "size": [ "100%", "default" ],
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "color": "$body_text_color",
                       "text": "#edu_cloud_conflict_resolution_local_date",
                       "bindings": [
@@ -1892,7 +1891,7 @@
                     "cloud_world_name_label": {
                       "type": "label",
                       "size": [ "100%", "default" ],
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "color": "$body_text_color",
                       "text": "#edu_cloud_conflict_resolution_cloud_name",
                       "bindings": [
@@ -1907,7 +1906,7 @@
                     "cloud_world_last_changed_label": {
                       "type": "label",
                       "size": [ "100%", "default" ],
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "color": "$body_text_color",
                       "text": "#edu_cloud_conflict_resolution_cloud_date",
                       "bindings": [

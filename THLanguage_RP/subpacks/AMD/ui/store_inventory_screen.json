@@ -463,12 +463,6 @@
           "texture": "textures/ui/screen_background",
           "alpha": "$fill_alpha",
           "$fill_alpha|default": 0.8,
-          "variables": [
-            {
-              "requires": "$is_holographic",
-              "$fill_alpha": 1.0
-            }
-          ],
           "layer": 2,
           "controls": [
             {
@@ -493,12 +487,6 @@
       {
         "csub_panel": {
           "type": "panel",
-          "variables": [
-            {
-              "requires": "$is_holographic",
-              "$fill_alpha": 1.0
-            }
-          ],
           "size": [ "100%", "100%cm" ],
           "layer": 2,
           "bindings": [
@@ -648,7 +636,7 @@
           "size": [ "default", 10 ],
           "max_size": [ "100%", 10 ],
           "text": "store.inventory.button.subscriptions",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "color": "$text_color"
         }
       }
@@ -686,7 +674,7 @@
                 "offset": [ 5, -1 ],
                 "max_size": [ "100%", 10 ],
                 "text": "store.realmsPlus",
-                "font_type":"iannnnn",
+                "font_type": "MinecraftTen",
                 "color": "$generic_button_text_color",
                 "layer": 3
               }
@@ -791,7 +779,7 @@
           "size": [ "default", 10 ],
           "max_size": [ "fill", 10 ],
           "text": "$title_text",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "color": "$text_color",
           "text_alignment": "left"
         }
@@ -852,7 +840,7 @@
                 "type": "label",
                 "size": [ "default", 10 ],
                 "text": "#collection_count",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$text_color",
                 "bindings": [
                   {
@@ -1111,7 +1099,7 @@
           "size": [ "default", "100%" ],
           "max_size": [ "50%", "100%" ],
           "text": "$category_label",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$color"
         }
       },
@@ -1150,7 +1138,7 @@
           "size": [ "default", "100%" ],
           "max_size": [ "50% - 15px", "100%" ],
           "text": "$category_count",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$color",
           "bindings": [
             {
@@ -1354,12 +1342,6 @@
                 "color": "$csb_panel_background",
                 "$fill_alpha|default": 1.0,
                 "alpha": "$fill_alpha",
-                "variables": [
-                  {
-                    "requires": "$is_holographic",
-                    "$fill_alpha": 1.0
-                  }
-                ],
                 "layer": 1
               }
             },
@@ -1406,12 +1388,6 @@
                 "size": [ "100%", "100%" ],
                 "texture": "textures/ui/slider_background.png",
                 "tiled": true,
-                "variables": [
-                  {
-                    "requires": "$is_holographic",
-                    "$fill_alpha": 1.0
-                  }
-                ],
                 "layer": 1
               }
             },
@@ -1520,14 +1496,14 @@
     "type": "label",
     "text": "$body_text",
     "max_size": [ "100%", "100%c" ],
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "color": "$store_white_text_color"
   },
   "signin_text_02": {
     "type": "label",
     "text": "$secondary_text",
     "max_size": [ "100%", "100%c" ],
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "color": "$store_white_text_color"
   },
 

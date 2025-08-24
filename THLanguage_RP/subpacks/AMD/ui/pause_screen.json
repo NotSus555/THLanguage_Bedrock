@@ -106,7 +106,6 @@
     "size": [ "100%", "100%c" ],
     "$anchor": "left_middle",
     "$button_text": "profileScreen.header",
-    "$font_type":"iannnnn",
     "$button_text_binding_type": "none",
     "$button_binding_condition": "none",
     "$button_text_grid_collection_name": ""
@@ -143,7 +142,6 @@
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
     "$button_text": "profileScreen.header",
-    "$font_type":"iannnnn",
     "offset": [ 0, -5 ],
     "$focus_id": "profile_button",
     "$pressed_alpha": 0.65,
@@ -245,7 +243,6 @@
               "profile_button_label@common_buttons.new_ui_binding_button_label": {
                 "layer": 1,
                 "$button_text": "menu.profile",
-                "$font_type":"iannnnn",
                 "$button_text_size": [ "default", "default" ],
                 "$button_text_max_size": [ "default", 20 ],
                 "$button_text_binding_type": "none",
@@ -482,7 +479,6 @@
   "return_to_game_button@pause.pause_button_template": {
     "$pressed_button_name": "button.menu_continue",
     "$button_text": "menu.returnToGame",
-    "$font_type":"iannnnn",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle",
     "$button_focus_precedence": 1,
@@ -490,13 +486,11 @@
     "variables": [
       {
         "requires": "$is_editor_playtest_roundtrip",
-        "$button_text": "pauseScreen.editor.returnToTesting",
-        "$font_type":"iannnnn"
+        "$button_text": "pauseScreen.editor.returnToTesting"
       },
       {
         "requires": "$is_editor_mode_enabled",
-        "$button_text": "pauseScreen.editor.returnToEditing",
-        "$font_type":"iannnnn"
+        "$button_text": "pauseScreen.editor.returnToEditing"
       }
     ]
   },
@@ -520,7 +514,6 @@
   "realms_stories_button@pause.pause_button_template": {
     "$pressed_button_name": "button.menu_feed",
     "$button_text": "pauseScreen.realmsStories",
-    "$font_type":"iannnnn",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle"
   },
@@ -538,7 +531,7 @@
           "color": "$tab_secondary_unchecked_text_color",
           "shadow": false,
           "text": "#realms_unread_story_count",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "layer": 9,
           "controls": [
             {
@@ -582,7 +575,6 @@
   "store_button@pause.pause_button_template": {
     "$pressed_button_name": "button.menu_store",
     "$button_text": "$store_button_text",
-    "$font_type":"iannnnn",
     "bindings": [
       {
         "binding_name": "#store_button_visible",
@@ -632,7 +624,7 @@
           "layer": 9,
           "type": "label",
           "text": "$store_button_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD", 
           "color": "$light_button_locked_text_color"
         }
       }
@@ -642,7 +634,6 @@
   "settings_button@pause.pause_button_template": {
     "$pressed_button_name": "button.menu_settings",
     "$button_text": "menu.settings",
-    "$font_type":"iannnnn",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle"
   },
@@ -650,7 +641,6 @@
   "how_to_play_button@pause.pause_button_template": {
     "$pressed_button_name": "button.menu_how_to_play",
     "$button_text": "menu.howToPlay",
-    "$font_type":"iannnnn",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle",
     "ignored": "(not $education_edition)"
@@ -659,17 +649,16 @@
   "invite_players_button@pause.grid_button_template": {
     "$pressed_button_name": "button.menu_invite_players",
     "$button_text": "pauseScreen.invite",
-    "$font_type":"iannnnn",
     "focus_change_down": "FOCUS_OVERRIDE_STOP",
     "$focus_override_right": "FOCUS_OVERRIDE_STOP",
     "bindings": [
       {
-        "binding_name": "#invite_button_visible",
+        "binding_name": "#legacy_invite_button_visible",
         "binding_name_override": "#visible",
         "binding_type": "global"
       },
       {
-        "binding_name": "#invite_button_enabled",
+        "binding_name": "#legacy_invite_button_enabled",
         "binding_name_override": "#enabled"
       }
     ]
@@ -678,7 +667,6 @@
   "buy_button@pause.pause_button_template": {
     "$pressed_button_name": "button.menu_buy_game",
     "$button_text": "$unlock_full_game_button_text",
-    "$font_type":"iannnnn",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle",
     "ignored": "(not $trial or $is_secondary_client)",
@@ -694,20 +682,17 @@
   "quit_button@pause.pause_button_template": {
     "$pressed_button_name": "button.menu_quit",
     "$button_text": "pauseScreen.quit",
-    "$font_type":"iannnnn",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle",
     "$focus_override_down": "icon_panel_main_focus",
     "variables": [
       {
         "requires": "($is_secondary_client and not $is_editor_playtest_roundtrip)",
-        "$button_text": "pauseScreen.secondaryClientLeave",
-        "$font_type":"iannnnn"
+        "$button_text": "pauseScreen.secondaryClientLeave"
       },
       {
         "requires": "$is_editor_playtest_roundtrip",
-        "$button_text": "pauseScreen.editor.quit",
-        "$font_type":"iannnnn"
+        "$button_text": "pauseScreen.editor.quit"
       }
     ]
   },
@@ -793,7 +778,7 @@
 
   "pause_screen@common.base_screen": {
     "cache_screen": true,
-    
+
     "$screen_animations": [
       "@common.screen_exit_animation_push_fade",
       "@common.screen_exit_animation_pop_fade",
@@ -880,6 +865,76 @@
     ]
   },
 
+  "social_buttons_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "friendsbutton_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "friendsdrawer_button@iconbutton.button": {
+                "$pressed_button_name": "button.friends_drawer",
+                "$button_text": "#friends_with_count",
+                "$icon_texture": "textures/ui/friendsbutton/navbar-friends-icon",
+                "$textbutton_binding_type": "global"
+              }
+            },
+            {
+              "vertical_padding_1@pause.vertical_padding": {
+                "size": [ 0, 3 ]
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#friends_drawer_button_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            }
+          ]
+        }
+      },
+      {
+        "invitebutton_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "invite_button@iconbutton.button": {
+                "$pressed_button_name": "button.menu_invite_players",
+                "$button_text": "pauseScreen.invite",
+                "$icon_texture": "textures/ui/Envelope",
+                "$textbutton_binding_type": "none"
+              }
+            },
+            {
+              "vertical_padding_2@pause.vertical_padding": {
+                "size": [ 0, 3 ]
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#invite_button_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#invite_button_enabled",
+              "binding_name_override": "#enabled"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "pause_screen_menu": {
     "type": "stack_panel",
     "size": [ "fill", "100%" ],
@@ -954,45 +1009,43 @@
   },
 
   "paused_text": {
-    "type":"label",
+    "type": "label",
     "color": "$f_color_format",
     "text": "pauseScreen.gameIsPaused",
-    "font_type":"iannnnn",
-    "anchor_from":"center",
-    "anchor_to":"center"
+    "font_type": "iannnnnAMD",
+    "anchor_from": "center",
+    "anchor_to": "center"
   },
 
-  "paused_text_panel@common.screen_background":{
-    "size":[90, 24],
+  "paused_text_panel@common.screen_background": {
+    "size": [ "100%c + 16px", 24 ],
     "$screen_background_alpha": 0.5,
-    "controls":[
+    "controls": [
       {
         "pause@paused_text": {}
       }
     ]
   },
 
-  
+
   "the_icon_panel": {
     "type": "stack_panel",
     "anchor_to": "bottom_left",
     "anchor_from": "bottom_left",
-    "size": [ "50% - 75px", "130%c" ],
+    "size": [ "50% - 75px", "100%c" ],
     "offset": [ 0, "-10%" ],
+    "orientation": "vertical",
     "controls": [
       {
         "stacked_column": {
           "type": "stack_panel",
           "size": [ "100%", 32 ],
-          "offset": [ "5%", 0 ],
-          "anchor_from": "top_left",
-          "anchor_to": "top_left",
           "orientation": "horizontal",
           "controls": [
             {
               "side_padding": {
                 "type": "panel",
-                "size": [ "12%", 0 ]
+                "size": [ 5, 0 ]
               }
             },
             {
@@ -1121,7 +1174,7 @@
                 "size": [ "100%c", 32 ],
                 "controls": [
                   {
-                    "pause_text@pause.paused_text_panel":{}
+                    "pause_text@pause.paused_text_panel": {}
                   }
                 ],
                 "bindings": [
@@ -1147,6 +1200,11 @@
             }
           ]
         }
+      },
+      {
+        "padding_bottom@common.empty_panel": {
+          "size": [ "100%", 5 ]
+        }
       }
     ]
   },
@@ -1157,7 +1215,7 @@
     "layer": 1,
     "alpha": 0.8
   },
-  
+
   "non_transparent_background": {
     "type": "image",
     "texture": "textures/ui/menubackground",
@@ -1230,14 +1288,7 @@
             { "store_button_panel@pause.store_button_panel": {} },
             {
               "server@pause.vertical_padding": {
-                "ignored": "$is_secondary_client",
-                "bindings": [
-                  {
-                    "binding_name": "#store_button_visible",
-                    "binding_name_override": "#visible",
-                    "binding_type": "global"
-                  }
-                ]
+                "ignored": "$is_secondary_client"
               }
             },
             { "quit_button@pause.quit_button": {} }
@@ -1265,7 +1316,7 @@
 
   "info_panel_background@pause.non_transparent_background": {
     "size": [ "200%", "120%" ],
-	"offset": [ 0, "-10%" ],
+    "offset": [ 0, "-10%" ],
     "anchor_from": "top_right",
     "anchor_to": "top_middle"
   },
@@ -1274,7 +1325,7 @@
     "size": [ 150, "100%" ],
     "anchor_from": "right_middle",
     "anchor_to": "right_middle",
-    "ignored": "($trial and $is_new_trial_mode_enabled)",
+    "ignored": "($trial)",
     "controls": [
       { "info_panel_background@pause.info_panel_background": {} },
       { "info_panel_list@pause.info_panel_content_list": {} }
@@ -1305,31 +1356,34 @@
         }
       },
       {
+        "social_buttons_panel@pause.social_buttons_panel": {}
+      },
+      {
         "players_label@pause.players_label": {
           "ignored": "$education_edition"
         }
       },
       {
-        "vertical_padding_2@pause.vertical_padding": {
+        "vertical_padding_4@pause.vertical_padding": {
           "size": [ 0, 3 ],
           "ignored": "$education_edition"
         }
       },
       { "players_grid_panel@pause.players_grid": {} },
       {
-        "vertical_padding_3@pause.vertical_padding": {
+        "vertical_padding_5@pause.vertical_padding": {
           "size": [ 0, 3 ]
         }
       },
       { "invite_players_button_panel@pause.invite_players_button_panel": {} },
       {
-        "vertical_padding_4@pause.vertical_padding": {
+        "vertical_padding_6@pause.vertical_padding": {
           "size": [ 0, 3 ]
         }
       },
       { "disconnected_from_multiplayer_label_panel@pause.disconnected_from_multiplayer_label_panel": {} },
       {
-        "vertical_padding_5@pause.vertical_padding": {
+        "vertical_padding_7@pause.vertical_padding": {
           "size": [ 0, 1 ]
         }
       }
@@ -1376,6 +1430,8 @@
 
   "disconnected_label": {
     "type": "label",
+    "text": "#disconnected_from_multiplayer_text",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", "default" ],
     "color": "$main_header_text_color",
     "layer": 1
@@ -1388,7 +1444,7 @@
       {
         "disconnected_from_xbox_live_label@pause.disconnected_label": {
           "text": "pauseScreen.xboxLiveDisconnect",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#disconnected_from_xbox_live_label_visible",
@@ -1401,7 +1457,7 @@
       {
         "disconnected_from_third_party_label@pause.disconnected_label": {
           "text": "pauseScreen.thirdPartyConsoleDisconnect",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#disconnected_from_third_party_label_visible",
@@ -1414,7 +1470,7 @@
       {
         "disconnected_from_adhoc_label@pause.disconnected_label": {
           "text": "pauseScreen.thirdPartyConsoleAdhocDisconnect",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#disconnected_from_adhoc_label_visible",
@@ -1427,7 +1483,7 @@
       {
         "disconnected_from_crossplatform_multiplayer@pause.disconnected_label": {
           "text": "options.crossPlatformMultiplayerDisabled",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#disconnected_from_crossplatform_multiplayer",
@@ -1440,7 +1496,7 @@
       {
         "disconnected_from_multiplayer@pause.disconnected_label": {
           "text": "options.multiplayerDisabled",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#disconnected_from_multiplayer",
@@ -1466,7 +1522,7 @@
   "ip_label": {
     "type": "label",
     "text": "#ip",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "100%", 10 ],
     "color": "$main_header_text_color",
     "layer": 1,
@@ -1483,7 +1539,7 @@
   "players_label": {
     "type": "label",
     "text": "#players_list_title",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "localize": false,
     "size": [ "100%", 10 ],
     "color": "$main_header_text_color",
@@ -1492,6 +1548,10 @@
       {
         "binding_name": "#players_list_title",
         "binding_type": "global"
+      },
+      {
+        "binding_name": "#players_in_my_world_visible",
+        "binding_name_override": "#visible"
       }
     ]
   },
@@ -1509,6 +1569,10 @@
         "binding_name": "#players_grid_dimension",
         // Necessary do to a bug with grid item bindings not refreshing when the grid is inside a stack panel
         "binding_condition": "always"
+      },
+      {
+        "binding_name": "#players_in_my_world_visible",
+        "binding_name_override": "#visible"
       }
     ]
   },
@@ -1808,7 +1872,7 @@
     "type": "label",
     "color": "$main_header_text_color",
     "text": "#gamertag",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "left_middle",
     "anchor_to": "left_middle",
     "size": [ "100%", 10 ],

@@ -32,7 +32,7 @@
                 "size": [ "default", "default" ],
                 "max_size": [ "100%", "100%" ],
                 "text": "$image_label",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color"
               }
             }
@@ -97,7 +97,7 @@
           "type": "label",
           "color": "$body_text_color",
           "text": "options.adjustBrightness",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       }
     ]
@@ -118,7 +118,7 @@
                 "type": "label",
                 "size": [ "default", "default" ],
                 "text": "$slider_header",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color"
               }
             }
@@ -167,7 +167,7 @@
     "layer": 1,
     "variables": [
       {
-        "requires": "($pocket_screen or $is_holographic)",
+        "requires": "($pocket_screen)",
         "$padding_between_button_size": [ "100%", 2 ]
       },
       {
@@ -188,7 +188,7 @@
           "size": [ "100%", "100%c" ],
           "variables": [
             {
-              "requires": "($pocket_screen or $is_holographic)",
+              "requires": "($pocket_screen)",
               "$image_panel_size": [ 192, "33.3333%c" ]
             },
             {
@@ -210,7 +210,7 @@
           "size": [ "100%", "100%c" ],
           "variables": [
             {
-              "requires": "($pocket_screen or $is_holographic)",
+              "requires": "($pocket_screen)",
               "$slider_size": [ 162, 10 ]
             },
             {
@@ -235,14 +235,8 @@
     ]
   },
 
-  "black_background": {
-    "type": "image",
-    "texture": "textures/ui/realms_text_background"
-  },
-
   "gamma_calibration_screen@common.base_screen": {
-    "$screen_content": "gamma_calibration.main_panel",
-    "$screen_bg_content": "gamma_calibration.black_background"
+    "$screen_content": "gamma_calibration.main_panel"
   }
 
 }

@@ -25,6 +25,46 @@
     ]
   },
 
+  "bundle_open_icon_back@common.item_renderer": {
+    "size": "$item_renderer_size",
+    "offset": "$item_renderer_offset",
+    "layer": 52,
+    "bindings": [
+      {
+        "binding_name": "#bundle_selected_item_visible",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      },
+      {
+        "binding_name": "#bundle_open_back",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name",
+        "binding_condition": "$item_renderer_binding_condition"
+      }
+    ]
+  },
+
+  "bundle_open_icon_front@common.item_renderer": {
+    "size": "$item_renderer_size",
+    "offset": "$item_renderer_offset",
+    "layer": 53,
+    "bindings": [
+      {
+        "binding_name": "#bundle_selected_item_visible",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      },
+      {
+        "binding_name": "#bundle_open_front",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name",
+        "binding_condition": "$item_renderer_binding_condition"
+      }
+    ]
+  },
+
   "bundle_selected_item_background": {
     "type": "panel",
     "size": [ "100%+3px", "100%+3px" ],
@@ -82,19 +122,8 @@
         }
       },
       {
-        "bundle_open_icon_back": {
-          "type": "image",
-          "size": [ "100% + 2px", "100% + 2px" ],
-          "layer": 2,
-          "bindings": [
-            {
-              "binding_name": "#bundle_open_back",
-              "binding_name_override": "#texture",
-              "binding_type": "collection",
-              "binding_collection_name": "$item_collection_name",
-              "binding_condition": "visible"
-            }
-          ]
+        "bundle_open_icon_back@gameplay.bundle_open_icon_back": {
+          "layer": 2
         }
       },
       {
@@ -103,19 +132,8 @@
         }
       },
       {
-        "bundle_open_icon_front": {
-          "type": "image",
-          "size": [ "100% + 2px", "100% + 2px" ],
-          "layer": 4,
-          "bindings": [
-            {
-              "binding_name": "#bundle_open_front",
-              "binding_name_override": "#texture",
-              "binding_type": "collection",
-              "binding_collection_name": "$item_collection_name",
-              "binding_condition": "visible"
-            }
-          ]
+        "bundle_open_icon_front@gameplay.bundle_open_icon_front": {
+          "layer": 4
         }
       },
       {
@@ -312,7 +330,7 @@
           "color": "$item_stack_count_color",
           "layer": 2,
           "text": "#more_hidden_items_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#is_hidden_items_label",
@@ -356,7 +374,7 @@
           "color": "$item_stack_count_color",
           "layer": 2,
           "text": "#more_hidden_items_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#is_hidden_items_label",
@@ -394,10 +412,22 @@
                 "$pressed_button_name": "button.tapped_bundle_tooltip",
                 "size": [ "100%", "100%" ],
                 "layer": 1,
+                "$empty_button_enabled|default": false,
+                "enabled": "$empty_button_enabled",
                 "controls": [
                   { "default@common.empty_panel": {} },
                   { "hover@common.empty_panel": {} },
                   { "pressed@common.empty_panel": {} }
+                ],
+                "variables": [
+                  {
+                    "requires": "$touch",
+                    "$empty_button_enabled": true
+                  },
+                  {
+                    "requires": "(not $touch)",
+                    "$empty_button_enabled": false
+                  }
                 ]
               }
             },
@@ -412,7 +442,7 @@
                     "item_text_label@common.item_text_label": {
                       "alpha": 1,
                       "text": "#selected_bundle_item_text",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "bindings": [
                         {
                           "binding_name": "#selected_bundle_item_text",
@@ -452,7 +482,7 @@
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "text": "#bundle_name",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "bindings": [
                   {
                     "binding_name": "#bundle_name",
@@ -606,7 +636,7 @@
                                   "layer": 3,
                                   "color": "$bundle_info_description_color",
                                   "text": "item.bundle.empty.description",
-                                  "font_type":"iannnnn",
+                                  "font_type": "iannnnnAMD",
                                   "size": "$info_message_size",
 
                                   "bindings": [
@@ -650,7 +680,7 @@
                                               "color": "$sub_header_text_color",
                                               "layer": 5,
                                               "text": "item.bundle.empty",
-                                              "font_type":"iannnnn",
+                                              "font_type": "iannnnnAMD",
                                               "shadow": true,
                                               "bindings": [
                                                 {
@@ -691,8 +721,8 @@
                                                     "type": "label",
                                                     "color": "$sub_header_text_color",
                                                     "layer": 2,
+                                                    "font_type": "iannnnnAMD",
                                                     "text": "item.bundle.full",
-                                                    "font_type":"iannnnn",
                                                     "shadow": true
                                                   }
                                                 }
@@ -776,26 +806,20 @@
     ]
   },
 
-  "bundle_cursor_tooltip": {
-    "type": "button",
-    "size": [ "100%cm", "100%cm" ],
-    "layer": 100,
-    "locked_control": "",
-    "always_listen_to_input": true,
-    "follows_cursor_inside_parent": true,
-    "always_handle_pointer": true,
+  "bundle_tooltip_factory_wrapper": {
+    "type": "panel",
     "controls": [
-      {
-        "default@common.empty_panel": {
-          "size": [ 0, 0 ]
-        }
-      },
-      {
-        "pressed@common.empty_panel": {
-          "size": [ 0, 0 ]
-        }
-      },
-      { "hover@gameplay.bundle_tooltip": {} }
+      { "bundle_cursor_tooltip@gameplay.bundle_cursor_tooltip": {} }
+    ]
+  },
+
+  "bundle_cursor_tooltip": {
+    "type": "custom",
+    "renderer": "bundle_tooltip_renderer",
+    "size": [ "100%cm", "100%cm" ],
+    "layer": 20,
+    "controls": [
+      { "tooltip@gameplay.bundle_tooltip": {} }
     ]
   }
 }

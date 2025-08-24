@@ -23,7 +23,7 @@
 
   "locked_label@edu_common.dark_label": {
     "text": "#text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#lock_label_text",
@@ -93,7 +93,6 @@
   "chalkboard_root@common_dialogs.main_panel_no_buttons": {
     "size": "$text_panel_size",
     "$title_panel": "common_dialogs.standard_title_label",
-    "$font_type":"iannnnn",
     "$text_name": "$chalkboard_name",
     "$child_control": "chalkboard.chalkboard_content",
     "$custom_background": "dialog_background_opaque"

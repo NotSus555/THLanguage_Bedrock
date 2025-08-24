@@ -117,7 +117,7 @@
           "color": "$body_text_color",
           "layer": 3,
           "text": "#update_screen_patch_notes",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#update_screen_patch_notes"
@@ -132,7 +132,7 @@
     "type": "label",
     "size": [ "100%", "default" ],
     "text": "#update_screen_description",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$body_text_color",
     "bindings": [
       {

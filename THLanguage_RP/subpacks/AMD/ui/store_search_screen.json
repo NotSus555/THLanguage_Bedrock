@@ -37,7 +37,7 @@
                       "size": [ "100%", 10 ],
                       "offset": [ 2, 0 ],
                       "text": "#trending_row_name",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "color": "$body_text_color",
                       "bindings": [
                         {

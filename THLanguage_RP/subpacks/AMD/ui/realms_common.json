@@ -157,7 +157,7 @@
   "play_on_realm_popup_dialog_header_text": {
     "type": "label",
     "text": "realmsCreateScreen.playNowTitle",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "font_size": "normal",
     "color": "$title_text_color",
     "anchor_from": "center",
@@ -266,7 +266,7 @@
                     "play_on_realm_text_1": {
                       "type": "label",
                       "text": "realmsCreateScreen.playNowMessage1",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "size": [ "95%", "default" ],
                       "font_size": "normal",
                       "color": "$sub_header_text_color",
@@ -284,7 +284,7 @@
                     "play_on_realm_text_2": {
                       "type": "label",
                       "text": "realmsCreateScreen.playNowMessage2",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "size": [ "95%", "default" ],
                       "font_size": "normal",
                       "color": "$sub_header_text_color",

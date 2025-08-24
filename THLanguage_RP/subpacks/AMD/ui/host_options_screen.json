@@ -8,7 +8,7 @@
   "button_label": {
     "type": "label",
     "text": "$button_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "$button_label_shadow|default": false,
     "shadow": "$button_label_shadow",
     "$button_label_anchor_from|default": "center",

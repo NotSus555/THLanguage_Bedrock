@@ -441,7 +441,7 @@
 		"type": "label",
 		"size": [ "default", "default" ],
 		"text": "permissions.title",
-		"font_type":"iannnnn",
+		"font_type": "MinecraftTen",
 		"color": "$title_text_color",
 		"layer": 3
 	},
@@ -452,7 +452,7 @@
 		"type": "label",
 		"size": [ "default", "default" ],
 		"text": "#ip",
-		"font_type":"iannnnn",
+		"font_type": "iannnnnAMD",
 		"color": "$main_header_text_color",
 		"layer": 1,
 		"bindings": [
@@ -468,7 +468,7 @@
 		"type": "label",
 		"size": [ "default", "default" ],
 		"text": "pauseScreen.currentWorld",
-		"font_type":"iannnnn",
+		"font_type": "iannnnnAMD",
 		"color": "$main_header_text_color",
 		"layer": 1
 	},
@@ -477,7 +477,7 @@
 		"type": "label",
 		"color": "$main_header_text_color",
 		"text": "#gamertag",
-		"font_type":"iannnnn",
+		"font_type": "iannnnnAMD",
 		"anchor_from": "left_middle",
 		"anchor_to": "left_middle",
 		"layer": 2,
@@ -493,7 +493,7 @@
 	"option_state_label": {
 		"type": "label",
 		"text": "#option_state_name",
-		"font_type":"iannnnn",
+		"font_type": "iannnnnAMD",
 		"color": "$main_header_text_color",
 		"layer": 2,
 
@@ -510,7 +510,7 @@
 		"type": "label",
 		"size": [ "100%", "default" ],
 		"text": "#option_name",
-		"font_type":"iannnnn",
+		"font_type": "iannnnnAMD",
 		"color": "$main_header_text_color",
 		"layer": 2,
 
@@ -798,7 +798,7 @@
 					"anchor_from": "left_middle",
 					"anchor_to": "left_middle",
 					"text": "$radio_label_text",
-					"font_type":"iannnnn",
+					"font_type": "iannnnnAMD",
 					"color": "$radio_label_color",
 					"offset": [ 16, 0.5 ],
 					"size": [ "100% - 16px", "default" ],
@@ -824,7 +824,7 @@
 					"color": "$main_header_text_color",
 					"size": [ "100%-8px", "default" ],
 					"text": "$radio_label_desc",
-					"font_type": "smooth",
+					"font_type": "iannnnnAMD",
 					"font_scale_factor": 1.333,
 					"shadow": false
 				}
@@ -1073,7 +1073,6 @@
 								"size": [ "100%", "default" ],
 								"max_size": [ "100%", "100%" ],
 								"text": "$options_dropdown_toggle_label_binding",
-								"font_type":"iannnnn",
 								"alpha": "$content_alpha",
 								"visible": "$content_label_visible",
 								"bindings": [

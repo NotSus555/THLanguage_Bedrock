@@ -78,14 +78,14 @@
         "mojangles@settings_common.radio_item_with_label_and_content": {
           "$toggle_state_binding_name": "#typeface_radio_mojangles",
           "$radio_label_text": "typeface.mojangles",
-          "$radio_label_font_type": "iannnnn"
+          "$radio_label_font_type": "iannnnnAMD"
         }
       },
       {
         "noto_sans@settings_common.radio_item_with_label_and_content": {
           "$toggle_state_binding_name": "#typeface_radio_notoSans",
           "$radio_label_text": "typeface.notoSans",
-          "$radio_label_font_type": "smooth"
+          "$radio_label_font_type": "iannnnnAMD"
         }
       },
       {

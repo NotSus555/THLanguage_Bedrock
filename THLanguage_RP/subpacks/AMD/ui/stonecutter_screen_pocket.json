@@ -294,7 +294,7 @@
                 "type": "label",
                 "color": "$title_text_color",
                 "text": "container.inventory",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "size": [ "default", "100%" ]
               }
             }

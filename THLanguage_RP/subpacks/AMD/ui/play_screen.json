@@ -92,10 +92,10 @@
                         {
                           "exclamationmark": {
                             "type": "label",
+                            "font_type": "iannnnnAMD",
                             "color": "$realmsplus_exclamation_mark_color",
                             "layer": 1,
                             "text": "!",
-                            "font_type":"iannnnn",
                             "anchor_from": "bottom_middle",
                             "anchor_to": "bottom_middle",
                             "offset": [ 1, -1 ]
@@ -650,9 +650,9 @@
 
   "realms_sign_in_prompt_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$text_color",
     "text": "#realms_sign_in_prompt",
-    "font_type":"iannnnn",
     "anchor_to": "left_middle",
     "anchor_from": "left_middle",
     "bindings": [
@@ -677,7 +677,6 @@
       {
         "realms_sign_in_prompt_label_friends@play.realms_sign_in_prompt_label": {
           "text": "#realms_sign_in_prompt_friends",
-          "font_type":"iannnnn",
           "bindings": [
             {
               "binding_name": "#realms_sign_in_prompt_friends"
@@ -732,7 +731,7 @@
     "color": "$text_color",
     "shadow": false,
     "text": "$text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "$text_binding_type|default": "none",
@@ -754,7 +753,6 @@
     "color": "$text_color",
     "size": [ "100%", 10 ],
     "$text": "#realms_world_header",
-    "font_type":"iannnnn",
     "$text_binding_type": "collection"
   },
 
@@ -764,7 +762,6 @@
     "size": [ "100%", 10 ],
     "color": "$secondary_text_color",
     "$text": "#realms_world_details",
-    "font_type":"iannnnn",
     "$text_binding_type": "collection"
   },
 
@@ -773,7 +770,6 @@
     "size": [ "default", 10 ],
     "color": "$secondary_text_color",
     "$text": "selectWorld.worldTags.hardcore",
-    "font_type":"iannnnn",
     "bindings": [
       {
         "binding_name": "#realms_world_is_hardcore",
@@ -786,7 +782,6 @@
 
   "realms_world_player_count@play.world_list_text": {
     "text": "#realms_world_player_count",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "size": [ "default", 10 ],
     "bindings": [
@@ -860,7 +855,6 @@
       {
         "realms_world_header_text@play.realms_list_text": {
           "$text": "$button_content_text",
-          "font_type":"iannnnn",
           "$text_binding_type": "$world_header_text_binding_type",
           "anchor_from": "top_left",
           "anchor_to": "top_left",
@@ -870,7 +864,6 @@
       {
         "realms_world_details@play.realms_list_text": {
           "$text": "$world_details_text",
-          "font_type":"iannnnn",
           "color": "$secondary_text_color",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
@@ -1194,7 +1187,7 @@
     "color": "$tab_secondary_unchecked_text_color",
     "shadow": false,
     "text": "#realms_unread_story_count",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_type": "collection",
@@ -1428,7 +1421,6 @@
             {
               "network_world_header_text@play.world_list_text": {
                 "text": "#network_world_header",
-                "font_type":"iannnnn",
                 "color": "$text_color",
                 "offset": [ 0, 1 ],
                 "bindings": [
@@ -1448,7 +1440,6 @@
 
   "network_world_details@play.world_list_text": {
     "text": "#network_world_details",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "size": [ "100%", 10 ],
     "anchor_from": "bottom_left",
@@ -1469,7 +1460,6 @@
       {
         "count@play.world_list_text": {
           "text": "#network_world_player_count",
-          "font_type":"iannnnn",
           "color": "$secondary_text_color",
           "bindings": [
             {
@@ -1609,7 +1599,6 @@
       {
         "type@play.world_list_text": {
           "text": "selectWorld.worldTags.hardcore",
-          "font_type":"iannnnn",
           "color": "$secondary_text_color"
         }
       }
@@ -1642,6 +1631,7 @@
       {
         "network_world_type_icon": {
           "type": "label",
+          "font_type": "iannnnnAMD",
           "color": "$text_color",
           "size": [ "100%c", "100%" ],
           "layer": 2,
@@ -1782,6 +1772,7 @@
                   {
                     "label": {
                       "type": "label",
+                      "font_type": "iannnnnAMD",
                       "color": "$dark_button_default_text_color",
                       "size": "$label_size",
                       "anchor_from": "top_left",
@@ -1789,7 +1780,7 @@
                       "layer": 1,
                       "shadow": false,
                       "text": "$label_content_label",
-                      "font_type":"iannnnn",
+                      
                       "$label_content_label_binding_type|default": "none",
                       "$label_content_label_binding_condition|default": "none",
                       "bindings": [
@@ -1837,7 +1828,7 @@
                     "label": {
                       "type": "label",
                       "$information_label_font|default": "default",
-                      "font_type": "$information_label_font",
+                      "font_type": "iannnnnAMD",
                       "color": "$dark_button_default_text_color",
                       "size": [ "100%", "default" ],
                       "anchor_from": "center",
@@ -1892,6 +1883,7 @@
                   {
                     "label": {
                       "type": "label",
+                      "font_type": "iannnnnAMD",
                       "color": "$dark_button_default_text_color",
                       "size": [ "100%", "default" ],
                       "anchor_from": "center",
@@ -1901,7 +1893,6 @@
                       "visible": false,
 
                       "text": "#privilegesBlockedText",
-                      "font_type":"iannnnn",
                       "bindings": [
                         {
                           "binding_name": "#privilegesBlockedText",
@@ -1987,11 +1978,11 @@
       {
         "list_label": {
           "type": "label",
+          "font_type": "iannnnnAMD",
           "color": "$dark_button_default_text_color",
           "size": [ "100%", 10 ],
           "offset": [ 1, 0 ],
-          "text": "$label_text",
-          "font_type":"iannnnn"
+          "text": "$label_text"
         }
       }
     ]
@@ -2052,7 +2043,7 @@
                 "text": "#info_additional_server_name",
                 "localize": false,
                 "color": "$main_header_text_color",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "text_alignment": "left",
                 "size": [ "100%", 10 ],
                 "bindings": [
@@ -2117,8 +2108,7 @@
                 "$pressed_button_name": "button.menu_network_server_item",
                 "$button_text": "networkWorld.join_server",
                 "$focus_override_left": "left_panel",
-                "size": [ "100%", 20 ],
-                "font_type":"iannnnn"
+                "size": [ "100%", 20 ]
               }
             }
           ]
@@ -2155,7 +2145,7 @@
                 "type": "label",
                 "size": [ "default", 10 ],
                 "text": "#server_player_count",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$text_color",
                 "bindings": [
                   {
@@ -2210,7 +2200,7 @@
               "add_server_title": {
                 "type": "label",
                 "text": "externalServerScreen.addServerTitle",
-                "font_type":"iannnnn",
+                "font_type": "MinecraftTen",
                 "color": "$body_text_color",
                 "text_alignment": "left",
                 "size": [ "100%", 10 ]
@@ -2227,7 +2217,7 @@
                 "type": "label",
                 "text": "externalServerScreen.addServerDescription",
                 "color": "$body_text_color",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "font_scale_factor": 0.8,
                 "text_alignment": "left",
                 "size": [ "100%", "default" ]
@@ -2340,7 +2330,7 @@
                       "text": "#third_party_server_name",
                       "localize": false,
                       "color": "$text_color",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "size": [ "100%", "100%" ],
                       "anchor_from": "left_middle",
                       "anchor_to": "left_middle",
@@ -2400,7 +2390,7 @@
                 "text": "#third_party_server_message",
                 "localize": false,
                 "color": "$dark_button_default_text_color",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "size": [ "100% - 4px", "100%" ],
                 "offset": [ 2, 1 ],
                 "anchor_from": "left_middle",
@@ -2563,7 +2553,7 @@
                 "text": "#info_third_party_server_name",
                 "localize": false,
                 "color": "$main_header_text_color",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "text_alignment": "left",
                 "size": [ "100%", 10 ],
                 "bindings": [
@@ -2619,15 +2609,13 @@
                 "$pressed_button_name": "button.connect_to_third_party_server",
                 "$button_text": "networkWorld.join_server",
                 "$focus_override_left": "left_panel",
-                "size": [ "100%", 20 ],
-                "font_type":"iannnnn"
+                "size": [ "100%", 20 ]
               }
             },
             {
               "view_offers_button@common_buttons.light_text_button": {
                 "$pressed_button_name": "button.view_third_party_server_offers",
                 "$button_text": "networkWorld.view_offers",
-                "$font_type":"iannnnn",
                 "$focus_override_left": "left_panel",
                 "size": [ "100%", 20 ],
                 "bindings": [
@@ -2724,7 +2712,7 @@
           "type": "label",
           "size": [ "default", "default" ],
           "color": "$main_header_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text_alignment": "left",
           "text": "$text_icon_number_text"
         }
@@ -2773,7 +2761,7 @@
                 "type": "label",
                 "size": [ "default", "default" ],
                 "color": "$main_header_text_color",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "text_alignment": "left",
                 "text": "$text_icon_number_number",
                 "bindings": "$number_bindings"
@@ -2857,7 +2845,8 @@
           "type": "label",
           "size": [ "100%", 11 ],
           "color": "$body_text_color",
-          "text": "networkWorld.screenshots"
+          "text": "networkWorld.screenshots",
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -2994,8 +2983,7 @@
           "offset": [ 2, 0 ],
           "layer": 1,
           "color": "$body_text_color",
-          "font_type": "smooth",
-          "enable_profanity_filter": false,
+          "font_type": "iannnnnAMD",
           "text": "#description_label",
           "notify_on_ellipses": [
             "description_read_more_button_panel"
@@ -3030,7 +3018,7 @@
           "size": [ "100%", 11 ],
           "color": "$body_text_color",
           "text": "networkWorld.description",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -3209,7 +3197,7 @@
                             "type": "label",
                             "size": [ "100%", "default" ],
                             "color": "$body_text_color",
-                            "font_type": "smooth",
+                            "font_type": "iannnnnAMD",
                             "text": "#available_game_title",
                             "bindings": [
                               {
@@ -3225,7 +3213,7 @@
                             "type": "label",
                             "size": [ "100%", "default" ],
                             "color": "$body_text_color",
-                            "font_type": "smooth",
+                            "font_type": "iannnnnAMD",
                             "font_scale_factor": 0.8,
                             "text": "#available_game_subtitle",
                             "bindings": [
@@ -3256,7 +3244,7 @@
                       "type": "label",
                       "size": [ "100%", "default" ],
                       "color": "$body_text_color",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "font_scale_factor": 0.8,
                       "text": "#available_game_description",
                       "bindings": [
@@ -3303,7 +3291,7 @@
           "size": [ "100%", 11 ],
           "color": "$body_text_color",
           "text": "networkWorld.available_games",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -3352,9 +3340,8 @@
           "offset": [ 2, 0 ],
           "layer": 1,
           "color": "$body_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "font_scale_factor": 0.8,
-          "enable_profanity_filter": false,
           "text": "#news_text",
           "notify_on_ellipses": [
             "news_read_more_button_panel"
@@ -3389,7 +3376,7 @@
           "color": "$body_text_color",
           "size": [ "100%", 11 ],
           "text": "networkWorld.news",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       },
       {
@@ -3419,7 +3406,7 @@
                       "type": "label",
                       "size": [ "100%", 11 ],
                       "color": "$body_text_color",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "text": "#news_label",
                       "layer": 5,
                       "bindings": [
@@ -3579,7 +3566,7 @@
                       "layer": 1,
                       "color": "$dark_button_default_text_color",
                       "text": "playscreen.worldsStorage",
-                      "font_type":"iannnnn"
+                      "font_type": "iannnnnAMD"
                     }
                   },
                   {
@@ -3638,6 +3625,7 @@
 
   "world_list_text": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$dark_button_secondary_default_text_color",
     "shadow": false
   },
@@ -3660,7 +3648,6 @@
 
   "local_world_name@play.world_list_text": {
     "text": "#local_world_name",
-    "font_type":"iannnnn",
     "localize": false,
     "color": "$text_color",
     "bindings": [
@@ -3674,7 +3661,6 @@
 
   "legacy_world_name@play.world_list_text": {
     "text": "#legacy_world_name",
-    "font_type":"iannnnn",
     "localize": false,
     "color": "$text_color",
     "bindings": [
@@ -3699,7 +3685,6 @@
 
   "local_world_game_mode@play.world_list_text": {
     "text": "#local_world_game_mode",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {
@@ -3712,7 +3697,6 @@
 
   "legacy_world_game_mode@play.world_list_text": {
     "text": "#legacy_world_game_mode",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {
@@ -3725,7 +3709,6 @@
 
   "local_world_date@play.world_list_text": {
     "text": "#local_world_date",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {
@@ -3738,7 +3721,6 @@
 
   "legacy_world_date@play.world_list_text": {
     "text": "#legacy_world_date",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {
@@ -3757,7 +3739,6 @@
 
   "local_world_filesize@play.world_list_text": {
     "text": "#local_worldfile_size",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {
@@ -3770,7 +3751,6 @@
 
   "legacy_world_filesize@play.world_list_text": {
     "text": "#legacy_worldfile_size",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {
@@ -4049,7 +4029,6 @@
                   {
                     "beta_retail_world_name@play.world_list_text": {
                       "text": "$beta_retail_world_name_binding_name",
-                      "font_type":"iannnnn",
                       "size": [ "fill", 10 ],
                       "color": "$text_color",
                       "layer": 1,
@@ -4065,7 +4044,6 @@
                   {
                     "beta_retail_world_date@play.world_list_text": {
                       "text": "$beta_retail_world_date_binding_name",
-                      "font_type":"iannnnn",
                       "size": [ "default", 10 ],
                       "color": "$secondary_text_color",
                       "layer": 1,
@@ -4092,7 +4070,6 @@
                   {
                     "beta_retail_world_game_mode@play.world_list_text": {
                       "text": "$beta_retail_world_game_mode_binding_name",
-                      "font_type":"iannnnn",
                       "size": [ "fill", 10 ],
                       "color": "$secondary_text_color",
                       "layer": 1,
@@ -4108,7 +4085,6 @@
                   {
                     "beta_retail_world_filesize@play.world_list_text": {
                       "text": "$beta_retail_world_filesize_binding_name",
-                      "font_type":"iannnnn",
                       "size": [ "default", 10 ],
                       "color": "$secondary_text_color",
                       "layer": 1,
@@ -4198,7 +4174,7 @@
           "type": "label",
           "size": [ "100%", "fill" ],
           "text": "#ownership_verification_state_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "text_alignment": "center",
           "color": "$f_color_format",
           "bindings": [
@@ -4547,7 +4523,7 @@
     "layer": 1,
     "shadow": false,
     "text": "$common_button_text_text",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
 
   "add_friend_and_invite_panel": {
@@ -4632,7 +4608,6 @@
     "layer": 2,
     "$pressed_button_name": "button.menu_network_add_friend",
     "$button_text": "networkWorld.add_friend",
-    "$font_type":"iannnnn",
     "$button_focus_precedence": 10,
     "$focus_override_up": "close_button"
   },
@@ -4640,7 +4615,6 @@
   "join_by_code_button@common_buttons.light_text_button": {
     "layer": 2,
     "$button_text": "networkWorld.joinByCode",
-    "$font_type":"iannnnn",
     "$pressed_button_name": "button.menu_network_join_by_code",
     "$button_focus_precedence": 10,
     "$focus_override_up": "close_button",
@@ -4677,7 +4651,6 @@
     "anchor_to": "top_left",
     "layer": 2,
     "$button_text": "networkWorld.add_server",
-    "font_type":"iannnnn",
 
     "$radio_toggle_group": true,
     "$toggle_name": "server_navigation_toggle",
@@ -4737,7 +4710,6 @@
   "quick_play_button@common_buttons.light_text_button": {
     "$pressed_button_name": "button.menu_quick_play",
     "$button_text": "menu.quickplay",
-    "font_type":"iannnnn",
     "focus_identifier": "quick_play_button",
     "layer": 1
   },
@@ -4754,14 +4726,12 @@
       },
       {
         "requires": "$is_editor_mode_enabled",
-        "$button_text": "playscreen.editor.create",
-        "font_type":"iannnnn"
+        "$button_text": "playscreen.editor.create"
       }
     ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "$button_text": "selectWorld.createNew",
-    "$font_type":"iannnnn",
     "$button_focus_precedence": 1,
     "$create_new_row_focus_override_up|default": "close_button",
     "$focus_override_up": "$create_new_row_focus_override_up",
@@ -4778,7 +4748,6 @@
         "create_on_realms_button@settings_common.action_button_dark_text": {
           "size": [ "100%", 29 ],
           "$button_text": "createWorldScreen.createOnRealms",
-          "$font_type":"iannnnn",
           "$pressed_button_name": "button.create_on_realms_button",
           "$default_button_texture": "textures/ui/realmsContent",
           "$hover_button_texture": "textures/ui/realmsContentHover",
@@ -4827,7 +4796,6 @@
     "layer": 2,
     "$pressed_button_name": "button.menu_sync_legacy_worlds",
     "$button_text": "#sync_legacy_button_text",
-    "$font_type":"iannnnn",
     "$button_text_binding_type": "global",
 
     "bindings": [
@@ -4886,7 +4854,7 @@
           "color": "$text_color",
           "size": [ "100%", 10 ],
           "text": "$label_text",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       }
     ]
@@ -5033,7 +5001,6 @@
   "open_account_setting_button_gamecore@common_buttons.light_text_button": {
     "$pressed_button_name": "button.open_account_setting_gamecore",
     "$button_text": "permissions.open.account.help.button.gamecore",
-    "font_type":"iannnnn",
     "size": [ "100%", 30 ],
     "visible": true,
     "bindings": [
@@ -5069,7 +5036,6 @@
     "size": [ "100% - 8px", "100%cm + 6px" ],
     "$game_tip_text|default": "",
     "$label_text": "$game_tip_text",
-    "$font_type":"iannnnn",
     "controls": [
       {
         "info_bulb": {
@@ -5104,7 +5070,7 @@
                 "$label_text|default": "#label_text",
                 "$label_text_binding_type|default": "global",
                 "text": "$label_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$body_text_color",
                 "layer": 3,
                 "bindings": [
@@ -5129,8 +5095,7 @@
       {
         "more_info_button@common_buttons.light_text_form_fitting_button": {
           "$pressed_button_name": "button.realms_warning_more_info",
-          "$button_text": "playscreen.realmsWarning.moreinfo",
-          "$font_type":"iannnnn"
+          "$button_text": "playscreen.realmsWarning.moreinfo"
         }
       }
     ]
@@ -5152,7 +5117,6 @@
       {
         "info_panel@play.game_tip_item_panel": {
           "$game_tip_text": "$realms_warning_text",
-          "font_type":"iannnnn",
           "offset": [ 0, 4 ]
         }
       }
@@ -5181,7 +5145,6 @@
         "unlock_template_options_button@settings_common.action_button": {
           "size": [ "100% - 1px", 30 ],
           "$button_text": "options.newUiPlayScreen.initiate",
-          "$font_type":"iannnnn",
           "$pressed_button_name": "button.switch_to_new_ui"
         }
       }
@@ -5204,7 +5167,6 @@
         "unlock_template_options_button@settings_common.action_button": {
           "size": [ "100% - 1px", 30 ],
           "$button_text": "options.newUiPlayScreen.initiate",
-          "$font_type":"iannnnn",
           "$pressed_button_name": "button.switch_to_new_ui_servers"
         }
       },
@@ -5305,7 +5267,6 @@
               "realms_label@play.world_list_label_panel": {
                 "ignored": "$world_picker_screen",
                 "$label_text": "$tts_section_header",
-                "font_type":"iannnnn",
                 "bindings": [
                   {
                     "binding_name": "#realm_label_visible",
@@ -5347,7 +5308,6 @@
                       "size": [ "100%", 30 ],
                       "$pressed_button_name": "button.free_preview_realm_available",
                       "$button_content": "play.realms_trial_content_panel",
-                      "$font_type":"iannnnn",
                       "$button_content_text": "#free_preview_realm_available",
                       "$world_details_text": "playscreen.withYourPaidRealms",
                       "$text_binding_condition": "once",
@@ -5428,7 +5388,6 @@
                       "ignored": "$world_picker_screen",
                       "$pressed_button_name": "button.menu_realm_world_trial",
                       "$button_content": "play.realms_trial_content_panel",
-                      "$font_type":"iannnnn",
                       "$button_content_text": "#realms_trial_text",
                       "$world_details_text": "playscreen.realmsTrialWorld",
                       "$text_binding_condition": "once",
@@ -5465,7 +5424,6 @@
                       "$pressed_button_name": "button.menu_realm_nintendo_first_realm_purchase_button",
                       "$button_content": "play.realms_trial_content_panel",
                       "$button_content_text": "playscreen.realmsCreateFirstWorld",
-                      "$font_type":"iannnnn",
                       "$focus_id": "realms_trial_button"
                     }
                   }
@@ -5526,13 +5484,11 @@
           "variables": [
             {
               "requires": "($pre_release and not $is_editor_mode_enabled)",
-              "$label_text": "playscreen.beta_worlds",
-              "$font_type":"iannnnn"
+              "$label_text": "playscreen.beta_worlds"
             },
             {
               "requires": "$is_editor_mode_enabled",
-              "$label_text": "playscreen.editor.worlds",
-              "$font_type":"iannnnn"
+              "$label_text": "playscreen.editor.worlds"
             }
           ],
           "bindings": [
@@ -5560,7 +5516,6 @@
           "$label_content_label": "",
           "$label_content_content": "play.information_panel",
           "$information_panel_label_text": "localWorld.no_local_world_label",
-          "$font_type":"iannnnn",
           "bindings": [
             {
               "binding_name": "#no_local_worlds",
@@ -5587,7 +5542,6 @@
       {
         "beta_retail_local_worlds_label@play.world_list_label_panel": {
           "$label_text": "playscreen.worlds",
-          "font_type":"iannnnn",
           "bindings": [
             {
               "binding_name": "#beta_retail_local_worlds_visible",
@@ -5623,7 +5577,6 @@
             {
               "legacy_worlds_label@play.world_list_label_panel": {
                 "$label_text": "playscreen.dontSeeLegacyWorlds",
-                "๓font_type":"iannnnn",
                 "ignored": "(not $supports_legacy_worlds)",
                 "bindings": [
                   {
@@ -5702,14 +5655,11 @@
           "variables": [
             {
               "requires": "$pre_release",
-              "$label_text": "playscreen.beta_legacy_worlds",
-              "$font_type":"iannnnn"
-
+              "$label_text": "playscreen.beta_legacy_worlds"
             },
             {
               "requires": "($is_preview_app and (not $legacy_worlds_supports_migration))",
-              "$label_text": "playscreen.upgradeRetailWorlds",
-              "$font_type":"iannnnn"
+              "$label_text": "playscreen.upgradeRetailWorlds"
             }
           ],
           "bindings": [
@@ -5730,8 +5680,7 @@
             },
             {
               "requires": "($is_preview_app and (not $legacy_worlds_supports_migration))",
-              "$label_text": "playscreen.upgradeRetailWorlds",
-              "$font_type":"iannnnn"
+              "$label_text": "playscreen.upgradeRetailWorlds"
             }
           ]
         }
@@ -5754,8 +5703,7 @@
           "variables": [
             {
               "requires": "($is_preview_app and (not $legacy_worlds_supports_migration))",
-              "$label_text": "playscreen.upgradeRetailWorlds",
-              "$font_type":"iannnnn"
+              "$label_text": "playscreen.upgradeRetailWorlds"
             }
           ],
           "bindings": [
@@ -5847,7 +5795,6 @@
   "no_local_worlds_launch_help@common_buttons.light_text_button": {
     "$pressed_button_name": "button.no_local_worlds_launch_help",
     "$button_text": "#no_local_worlds_launch_help_button_label",
-    "$font_type":"iannnnn",
     "$button_text_binding_type": "global",
     "size": [ "100%", 29 ]
   },
@@ -5871,7 +5818,6 @@
 
   "storage_location_dropdown@settings_common.option_dropdown": {
     "$option_label": "options.filelocation.title",
-    "ignored": "($is_holographic and $is_reality_mode)",
     "$dropdown_content": "play.switch_storage_type_content",
     "$dropdown_area": "no_local_worlds_switch_setting",
     "$dropdown_name": "switch_storage_type",
@@ -5885,15 +5831,13 @@
       {
         "storage_location_option_external@settings_common.radio_with_label": {
           "$toggle_state_binding_name": "#storage_location_radio_external",
-          "$radio_label_text": "options.filelocation.external",
-          "$font_type":"iannnnn"
+          "$radio_label_text": "options.filelocation.external"
         }
       },
       {
         "storage_location_option_appdata@settings_common.radio_with_label": {
           "$toggle_state_binding_name": "#storage_location_radio_package",
-          "$radio_label_text": "options.filelocation.appdata",
-          "$font_type":"iannnnn"
+          "$radio_label_text": "options.filelocation.appdata"
         }
       }
     ]
@@ -5912,7 +5856,7 @@
   "light_centered_loading_label": {
     "type": "label",
     "text": "$label_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "max_size": [ "100% - 4px", 20 ],
     "shadow": false,
     "color": "$generic_button_text_color",
@@ -5928,7 +5872,7 @@
   "light_loading_label": {
     "type": "label",
     "text": "$label_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "max_size": [ "100% - 4px", 20 ],
     "shadow": false,
     "offset": [ 0, 6 ],
@@ -5941,7 +5885,7 @@
   "loading_label": {
     "type": "label",
     "text": "$message_binding_name",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "max_size": [ "100% - 4px", 40 ],
     "shadow": false,
     "offset": [ 0, 6 ],
@@ -5989,7 +5933,7 @@
           "size": [ "100%", 10 ],
           "offset": [ 1, 0 ],
           "text": "$label_text",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       }
     ]
@@ -6032,7 +5976,7 @@
           "offset": [ 1, 0 ],
           "$label_text|default": "b",
           "text": "$label_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "$label_binding_type|default": "none",
           "bindings": [
             {
@@ -6135,7 +6079,6 @@
                   {
                     "friends_realms_label@play.world_list_label_panel": {
                       "$label_text": "$tts_section_header",
-                      "$font_type":"iannnnn",
                       "bindings": [
                         {
                           "binding_name": "#friends_realms_visible",
@@ -6180,7 +6123,7 @@
                             "type": "label",
                             "max_size": [ "100% - 4px", 40 ],
                             "text": "#realms_loading_display_message",
-                            "font_type":"iannnnn",
+                            "font_type": "iannnnnAMD",
                             "shadow": false,
                             "offset": [ 0, 6 ],
                             "anchor_from": "top_middle",
@@ -6234,8 +6177,8 @@
                                         "type": "label",
                                         "size": [ "100%", "default" ],
                                         "text_alignment": "center",
+                                        "font_type": "iannnnnAMD",
                                         "text": "networkWorld.addAsAuthorizedApp",
-                                        "font_type":"iannnnn",
                                         "shadow": false,
                                         "color": "$store_white_text_color"
                                       }
@@ -6390,7 +6333,6 @@
                 "ignored": "(not $nx_os and not $is_ps4)",
                 "size": [ "100%", 30 ],
                 "$button_text": "networkWorld.find_cross_platform_friends",
-                "$font_type":"iannnnn",
                 "bindings": [
                   {
                     "binding_name": "#add_friend_button_visible",
@@ -6505,7 +6447,6 @@
         "more_servers_label@common.minecraftTenLabel": {
           "size": [ "default", "default" ],
           "text": "thirdPartyWorld.Additional",
-          "font_type":"MinecraftTen",
           "color": "$dark_button_default_text_color",
           "bindings": [
             {
@@ -6563,8 +6504,7 @@
                 "controls": [
                   {
                     "loading_friends_realms_label@play.light_loading_label": {
-                      "$label_text": "thirdPartyWorld.loadingFeaturedServers",
-                      "$font_type":"iannnnn"
+                      "$label_text": "thirdPartyWorld.loadingFeaturedServers"
                     }
                   },
                   {
@@ -6591,7 +6531,6 @@
               "featured_servers_label@common.minecraftTenLabel": {
                 "size": [ "default", "default" ],
                 "text": "thirdPartyWorld.Featured",
-                "font_type":"MinecraftTen",
                 "color": "$dark_button_default_text_color"
               }
             },
@@ -6656,7 +6595,7 @@
             {
               "no_featured_server_connection@play.information_panel": {
                 "ignored": "(not $is_ps4)",
-                "$information_label_font": "smooth",
+                "$information_label_font": "iannnnnAMD",
                 "$information_panel_label_text": "#internet_connection_text",
                 "$information_panel_label_text_binding_type": "global",
                 "$information_panel_label_text_binding_condition": "always_when_visible",
@@ -6684,7 +6623,7 @@
                 "controls": [
                   {
                     "server_multiplayer_privileges_blocked@play.information_panel": {
-                      "$information_label_font": "smooth",
+                      "$information_label_font": "iannnnnAMD",
                       "$information_panel_label_text": "#multiplayer_blocked_text",
                       "$information_panel_label_text_binding_type": "global",
                       "$information_panel_label_text_binding_condition": "always_when_visible",
@@ -6720,7 +6659,7 @@
   //---------------------------------------------------------------------------
 
   "crossplatform_disabled_panel@play.information_panel": {
-    "$information_label_font": "smooth",
+    "$information_label_font": "iannnnnAMD",
     "$information_panel_label_text": "$cross_platform_information_text",
     "bindings": [
       {
@@ -6938,7 +6877,6 @@
               "featured_servers_label@common.minecraftTenLabel": {
                 "size": [ "default", "default" ],
                 "text": "thirdPartyWorld.Featured",
-                "font_type":"MinecraftTen",
                 "color": "$dark_button_default_text_color"
               }
             },
@@ -6961,7 +6899,7 @@
                           "label": {
                             "type": "label",
                             "$information_label_font|default": "default",
-                            "font_type": "smooth",
+                            "font_type": "iannnnnAMD",
                             "color": "$dark_button_default_text_color",
                             "size": [ "100%", "default" ],
                             "layer": 1,
@@ -7085,7 +7023,6 @@
               "text@play.common_button_text": {
                 "layer": 3,
                 "text": "$tab_text_name",
-                "font_type":"iannnnn",
                 "anchor_from": "left_middle",
                 "anchor_to": "left_middle",
                 "offset": [ -1, 0 ],
@@ -7127,7 +7064,6 @@
                       "layer": 1,
                       "offset": [ 1, 1 ],
                       "text": "$count_text_name",
-                      "font_type":"iannnnn",
                       "color": "$count_text_color",
                       "bindings": [
                         {
@@ -7846,7 +7782,7 @@
   "join_by_code_popup_header_text": {
     "type": "label",
     "text": "networkWorld.joinByCode",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "font_size": "normal",
     "color": "$title_text_color",
     "anchor_from": "center",
@@ -7905,7 +7841,6 @@
   "join_by_code_popup_join_button@common_buttons.light_text_button": {
     "layer": 1,
     "$button_text": "networkWorld.join",
-    "font_type":"iannnnn",
     "$pressed_button_name": "button.menu_network_join_by_code_popup_join",
     "button_mappings": [
       {
@@ -7927,7 +7862,7 @@
     "size": [ "95%", "100%" ],
     "shadow": false,
     "text": "networkWold.joinByCodeHelpText",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$light_glyph_default_color",
     "anchor_from": "center",
     "anchor_to": "center",
@@ -7961,12 +7896,10 @@
   },
   "open_account_setting_button@common_buttons.hyperlink_button": {
     "$button_text": "permissions.open.account.help.button",
-    "$font_type":"iannnnn",
     "property_bag": {
       "#hyperlink": "https://aka.ms/MCMultiplayerHelp"
     },
     "size": [ "100%", 30 ],
-    "ignored": "$is_holographic",
     "visible": false,
     "bindings": [
       {
@@ -8121,7 +8054,7 @@
         "text_line_1": {
           "type": "label",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text": "networkWorld.highPingWarning.line1",
           "color": "$main_header_text_color"
         }
@@ -8136,7 +8069,7 @@
         "text_line_2": {
           "type": "label",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text": "networkWorld.highPingWarning.line2",
           "color": "$main_header_text_color"
         }
@@ -8193,7 +8126,7 @@
     "color": "$main_header_text_color",
     "layer": 2,
     "text": "menu.copyright",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "default", 10 ],
     "max_size": [ "100%", "100%" ],
     "anchor_from": "top_left",
@@ -8205,7 +8138,7 @@
     "color": "$main_header_text_color",
     "layer": 2,
     "text": "#development_version",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "default", 10 ],
     "max_size": [ "100%", "100%" ],
     "anchor_from": "center",
@@ -8222,7 +8155,7 @@
     "color": "$main_header_text_color",
     "layer": 2,
     "text": "#version",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "size": [ "default", 10 ],
     "max_size": [ "100%", "100%" ],
     "anchor_from": "top_right",

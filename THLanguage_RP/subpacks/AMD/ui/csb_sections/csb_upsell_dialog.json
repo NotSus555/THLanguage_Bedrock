@@ -303,7 +303,7 @@
                     "marketing_banner_label": {
                       "type": "label",
                       "text": "$marketing_banner_text",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "text_alignment": "center",
                       "color": "$store_realms-guidelines-deep-blue-5",
                       "layer": 1
@@ -470,7 +470,7 @@
     "orientation": "horizontal",
     "$bullet_color": "$bullet_color",
     "$bullet_text": "$bullet_text",
-    "$font_type|default": "smooth",
+    "$font_type|default": "iannnnnAMD",
     "size": [ "90%", "100%cm" ],
     "$max_size|default": [ "100%", 20 ],
     "controls": [
@@ -496,7 +496,7 @@
     "type": "stack_panel",
     "orientation": "horizontal",
     "$bullet_color": "$bullet_color",
-    "$font_type|default": "smooth",
+    "$font_type|default": "iannnnnAMD",
     "$bullet_text_first": "$bullet_text_first",
     "$bullet_text_second": "$bullet_text_second",
     "size": [ "100%", "100%cm" ],
@@ -583,7 +583,6 @@
               "amount": {
                 "type": "label",
                 "text": "$price",
-                "font_type":"iannnnn",
                 "color": "$color",
                 "max_size": [ "100%", 10 ],
                 "bindings": [
@@ -605,7 +604,6 @@
               "second_line": {
                 "type": "label",
                 "text": "store.csb.upsell.firstPeriodFree",
-                "font_type":"iannnnn",
                 "max_size": [ "100%", 10 ],
                 "color": "$color"
               }
@@ -623,7 +621,6 @@
         "learn_more": {
           "type": "label",
           "text": "store.csb.upsell.learnMore",
-          "font_type":"iannnnn",
           "color": "$text_color",
           "max_size": [ "100%", "100%" ]
         }

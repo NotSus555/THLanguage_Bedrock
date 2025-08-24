@@ -63,7 +63,7 @@
               "text": {
                 "type": "label",
                 "size": [ "100%", "100%" ],
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "text": "store.csb.welcomeDialog.body",
                 "color": "$store_white_text_color"
               }

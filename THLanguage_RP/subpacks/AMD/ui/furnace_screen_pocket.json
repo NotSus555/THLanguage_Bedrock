@@ -3,6 +3,7 @@
 
   "generic_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$pocket_title_text_color",
     "anchor_from": "center",
     "anchor_to": "center",
@@ -39,18 +40,19 @@
 
   "input_label@furnace_pocket.generic_label": {
     "text": "furnaceScreen.input",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
   "fuel_label@furnace_pocket.generic_label": {
     "text": "furnaceScreen.fuel",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
   "result_label@furnace_pocket.generic_label": {
     "text": "furnaceScreen.result",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
   "result_name_label@furnace_pocket.generic_label": {
-    "text": ""
+    "text": "",
+    "font_type": "iannnnnAMD"
   },
 
   // Slots //
@@ -150,6 +152,7 @@
                 "anchor_from": "bottom_middle",
                 "anchor_to": "top_middle",
                 "text": "#text",
+                "font_type": "iannnnnAMD",
                 "text_alignment": "center",
                 "size": [ "200%", "default" ],
                 "offset": [ 0, "default-10px" ],
@@ -232,8 +235,10 @@
           "controls": [
             {
               "title_label@furnace_pocket.generic_label": {
+                "layer": 1,
                 "text": "$container_title",
-                "layer": 1
+                "font_type": "iannnnnAMD",
+                "localize": "$localize_title"
               }
             }
           ]

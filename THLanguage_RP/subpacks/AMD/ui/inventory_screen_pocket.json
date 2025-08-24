@@ -457,11 +457,11 @@
       {
         "recipe_item_label": {
           "type": "label",
-          "font_type":"iannnnn",
           "anchor_from": "bottom_middle",
           "anchor_to": "bottom_middle",
           "size": [ "default", "default" ],
           "text": "#text",
+          "font_type": "iannnnnAMD",
           "color": "$title_text_color",
           "layer": 51,
           "offset": [ 0, -30 ],
@@ -618,9 +618,9 @@
                   {
                     "armor_label": {
                       "type": "label",
-                      "font_type":"iannnnn",
                       "layer": 2,
                       "text": "craftingScreen.tab.armor",
+                      "font_type": "iannnnnAMD",
                       "color": "$title_text_color",
                       "anchor_to": "top_middle",
                       "anchor_from": "top_middle"

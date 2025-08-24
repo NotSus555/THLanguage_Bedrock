@@ -108,7 +108,7 @@
     "size": [ "default", 10 ],
     "max_size": [ "100%", 10 ],
     "text": "$button_label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "text_alignment": "left",
     "anchor_from": "left_middle",
     "anchor_to": "left_middle",
@@ -194,7 +194,7 @@
                       "layer": 1,
                       "shadow": false,
                       "text": "$label_content_label",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "$label_text_binding_type|default": "none",
                       "bindings": [
                         {
@@ -239,7 +239,7 @@
           "color": "$body_text_color",
           "max_size": [ "100% - 4px", "default" ],
           "text": "#realms_info_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "layer": 1,
           "bindings": [
             {
@@ -265,6 +265,7 @@
 
   "world_list_text": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$dark_button_secondary_default_text_color",
     "shadow": false
   },
@@ -316,7 +317,6 @@
 
   "world_template_name@world_templates.world_list_text": {
     "text": "$world_template_name_binding_name",
-    "font_type":"iannnnn",
     "color": "$dark_button_default_text_color",
     "$world_template_name_binding_name|default": "#world_template_name",
     "$section_header|default": "",
@@ -333,7 +333,6 @@
 
   "world_template_description@world_templates.world_list_text": {
     "text": "$world_template_description_binding_name",
-    "font_type":"iannnnn",
     "$world_template_description_binding_name|default": "#world_template_description",
     "bindings": [
       {
@@ -347,7 +346,6 @@
 
   "world_template_version@world_templates.world_list_text": {
     "text": "#world_template_version",
-    "font_type":"iannnnn",
     "bindings": [
       {
         "binding_name": "#world_template_version",
@@ -366,7 +364,6 @@
 
   "template_download_text@world_templates.world_list_text": {
     "text": "#template_download_text",
-    "font_type":"iannnnn",
     "bindings": [
       {
         "binding_name": "#template_download_text",
@@ -500,7 +497,7 @@
           "size": [ "default", "100%" ],
           "max_size": [ 60, "100%" ],
           "color": "$store_csb_expiration_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "text": "#csb_expiration_label",
           "bindings": [
             {
@@ -836,13 +833,14 @@
 
   "no_owned_templates_text_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$dark_button_secondary_default_text_color",
     "shadow": false
   },
 
   "no_owned_templates_text@world_templates.no_owned_templates_text_label": {
     "text": "selectTemplate.noTemplates",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$dark_button_default_text_color"
   },
 
@@ -1118,7 +1116,6 @@
             {
               "open_uri_button@disconnect.open_account_setting_button": {
                 "size": [ "100%", 26 ],
-                "ignored": "$is_holographic",
                 "visible": false,
                 "bindings": [
                   {
@@ -1173,7 +1170,7 @@
                 "layer": 1,
                 "shadow": false,
                 "text": "crossPlatformToggle.crossPlatformDisabled.realms",
-                "font_type":"iannnnn"
+                "font_type": "iannnnnAMD"
               }
             }
           ]

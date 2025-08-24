@@ -69,7 +69,7 @@
                     "description_text": {
                       "type": "label",
                       "size": [ "100%", "default" ],
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "text": "store.realmsPlus.purchase.warningDialog.body",
                       "color": "$store_white_text_color"
                     }
@@ -111,7 +111,7 @@
                             "type": "label",
                             "size": [ "100%", "100%" ],
                             "text": "store.realmsPlus.purchase.warningDialog.checkbox",
-                            "font_type": "smooth",
+                            "font_type": "iannnnnAMD",
                             "anchor_from": "bottom_left",
                             "anchor_to": "bottom_left",
                             "color": "$store_white_text_color"

@@ -7,6 +7,7 @@
 
   "title_label": {
     "type": "label",
+    "font_type": "MinecraftTen",
     "size": [ "default", "default" ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
@@ -15,6 +16,7 @@
 
   "label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$main_header_text_color",
     "size": [ "default", "default" ],
     "anchor_from": "top_left",
@@ -32,8 +34,7 @@
         "name_label_0@label": {
           "layer": 1,
           "offset": [ 2, 2 ],
-          "text": "realmsCreateScreen.nameHeader.name",
-          "font_type":"iannnnn"
+          "text": "realmsCreateScreen.nameHeader.name"
         }
       },
       {
@@ -92,13 +93,13 @@
       {
         "button_label": {
           "type": "label",
+          "font_type": "iannnnnAMD",
           "layer": 1,
           "size": [ "default", "default" ],
           "anchor_from": "center",
           "anchor_to": "center",
           "color": "$text_color",
-          "text": "$button_text",
-          "font_type":"iannnnn"
+          "text": "$button_text"
         }
       }
     ]
@@ -115,7 +116,7 @@
         "name_label@label": {
           "offset": [ 2, 0 ],
           "text": "realmsCreateScreen.durationHeader",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "layer": 2
         }
       },
@@ -164,7 +165,7 @@
         "name_label@label": {
           "offset": [ 2, 2 ],
           "text": "realmsCreateScreen.sizeHeader",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "layer": 2
         }
       },
@@ -199,7 +200,7 @@
     "$button_text_size": [ "100%", "default" ],
     "$button_text_max_size": [ "100% - 10px", 20 ],
     "$button_font_size": "normal",
-    "$font_type": "smooth",
+    "$font_type": "iannnnnAMD",
     "$pressed_button_name": "$pressed_button_name_terms_conditions",
     "anchor_from": "right_middle",
     "anchor_to": "right_middle"
@@ -210,7 +211,7 @@
     "$button_text_size": [ "100%", "default" ],
     "$button_text_max_size": [ "100% - 10px", 20 ],
     "$button_font_size": "normal",
-    "$font_type": "smooth",
+    "$font_type": "iannnnnAMD",
     "$pressed_button_name": "$pressed_button_name_privacy_policy",
     "anchor_from": "right_middle",
     "anchor_to": "right_middle"
@@ -223,7 +224,7 @@
         "name_label@label": {
           "offset": [ 2, 2 ],
           "text": "realmsCreateScreen.termsAndConditionsHeader",
-          "font_type":"iannnnn",
+          "font_type": "MinecraftTen",
           "layer": 2
         }
       },
@@ -236,18 +237,6 @@
           "size": [ "100%", "100% - 12px" ],
           "$pressed_button_name_terms_conditions": "button.tos_hyperlink",
           "$pressed_button_name_privacy_policy": "button.privpol_hyperlink",
-          "variables": [
-            {
-              // Stop-gap measure until we can get hyperlinks to work from VR and FireTV
-              "requires": "($is_holographic or $fire_tv)",
-              "$pressed_button_name_terms_conditions": "button.tos_popup"
-            },
-            {
-              // Stop-gap measure until we can get hyperlinks to work from VR and FireTV
-              "requires": "($is_holographic or $fire_tv)",
-              "$pressed_button_name_privacy_policy": "button.privpol_popup"
-            }
-          ],
           "controls": [
             {
               "banner_fill": {
@@ -274,7 +263,7 @@
                           "checkbox_control@settings_common.checkbox_with_highlight_and_label": {
                             "$toggle_name": "#agree_terms_and_conditions",
                             "$checkbox_label_text": "realmsCreateScreen.termsAndConditionsAgree",
-                            "$checkbox_label_font_type": "smooth"
+                            "$checkbox_label_font_type": "iannnnnAMD"
                           }
                         }
                       ]
@@ -345,7 +334,6 @@
       {
         "create@realms_create.label": {
           "text": "#confirmation_button_text",
-          "font_type":"iannnnn",
           "size": [ "default", "default" ],
           "color": "$text_color",
           "anchor_from": "center",
@@ -450,7 +438,7 @@
           "texture": "textures/ui/text_label_box",
           "size": [ "100%", "100%c" ],
           "$used_fontsize|default": "normal",
-          "$used_fonttype|default": "smooth",
+          "$used_fonttype|default": "iannnnnAMD",
           "controls": [
             {
               "label_panel": {
@@ -491,7 +479,7 @@
         "realms_switch_nso_info@settings_common.option_info_label": {
           "$container_text_binding_name": "#realms_switch_nso_info",
           "$used_fontsize": "normal",
-          "$used_fonttype": "smooth",
+          "$used_fonttype": "iannnnnAMD",
           "$show_option_label": false,
           "$show_for_ios|default": false,
           "ignored": "(not $nx_os)",
@@ -513,7 +501,7 @@
           "anchor_to": "center",
           "text": "#realms_terms_info",
           "color": "$body_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#realms_terms_info"
@@ -535,7 +523,7 @@
           "anchor_to": "center",
           "text": "#realms_terms_info_extra",
           "color": "$body_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#realms_terms_info_extra"

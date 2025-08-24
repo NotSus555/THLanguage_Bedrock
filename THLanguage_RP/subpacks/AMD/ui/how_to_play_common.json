@@ -81,7 +81,7 @@
           "max_size": [ "100%", "50px" ],
           "offset": [ "0px", "-3px" ],
           "text": "('howtoplay.category.' + $category)",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$main_header_text_color"
         }
       }
@@ -101,7 +101,7 @@
           "max_size": [ "100% - 14px", "100% - 4px" ],
           "offset": [ 10, 0 ],
           "text": "('howtoplay.' + $section_topic)",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "layer": 3,
           "color": "$text_color",
           "alpha": "$content_alpha"
@@ -124,7 +124,7 @@
           "max_size": [ "100% - 14px", "100% - 4px" ],
           "offset": [ 10, 0 ],
           "text": "('howtoplay.' + $section_topic)",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "layer": 3,
           "color": "$text_color",
           "alpha": "$content_alpha"
@@ -276,7 +276,7 @@
           "max_size": [ "95%", 10 ],
           "offset": [ 8, 0 ],
           "text": "$text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "text_tts": "$text"
         }
       },
@@ -309,7 +309,7 @@
     "size": [ "75%", "default" ],
     "line_padding": "$line_padding",
     "text": "$text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "text_tts": "$text"
   },
 
@@ -336,7 +336,6 @@
       {
         "label@how_to_play_common.paragraph_label": {
           "text": "('#pre_process_' + $text)",
-          "font_type":"iannnnn",
           "text_tts": "('#pre_process_' + $text)",
           "bindings": [
             {

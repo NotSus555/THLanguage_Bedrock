@@ -348,7 +348,7 @@
     "anchor_to": "left_middle",
     "size": [ "100% - 4px", "default" ],
     "text": "$button_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "layer": 3,
     "color": "$text_color",
     "alpha": "$content_alpha",

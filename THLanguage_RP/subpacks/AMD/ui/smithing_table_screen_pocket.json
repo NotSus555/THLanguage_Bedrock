@@ -39,7 +39,7 @@
     "color": "$pocket_title_text_color",
     "layer": 1,
     "text": "container.smithing_table.upgrade",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "center",
     "anchor_to": "center"
   },
@@ -111,7 +111,7 @@
       {
         "plus_sign@smithing_table_pocket.upgrade_label": {
           "text": "+",
-          "font_type":"Mojang",
+          "font_type": "iannnnnAMD",
           "offset": [ 38, 11 ],
           "anchor_from": "top_left",
           "anchor_to": "top_left",
@@ -260,7 +260,7 @@
             {
               "title_label@smithing_table_pocket.upgrade_label": {
                 "text": "tile.smithing_table.name",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "layer": 1
               }
             }

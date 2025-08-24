@@ -484,8 +484,8 @@
     "layer": 2,
     "text": "$button_text",
     "color": "$text_color",
-    "$font_type|default": "default",
-    "font_type": "$font_type",
+    "$font_type|default": "iannnnnAMD",
+    "font_type": "iannnnnAMD",
     "font_size": "$button_font_size",
     "$button_font_scale_factor|default": 1.0,
     "font_scale_factor": "$button_font_scale_factor",
@@ -680,7 +680,7 @@
     "$pressed_button_texture": "textures/ui/imagetaggedcorner",
     "$locked_button_texture": "textures/ui/imagetaggedcorner",
     "$default_color": "white",
-    "$default_font": "smooth",
+    "$default_font": "iannnnnAMD",
     "$button_offset": [ 0, 0 ],
     "$border_visible": false,
     "$default_state_border_visible": false,
@@ -1490,8 +1490,8 @@
     "$nested_label_text|default": "",
     "text": "$nested_label_text",
 
-    "$nested_label_font_type|default": "default",
-    "font_type": "$nested_label_font_type",
+    "$nested_label_font_type|default": "iannnnnAMD",
+    "font_type": "iannnnnAMD",
 
     "$nested_label_bindings|default": [],
     "bindings": "$nested_label_bindings"
@@ -1569,7 +1569,7 @@
   // Empty definition for a six part label
   "nested_six_part_empty_definition": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "text": "",
     "color": "$generic_button_text_color"
   },

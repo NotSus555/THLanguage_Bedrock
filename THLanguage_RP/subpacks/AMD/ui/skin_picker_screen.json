@@ -12,12 +12,14 @@
 
   "title_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "size": [ "default", "default" ],
     "color": "$title_text_color"
   },
 
   "label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "anchor_from": "center",
     "anchor_to": "center",
     "offset": [ 0, 0 ],
@@ -404,7 +406,7 @@
                 "type": "label",
                 "size": [ "100%", 10 ],
                 "text": "#appearance_status_brief_label",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "color": "$f_color_format",
                 "bindings": [
                   {
@@ -756,8 +758,7 @@
     "anchor_to": "top_left",
     "color": "$main_header_text_color",
     "text": "#pack_name",
-    "font_type":"iannnnn",
-    "enable_profanity_filter": false,
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_type": "collection",
@@ -1114,8 +1115,7 @@
           "controls": [
             {
               "header@standard_header": {
-                "text": "skins.picker.default",
-                "font_type":"iannnnn"
+                "text": "skins.picker.default"
               }
             },
             {
@@ -1137,8 +1137,7 @@
           "controls": [
             {
               "header@standard_header": {
-                "text": "skins.picker.recent",
-                "font_type":"iannnnn"
+                "text": "skins.picker.recent"
               }
             },
             {
@@ -1282,7 +1281,7 @@
                   {
                     "change_skin_title@skin_picker.title_label": {
                       "text": "skins.picker.title",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "anchor_from": "left_middle",
                       "anchor_to": "left_middle"
                     }
@@ -1310,8 +1309,7 @@
               "preview_skin_name@skin_picker.title_label": {
                 "visible": "(not $education_edition)",
                 "text": "#skin_name",
-                "font_type":"iannnnn",
-                "enable_profanity_filter": false,
+                "font_type": "iannnnnAMD",
                 // In the edge case where the skin name is too long to fit,
                 // even with the main title pushed as far to the left as it can
                 // go, then the skin name should truncate.  Since the label's
@@ -1507,7 +1505,7 @@
     ],
     "$default_text_color": [ 0.3, 0.3, 0.3 ],
     "$screen_content": "skin_picker.skin_picker_screen_content",
-    "$screen_bg_content": "persona.persona_screen_background_content",
+    "$screen_bg_content": "persona_common.persona_screen_background_content",
     "$header_safezone_control": "common_store.store_top_bar_filler",
     "$header_bar_control": "common_store.store_top_bar",
     "$is_full_screen_layout": true

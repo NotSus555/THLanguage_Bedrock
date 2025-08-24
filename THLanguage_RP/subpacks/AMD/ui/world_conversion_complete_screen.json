@@ -19,7 +19,7 @@
           "size": [ "90%", "100%" ],
           "text_alignment": "center",
           "text": "$text",
-          "font_type":"iannnnn"
+          "font_type": "iannnnnAMD"
         }
       }
     ]
@@ -27,7 +27,6 @@
 
   "converted_world_preview_name@play.world_list_text": {
     "text": "#converted_world_preview_name",
-    "font_type":"iannnnn",
     "color": "$text_color",
     "bindings": [
       {
@@ -38,7 +37,6 @@
 
   "converted_world_preview_date@play.world_list_text": {
     "text": "#converted_world_preview_date",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {
@@ -53,7 +51,6 @@
 
   "converted_world_preview_game_mode@play.world_list_text": {
     "text": "#converted_world_preview_game_mode",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {
@@ -64,7 +61,6 @@
 
   "converted_world_preview_filesize@play.world_list_text": {
     "text": "#converted_world_preview_file_size",
-    "font_type":"iannnnn",
     "color": "$secondary_text_color",
     "bindings": [
       {

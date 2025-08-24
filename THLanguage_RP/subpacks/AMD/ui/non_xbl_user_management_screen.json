@@ -19,7 +19,7 @@
     "text_alignment": "$title_text_alignment",
     "layer": 1,
     "text": "#modal_title_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color",
     "shadow": false,
     "bindings": [
@@ -52,7 +52,7 @@
           "layer": 2,
           "text": "#modal_label_text",
           "color": "$body_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "shadow": true,
           "bindings": [
             {
@@ -244,7 +244,6 @@
     "controls": [
       {
         "black_tint_image@non_xbl_user_management.black_tint_image": {
-          "ignored": "$is_holographic",
           "alpha": 0.5
         }
       }

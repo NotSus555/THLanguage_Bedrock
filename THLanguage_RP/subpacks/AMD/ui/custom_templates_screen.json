@@ -295,7 +295,7 @@
 
   "template_list_text": {
     "type": "label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$dark_button_secondary_default_text_color",
     "shadow": false
   },

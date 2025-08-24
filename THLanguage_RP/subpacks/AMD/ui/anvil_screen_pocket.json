@@ -3,6 +3,7 @@
 
   "generic_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$pocket_title_text_color",
     "anchor_from": "center",
     "anchor_to": "center"
@@ -29,7 +30,7 @@
   "cost_label@anvil_pocket.generic_label": {
     "shadow": true,
     "text": "#text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "anchor_from": "left_middle",
     "anchor_to": "left_middle",
     "layer": 2,
@@ -47,7 +48,7 @@
     "anchor_from": "left_middle", // the parent
     "anchor_to": "left_middle", // this control
     "text": "container.repair",
-    "font_type":"iannnnn"
+    "font_type": "iannnnnAMD"
   },
 
   // Text Edit //
@@ -117,7 +118,7 @@
       {
         "plus_sign@anvil_pocket.generic_label": {
           "text": "+",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "offset": [ 38, 0 ],
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
@@ -296,7 +297,7 @@
             {
               "title_label@anvil_pocket.generic_label": {
                 "text": "tile.anvil.name",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "layer": 1
               }
             }

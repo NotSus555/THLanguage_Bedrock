@@ -1180,7 +1180,7 @@
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "text": "#crafting_label_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color",
     "layer": 2,
     "bindings": [
@@ -1195,7 +1195,7 @@
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "text": "container.inventory",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$title_text_color",
     "layer": 2
   },
@@ -2059,7 +2059,7 @@
     "layer": 2,
 
     "text": "#tab_label_text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#tab_label_text"

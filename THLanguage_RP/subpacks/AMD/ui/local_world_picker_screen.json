@@ -41,7 +41,7 @@
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
           "text": "realmsCreateScreen.chooseWorld",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$title_text_color",
           "layer": 2
         }

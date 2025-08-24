@@ -15,6 +15,7 @@
 
   "label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$body_text_color",
     "size": [ "100%", "14px" ],
     "anchor_from": "top_left",
@@ -78,7 +79,7 @@
     "$text_style_label|default": "",
     "$tts_text_override_value": "",
     "$text_style_alignment|default": "left",
-    "$text_style_font_type|default": "default",
+    "$text_style_font_type|default": "iannnnnAMD",
     "$text_style_font_size|default": 1,
     "$text_style_font_color|default": [ 1, 1, 1 ],
 
@@ -88,7 +89,7 @@
           "type": "label",
           "size": [ "100%", "default" ],
           "text": "$text_style_label",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "tts_override_control_value": "$tts_text_override_value",
           "text_alignment": "$text_style_alignment",
           "font_size": "$text_style_font_size",
@@ -366,12 +367,6 @@
     "type": "image",
     "texture": "textures/ui/screen_background",
     "$fill_alpha|default": 0.6,
-    "variables": [
-      {
-        "requires": "$is_holographic",
-        "$fill_alpha": 1.0
-      }
-    ],
     "alpha": "$fill_alpha"
   },
 
@@ -394,7 +389,7 @@
           "size": [ "default", 10 ],
           "offset": [ 0, 1 ],
           "text": "$tag_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$new_offer_icon_text_color",
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
@@ -730,7 +725,7 @@
                       "type": "label",
                       "size": [ "default", "default" ],
                       "text": "#icon_overlay_image_text",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "color": "$store_white_text_color",
                       "layer": 1,
                       "bindings": [
@@ -1239,7 +1234,7 @@
                       "color": "$body_text_color",
                       "text_alignment": "left",
                       "size": [ "200px", "default" ],
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "font_scale_factor": 1.2,
                       "text": "#store_failure_text",
                       "alpha": 0,
@@ -1307,7 +1302,7 @@
           "layer": 3,
           "offset": [ 1, 2 ],
           "text": "#store_failure_code",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "alpha": 0,
           "visible": "#store_error_visible",
           "anims": [
@@ -1451,24 +1446,6 @@
     ]
   },
 
-  "hero_offer_collection_padding": {
-    "type": "panel",
-    "size": [ "fill", "100%" ],
-    "bindings": [
-      {
-        "binding_type": "$store_factory_collection_details",
-        "binding_collection_name": "$store_factory_collection_name",
-        "binding_collection_prefix": "$store_factory_collection_prefix"
-      },
-      {
-        "binding_type": "$hero_offer_binding_type",
-        "binding_collection_name": "$hero_offer_collection_name",
-        "binding_name": "#is_offer_collection_query",
-        "binding_name_override": "#visible"
-      }
-    ]
-  },
-
   "text_strike_through": {
     "type": "image",
     "tiled": true,
@@ -1516,7 +1493,7 @@
           "$timer_label_color|default": "$light_button_default_text_color",
           "color": "$timer_label_color",
           "layer": 1,
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "bindings": "$timer_bindings",
           "property_bag": {
             "#timer_field_count_to_show": "$timer_field_count_to_show"
@@ -1746,7 +1723,7 @@
                       "type": "label",
                       "size": [ "100%", "default" ],
                       "color": "$store_csb_expiration_text_color",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "font_scale_factor": 0.9,
                       "text": "#csb_expiration_label",
                       "bindings": [
@@ -2593,7 +2570,7 @@
                   {
                     "coin_balance_text": {
                       "type": "label",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "layer": 4,
                       "$accessibility_override": "#accessibility_minecoins_amount",
                       "text": "#coin_balance",
@@ -2689,7 +2666,7 @@
                             "size": [ "default", "default" ],
                             "max_size": [ "100%c", 10 ],
                             "text": "store.myAccount",
-                            "font_type":"iannnnn",
+                            "font_type": "iannnnnAMD",
                             "color": "$text_color"
                           }
                         }
@@ -2847,7 +2824,7 @@
                   {
                     "inventory_label": {
                       "type": "label",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "text": "store.myLibrary",
                       "color": "$body_text_color",
                       "layer": 2
@@ -2886,7 +2863,7 @@
           "type": "label",
           "size": [ "default", "default" ],
           "text": "store.xbl.disconnected",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "color": "$text_color"
         }
       },
@@ -2927,7 +2904,7 @@
           "offset": "$legal_text_offset",
           "layer": 10,
           "color": "$body_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "$disclaimer_font_scale_factor|default": 0.68,
           "font_scale_factor": "$disclaimer_font_scale_factor",
           "text": "#purchase_with_currency_disclaimer",
@@ -3146,13 +3123,6 @@
     "$offer_title_collection_name|default": "",
 
     "controls": [
-      // this is done due to size and max size bug
-      {
-        "offer_collection_title@common_store.store_offer_title": {
-          "text_alignment": "center",
-          "$store_offer_title_visible_binding": "#is_offer_collection_query"
-        }
-      },
       {
         "offer_title@common_store.store_offer_title": {}
       }
@@ -3208,7 +3178,7 @@
           "size": [ "fill", "100%" ],
           "text": "#creator_label",
           "color": "$store_author_text_color",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_type": "$store_factory_collection_details",
@@ -3329,7 +3299,7 @@
                       "size": [ "default", 10 ],
                       "offset": [ 0, 0.5 ],
                       "text": "#starter_bundle_offer_prompt_text",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "layer": 4,
                       "bindings": [
                         {
@@ -3501,7 +3471,7 @@
           "size": [ "default", 10 ],
           "offset": [ 0, 0.5 ],
           "text": "#offer_prompt_text",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "layer": 4,
           "tts_override_control_value": "#tts_offer_prompt_text",
           "bindings": [
@@ -3654,7 +3624,7 @@
               "price@common_store.label": {
                 "size": [ "default", 10 ],
                 "text": "#offer_prompt_text",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "offset": [ 1, -1 ],
                 "color": "$coin_color",
                 "anchor_from": "bottom_right",
@@ -3922,7 +3892,6 @@
         "WorldView": "@pdp.panorama_view_factory_object",
         "RatingRow": "@pdp.ratings_factory_object",
         "BundleSummaryBanner": "@pdp.bundle_summary_factory_object",
-        "BundleUpsellSection": "@pdp.bundles_upsell_factory_object",
         "PromoBanner": "@promo_timeline.promo_banner_factory",
         "CoinScreenRow": "@coin_purchase.main_panel",
         "PromoLanding": "@promo_timeline.promo_landing_panel",
@@ -4032,12 +4001,6 @@
                     "binding_type": "$store_factory_collection_details",
                     "binding_collection_name": "$store_factory_collection_name",
                     "binding_collection_prefix": "$store_factory_collection_prefix"
-                  },
-                  {
-                    "binding_type": "$subscription_offer_binding_type",
-                    "binding_collection_name": "$subscription_offer_collection_name",
-                    "binding_name": "#csb_chevron_visibility",
-                    "binding_name_override": "#visible"
                   }
                 ]
               }
@@ -4277,7 +4240,7 @@
                 "anchor_to": "center",
                 "text_alignment": "center",
                 "text": "#page_number_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "bindings": [
                   {
                     "binding_type": "$store_factory_collection_details",
@@ -4968,32 +4931,13 @@
     ]
   },
 
-  "blade_offer_collection_padding": {
-    "type": "panel",
-    "size": [ "fill", "100%" ],
-    "bindings": [
-      {
-        "binding_type": "$store_factory_collection_details",
-        "binding_collection_name": "$store_factory_collection_name",
-        "binding_collection_prefix": "$store_factory_collection_prefix"
-      },
-      {
-        "binding_type": "$blade_offer_binding_type",
-        "binding_collection_name": "$blade_offer_collection_name",
-        "binding_name": "#is_offer_collection_query",
-        "binding_name_override": "#visible"
-      }
-    ]
-  },
-
   "blade_offer_details_title": {
     "type": "label",
     "size": [ "default", 10 ],
     "max_size": [ "100%", 10 ],
     "text": "#title_label",
-    "enable_profanity_filter": false,
     "color": "$body_text_color",
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "layer": 1,
     "bindings": [
       {
@@ -5015,7 +4959,7 @@
     "size": [ "default", 10 ],
     "offset": [ 1, -0.5 ],
     "text": "#offer_markdown_percentage",
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "layer": 4,
     "anchor_from": "right_middle",
     "anchor_to": "right_middle",
@@ -5067,17 +5011,7 @@
           "size": [ "100%", 10 ],
           "controls": [
             {
-              "blade_offer_title_padding_left@common_store.blade_offer_collection_padding": {
-                "size": [ "fill", "100%" ]
-              }
-            },
-            {
               "blade_title@common_store.blade_offer_details_title": {}
-            },
-            {
-              "blade_offer_title_padding_right@common_store.blade_offer_collection_padding": {
-                "size": [ "fill", "100%" ]
-              }
             }
           ],
           "bindings": [
@@ -5219,19 +5153,6 @@
                       "$hero_offer_binding_type": "$blade_offer_binding_type",
                       "$hero_offer_collection_name": "$blade_offer_collection_name"
                     }
-                  }
-                ],
-                "bindings": [
-                  {
-                    "binding_type": "$store_factory_collection_details",
-                    "binding_collection_name": "$store_factory_collection_name",
-                    "binding_collection_prefix": "$store_factory_collection_prefix"
-                  },
-                  {
-                    "binding_type": "$blade_offer_binding_type",
-                    "binding_collection_name": "$blade_offer_collection_name",
-                    "binding_name": "(not #is_offer_collection_query)",
-                    "binding_name_override": "#visible"
                   }
                 ]
               }
@@ -5598,9 +5519,8 @@
     "size": [ "default", 10 ],
     "max_size": [ "100%", 10 ],
     "text": "#title_label",
-    "enable_profanity_filter": false,
     "color": "$body_text_color",
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "layer": 1,
     "bindings": [
       {
@@ -5632,29 +5552,13 @@
     "$is_purchase_button": false,
     "controls": [
       {
-        "hero_offer_collection_padding_top@common_store.hero_offer_collection_padding": {
-          "type": "panel",
-          "size": [ "100%", "fill" ]
-        }
-      },
-      {
         "hero_title_stack": {
           "type": "stack_panel",
           "orientation": "horizontal",
           "size": [ "100%", 10 ],
           "controls": [
             {
-              "hero_offer_collection_title_padding_left@common_store.hero_offer_collection_padding": {
-                "size": [ "fill", "100%" ]
-              }
-            },
-            {
               "title@common_store.hero_offer_details_title": {}
-            },
-            {
-              "hero_offer_collection_title_padding_right@common_store.hero_offer_collection_padding": {
-                "size": [ "fill", "100%" ]
-              }
             }
           ],
           "bindings": [
@@ -5670,12 +5574,6 @@
               "binding_name_override": "#visible"
             }
           ]
-        }
-      },
-      {
-        "hero_offer_collection_padding_bottom@common_store.hero_offer_collection_padding": {
-          "type": "panel",
-          "size": [ "100%", "fill" ]
         }
       },
       {
@@ -5747,7 +5645,7 @@
           ],
           "controls": [
             {
-              "unowned_offer_status_panel": {
+              "offer_status_panel": {
                 "type": "stack_panel",
                 "orientation": "horizontal",
                 "size": [ "100%", 13 ],
@@ -5893,19 +5791,6 @@
                             "anchor_to": "bottom_right"
                           }
                         }
-                      ],
-                      "bindings": [
-                        {
-                          "binding_type": "$store_factory_collection_details",
-                          "binding_collection_name": "$store_factory_collection_name",
-                          "binding_collection_prefix": "$store_factory_collection_prefix"
-                        },
-                        {
-                          "binding_type": "$hero_offer_binding_type",
-                          "binding_collection_name": "$hero_offer_collection_name",
-                          "binding_name": "(not #is_offer_collection_query)",
-                          "binding_name_override": "#visible"
-                        }
                       ]
                     }
                   }
@@ -5915,56 +5800,6 @@
                     "binding_type": "$store_factory_collection_details",
                     "binding_collection_name": "$store_factory_collection_name",
                     "binding_collection_prefix": "$store_factory_collection_prefix"
-                  },
-                  {
-                    "binding_type": "$hero_offer_binding_type",
-                    "binding_name": "(not #is_owned)",
-                    "binding_collection_name": "$hero_offer_collection_name",
-                    "binding_name_override": "#visible"
-                  }
-                ]
-              }
-            },
-            {
-              "owned_offer_status_panel": {
-                "type": "panel",
-                "size": [ "100%", 13 ],
-                "bindings": [
-                  {
-                    "binding_type": "$store_factory_collection_details",
-                    "binding_collection_name": "$store_factory_collection_name",
-                    "binding_collection_prefix": "$store_factory_collection_prefix"
-                  },
-                  {
-                    "binding_type": "$hero_offer_binding_type",
-                    "binding_name": "#is_owned",
-                    "binding_collection_name": "$hero_offer_collection_name",
-                    "binding_name_override": "#visible"
-                  }
-                ],
-                "controls": [
-                  {
-                    "owned_status_text": {
-                      "type": "label",
-                      "color": "$coin_color",
-                      "size": [ "100%", 10 ],
-                      "text": "#owned_status_text",
-                      "font_type": "smooth",
-                      "layer": 4,
-                      "tts_override_control_value": "#owned_status_text",
-                      "bindings": [
-                        {
-                          "binding_type": "$store_factory_collection_details",
-                          "binding_collection_name": "$store_factory_collection_name",
-                          "binding_collection_prefix": "$store_factory_collection_prefix"
-                        },
-                        {
-                          "binding_type": "$hero_offer_binding_type",
-                          "binding_name": "#owned_status_text",
-                          "binding_collection_name": "$hero_offer_collection_name"
-                        }
-                      ]
-                    }
                   }
                 ]
               }
@@ -5975,20 +5810,7 @@
       {
         "padding_1": {
           "type": "panel",
-          "size": [ "100%", 0.75 ],
-          "bindings": [
-            {
-              "binding_type": "$store_factory_collection_details",
-              "binding_collection_name": "$store_factory_collection_name",
-              "binding_collection_prefix": "$store_factory_collection_prefix"
-            },
-            {
-              "binding_type": "$hero_offer_binding_type",
-              "binding_collection_name": "$hero_offer_collection_name",
-              "binding_name": "(not #is_offer_collection_query)",
-              "binding_name_override": "#visible"
-            }
-          ]
+          "size": [ "100%", 0.75 ]
         }
       }
     ]
@@ -6013,7 +5835,7 @@
       {
         "label": {
           "type": "label",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color",
           "layer": 7,
           "anchor_from": "top_left",
@@ -6121,7 +5943,7 @@
           "type": "label",
           "size": [ "default", "100%" ],
           "layer": 1,
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$store_rating_text_panel_color",
           "text": "$rating_label_text_binding",
           "bindings": [
@@ -6173,7 +5995,7 @@
           "size": [ "default", "100%" ],
           "offset": [ 0, 1 ],
           "layer": 1,
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$store_rating_text_panel_color",
           "text": "#ratings_count_text",
           "anchor_to": "bottom_left",
@@ -6330,7 +6152,7 @@
       {
         "label": {
           "type": "label",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color",
           "layer": 7,
           "anchor_from": "top_left",
@@ -6396,7 +6218,7 @@
 
   "sdl_text_aligned_panel@common_store.sdl_content_aligned_panel": {
     "$aligned_control": "common_store.sdl_aligned_text",
-    "$aligned_text_font_type|default": "smooth",
+    "$aligned_text_font_type|default": "iannnnnAMD",
     "$aligned_text_scale_factor|default": 1,
     "$aligned_text_color|default": "$body_text_color",
     "$aligned_text|default": "",
@@ -6460,7 +6282,7 @@
     "type": "label",
     "size": [ "default", "default" ],
     "max_size": [ "40%", 20 ],
-    "font_type": "$aligned_text_font_type",
+    "font_type": "iannnnnAMD",
     "font_scale_factor": "$aligned_text_scale_factor",
     "color": "$aligned_text_color",
     "text": "$aligned_text",
@@ -6482,6 +6304,7 @@
   "sdl_aligned_minecraftTen_text@common.minecraftTenLabel": {
     "size": [ "default", "default" ],
     "max_size": [ "100%", "default" ],
+    "font_type": "MinecraftTen",
     "font_scale_factor": "$aligned_text_scale_factor",
     "color": "$aligned_text_color",
     "text": "$aligned_text",
@@ -6714,7 +6537,7 @@
                 "size": [ "100%", 10 ],
                 "text": "#show_more_text",
                 "color": "$body_text_color",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "text_alignment": "center",
                 "layer": 1,
                 "bindings": [
@@ -6877,7 +6700,7 @@
     "color": "$store_sales_banner_text_color",
     "size": [ "default", 10 ],
     "offset": [ 1, 0 ],
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "text": "#offer_markdown_percentage",
     "font_scale_factor": 1,
     "layer": 4,
@@ -6913,7 +6736,7 @@
     "size": [ "default", 10 ],
     "offset": [ 1, -0.5 ],
     "text": "#offer_markdown_percentage",
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "layer": 4,
     "anchor_from": "right_middle",
     "anchor_to": "right_middle",
@@ -6958,7 +6781,7 @@
           "size": [ "default", "100%" ],
           "offset": "$offer_price_offset",
           "text": "#offer_full_price",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "layer": 4, // place behind sale banner when possible
           "$offer_price_binding|default": [
             {
@@ -7017,24 +6840,16 @@
     "$offer_title_size|default": [ "100%", 10 ],
     "size": "$offer_title_size",
     "text": "#title_label",
-    "enable_profanity_filter": false,
     "text_alignment": "left",
     "color": "$body_text_color",
-    "font_type": "smooth",
+    "font_type": "iannnnnAMD",
     "$is_hero_offer|default": false,
     "layer": 1,
-    "$store_offer_title_visible_binding|default": "(not #is_offer_collection_query)",
     "bindings": [
       {
         "binding_type": "$store_factory_collection_details",
         "binding_collection_name": "$store_factory_collection_name",
         "binding_collection_prefix": "$store_factory_collection_prefix"
-      },
-      {
-        "binding_type": "$offer_binding_type",
-        "binding_collection_name": "$offer_collection_name",
-        "binding_name": "$store_offer_title_visible_binding",
-        "binding_name_override": "#visible"
       },
       {
         "binding_type": "$offer_binding_type",
@@ -7510,7 +7325,7 @@
                                   "size": [ "default", 18 ],
                                   "offset": [ 0, 0.5 ],
                                   "text": "#offer_minecoin_text",
-                                  "font_type": "smooth",
+                                  "font_type": "iannnnnAMD",
                                   "font_scale_factor": 1.5,
                                   "layer": 4,
                                   "bindings": [
@@ -7616,7 +7431,7 @@
                 "size": [ "default", 10 ],
                 "offset": [ 0, 0.5 ],
                 "text": "#offer_prompt_text",
-                "font_type": "smooth",
+                "font_type": "iannnnnAMD",
                 "layer": 4,
                 "tts_override_control_value": "#tts_offer_prompt_text",
                 "bindings": [
@@ -7790,31 +7605,6 @@
                                 "title@common_store.store_offer_item_title_panel": {}
                               },
                               {
-                                "offer_collection_bottom_title_padding": {
-                                  "type": "panel",
-                                  "variables": [
-                                    {
-                                      "requires": "$is_hero_offer",
-                                      "$title_padding_size": [ "100%", 7 ]
-                                    }
-                                  ],
-                                  "size": "$title_padding_size",
-                                  "bindings": [
-                                    {
-                                      "binding_type": "$store_factory_collection_details",
-                                      "binding_collection_name": "$store_factory_collection_name",
-                                      "binding_collection_prefix": "$store_factory_collection_prefix"
-                                    },
-                                    {
-                                      "binding_type": "$offer_binding_type",
-                                      "binding_collection_name": "$offer_collection_name",
-                                      "binding_name": "#is_offer_collection_query_and_not_sale_collection",
-                                      "binding_name_override": "#visible"
-                                    }
-                                  ]
-                                }
-                              },
-                              {
                                 "creator_label@common_store.store_offer_item_creator_panel": {}
                               },
                               {
@@ -7847,7 +7637,7 @@
                     }
                   },
                   {
-                    "unowned_offer_status_panel": {
+                    "offer_status_panel": {
                       "ignored": "$ignore_durable_status_content",
                       "type": "stack_panel",
                       "orientation": "horizontal",
@@ -7860,12 +7650,6 @@
                           "binding_type": "$store_factory_collection_details",
                           "binding_collection_name": "$store_factory_collection_name",
                           "binding_collection_prefix": "$store_factory_collection_prefix"
-                        },
-                        {
-                          "binding_type": "$offer_binding_type",
-                          "binding_collection_name": "$offer_collection_name",
-                          "binding_name": "(not #is_owned)",
-                          "binding_name_override": "#visible"
                         }
                       ],
                       "controls": [
@@ -8044,51 +7828,6 @@
                         }
                       ]
                     }
-                  },
-                  {
-                    "owned_offer_status_panel": {
-                      "type": "panel",
-                      "size": [ "100%", 13 ],
-                      "bindings": [
-                        {
-                          "binding_type": "$store_factory_collection_details",
-                          "binding_collection_name": "$store_factory_collection_name",
-                          "binding_collection_prefix": "$store_factory_collection_prefix"
-                        },
-                        {
-                          "binding_type": "$offer_binding_type",
-                          "binding_name": "#is_owned",
-                          "binding_collection_name": "$offer_collection_name",
-                          "binding_name_override": "#visible"
-                        }
-                      ],
-                      "controls": [
-                        {
-                          "owned_status_text": {
-                            "type": "label",
-                            "color": "$coin_color",
-                            "size": [ "100% - 6px", 10 ],
-                            "offset": [ 0, 0.5 ],
-                            "text": "#owned_status_text",
-                            "font_type": "smooth",
-                            "layer": 4,
-                            "tts_override_control_value": "#owned_status_text",
-                            "bindings": [
-                              {
-                                "binding_type": "$store_factory_collection_details",
-                                "binding_collection_name": "$store_factory_collection_name",
-                                "binding_collection_prefix": "$store_factory_collection_prefix"
-                              },
-                              {
-                                "binding_type": "$offer_binding_type",
-                                "binding_name": "#owned_status_text",
-                                "binding_collection_name": "$offer_collection_name"
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
                   }
                 ]
               }
@@ -8202,12 +7941,12 @@
   "store_section_header_label@common_store.label": {
     "$store_section_header_label_text|default": "#section_header",
     "$store_section_binding_condition|default": "always_when_visible",
-    "$store_section_header_font_type|default": "default",
+    "$store_section_header_font_type|default": "iannnnnAMD",
     "$store_section_header_font_scalar|default": 1.0,
     "$store_section_header_text_color": "#header_text_color",
     "text": "$store_section_header_label_text",
     "color": "$store_section_header_text_color",
-    "font_type": "$store_section_header_font_type",
+    "font_type": "iannnnnAMD",
     "font_scale_factor": "$store_section_header_font_scalar",
 
     "$store_section_header_label_bindings|default": [
@@ -8676,7 +8415,6 @@
                       "size": [ "default", 10 ],
                       "offset": [ -3, 1 ],
                       "text": "#time_remaining_label",
-                      "font_type":"iannnnn",
                       "text_alignment": "right",
                       "layer": 3,
                       "bindings": [
@@ -9044,9 +8782,8 @@
                       "type": "label",
                       "size": [ "100%", 10 ],
                       "text": "#title_label",
-                      "enable_profanity_filter": false,
                       "color": "$body_text_color",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "layer": 1,
                       "bindings": [
                         {
@@ -9068,7 +8805,7 @@
                       "size": [ "100%", 10 ],
                       "text": "#offer_type_label",
                       "color": "$body_text_color",
-                      "font_type": "smooth",
+                      "font_type": "iannnnnAMD",
                       "layer": 1,
                       "bindings": [
                         {
@@ -9386,7 +9123,7 @@
                 "size": "$label_size",
                 "$search_label_text|default": "#search_label_text",
                 "text": "$search_label_text",
-                "font_type":"iannnnn",
+                "font_type": "iannnnnAMD",
                 "text_alignment": "left",
                 "anchor_from": "left_middle",
                 "anchor_to": "left_middle",
@@ -9563,7 +9300,7 @@
           "anchor_from": "bottom_right",
           "anchor_to": "bottom_right",
           "text": "#filter_selected_count",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "text_alignment": "center",
           "$filter_count_scale|default": 1.0,
           "font_scale_factor": "$filter_count_scale",
@@ -10065,7 +9802,7 @@
     "$hover_texture": "textures/ui/button_borderless_lightpressednohover",
 
     "$content_toggle_label_offset": [ 0, 0 ],
-    "$content_toggle_label_font_type": "Default",
+    "$content_toggle_label_font_type": "default",
 
     "$content_toggle_icon_size": [ 11, 11 ],
     "$checked_toggle_icon": "textures/ui/dropdown_chevron_up",
@@ -10078,7 +9815,7 @@
     "$toggle_state_binding_name": "#is_sdl_dropdown_header_toggle_selected"
   },
 
-  "sdl_subcategory_button@persona.subcategory_button": {
+  "sdl_subcategory_button@persona_sdl.subcategory_button": {
     "$row_binding_type|default": "collection",
     "$row_binding_collection_details_type|default": "$store_factory_collection_details",
     "$row_binding_collection_name|default": "$store_factory_collection_name",
@@ -10089,7 +9826,7 @@
     // button vars
     "$pressed_button_name": "button.subcategory_selected",
     "$hover_button_name": "button.subcategory_button_hovered",
-    "$button_content": "persona.sub_category_label_image_button_content",
+    "$button_content": "persona_sdl.sub_category_label_image_button_content",
     "$focus_id": "subcategory_button",
 
     // override textures

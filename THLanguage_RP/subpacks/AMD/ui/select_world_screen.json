@@ -137,7 +137,7 @@
         "text_box": {
           "type": "label",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color",
           "text": "store.addon.update.local.body1"
         }
@@ -147,7 +147,7 @@
         "text_box2": {
           "type": "label",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color",
           "text": "store.addon.update.local.body2"
         }
@@ -163,7 +163,7 @@
         "text_box": {
           "type": "label",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color",
           "text": "store.addon.update.realms.body1"
         }
@@ -173,7 +173,7 @@
         "text_box2": {
           "type": "label",
           "size": [ "100%", "default" ],
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "color": "$body_text_color",
           "text": "store.addon.update.realms.body2"
         }

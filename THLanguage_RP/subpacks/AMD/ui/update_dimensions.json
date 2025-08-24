@@ -15,7 +15,8 @@
     "color": "$body_text_color",
     "anchor_from": "center",
     "anchor_to": "center",
-    "text": "options.updateWorldHeight.message"
+    "text": "options.updateWorldHeight.message",
+    "font_type": "iannnnnAMD"
   },
 
   "update_dimensions_label_panel@common.scrolling_panel": {
@@ -69,6 +70,7 @@
                       "type": "label",
                       "color": "$light_button_default_text_color",
                       "text": "$toggle_label_text",
+                      "font_type": "iannnnnAMD",
                       "size": [ "default", "default" ],
                       "anchor_from": "center",
                       "anchor_to": "center"

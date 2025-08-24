@@ -9,16 +9,16 @@
     },
     {
       "font_format": "ttf",
-      "font_name": "Mojang",
+      "font_name": "iannnnnAMD",
       "version": 1,
-      "font_file": "font/Mojang",
+      "font_file": "font/2005_iannnnnAMD",
       "lowPerformanceCompatible": true
     },
     {
       "font_format": "ttf",
-      "font_name": "iannnnn",
+      "font_name": "Mojang",
       "version": 1,
-      "font_file": "font/2005_iannnnnAMD",
+      "font_file": "font/Mojang",
       "lowPerformanceCompatible": true
     }
   ],

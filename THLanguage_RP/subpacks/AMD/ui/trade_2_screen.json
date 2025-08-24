@@ -138,6 +138,7 @@
 
   "stack_count_label": {
     "type": "label",
+    "font_type": "iannnnnAMD",
     "color": "$item_stack_count_color",
     "shadow": true
   },
@@ -151,7 +152,7 @@
         "stack_count_label@trade2.stack_count_label": {
           "layer": 2,
           "text": "#trade_item_count",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_type": "collection_details"
@@ -210,7 +211,7 @@
         "second_stack_count_label@trade2.stack_count_label": {
           "layer": 2,
           "text": "#second_trade_item_count",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_type": "collection_details"
@@ -269,7 +270,7 @@
                     "stack_count_label@trade2.stack_count_label": {
                       "layer": 2,
                       "text": "#trade_item_count",
-                      "font_type":"iannnnn",
+                      "font_type": "iannnnnAMD",
                       "anchor_from": "bottom_right",
                       "anchor_to": "bottom_right",
                       "offset": [ 1, 1 ],
@@ -679,7 +680,7 @@
     "type": "label",
     "color": "$trade_tier_name_color",
     "text": "#tier_name",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#tier_name",
@@ -700,7 +701,7 @@
     "type": "label",
     "color": "$trade_tier_name_locked_color",
     "text": "#tier_name",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#tier_name",
@@ -919,16 +920,15 @@
             {
               "item_text_label": {
                 "type": "label",
+                "font_type": "iannnnnAMD",
                 "max_size": [ 80, 60 ],
                 "layer": 1,
 
                 "alpha": "$alpha_anim",
                 "text": "#selected_hover_text",
-                "font_type":"iannnnn",
-                "color": "$item_hover_text_color",
+                "color": "$item_hover_text_color"
                 // Disable profanity filter for this control so that
                 // we can enable it on the fly only for items with custom names
-                "enable_profanity_filter": false
               }
             }
           ]
@@ -1326,7 +1326,7 @@
     "color": "$title_text_color",
     "layer": 1,
     "text": "#name_label",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "bindings": [
       {
         "binding_name": "#name_label",

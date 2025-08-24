@@ -104,7 +104,7 @@
     "$text_font_scale_factor|default": 1,
     "font_scale_factor": "$text_font_scale_factor",
     "text": "$text",
-    "font_type":"iannnnn",
+    "font_type": "iannnnnAMD",
     "color": "$main_header_text_color"
   },
 
@@ -135,7 +135,7 @@
       {
         "button_label@win10_trial_conversion.label_panel": {
           "text": "$button_text",
-          "font_type":"iannnnn",
+          "font_type": "iannnnnAMD",
           "text_alignment": "center",
           "color": "$text_color"
         }
@@ -219,7 +219,7 @@
       {
         "packtitle@win10_trial_conversion.label_panel": {
           "text": "#title_name",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "bindings": [
             {
               "binding_name": "#title_name",
@@ -235,7 +235,7 @@
       {
         "packdesc@win10_trial_conversion.label_panel": {
           "text": "#description_text",
-          "font_type": "smooth",
+          "font_type": "iannnnnAMD",
           "size": [ "100%", "default" ],
           "color": "$wtc_pack_desc_text_color",
           "bindings": [
@@ -265,8 +265,7 @@
       {
         "title_panel@win10_trial_conversion.label_panel": {
           "text_alignment": "center",
-          "text": "$title_text",
-          "font_type":"iannnnn"
+          "text": "$title_text"
         }
       },
       { "padding_2@win10_trial_conversion.padding_vertical": {} },
@@ -300,8 +299,7 @@
                     "offer_label@win10_trial_conversion.label_panel": {
                       "size": [ "100% - 3px", "default" ],
                       "text_alignment": "center",
-                      "text": "$offer_text",
-                      "font_type":"iannnnn"
+                      "text": "$offer_text"
                     }
                   }
                 ]
@@ -325,7 +323,7 @@
               "include_label@win10_trial_conversion.label_panel": {
                 "size": [ "100% - 3px", "default" ],
                 "$text": "trial.includes",
-                "font_type": "smooth"
+                "font_type": "iannnnnAMD"
               }
             }
           ]
