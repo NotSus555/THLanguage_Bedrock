@@ -2030,12 +2030,6 @@
     },
     {
       "path": "textures/textures_list.json"
-    },
-    {
-      "path": "textures/ui/titleTH.json"
-    },
-    {
-      "path": "textures/ui/titleTH.png"
     }
   ],
   "version": 1

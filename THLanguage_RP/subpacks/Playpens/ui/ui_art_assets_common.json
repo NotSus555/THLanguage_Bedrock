@@ -9,7 +9,7 @@
   "title_image": {
     "type": "image",
     "layer": 1,
-    "texture": "textures/ui/titleTH"
+    "texture": "textures/ui/title"
   },
 
   "title_image_edu": {
@@ -31,7 +31,7 @@
   "splash_text": {
     "type": "custom",
     "renderer": "splash_text_renderer",
-    "size": [ 0.1, 0.1 ],
+    "size": [ 0.6, 0.6 ],
     "layer": 2,
     "anchor_from": "right_middle",
     "anchor_to": "right_middle",
