@@ -211,7 +211,7 @@
                 "type": "label",
                 "layer": 2,
                 "text": "$button_text",
-                "font_type": "iannnnnAMD",
+                "font_type": "Mojang",
                 "color": "$title_text_color",
                 "text_alignment": "center",
                 "bindings": [
@@ -632,7 +632,7 @@
 
   "button_text": {
     "type": "label",
-    "font_type": "iannnnnAMD",
+    "font_type": "Mojang",
     "color": "$generic_button_text_color",
     "layer": 1,
     "shadow": false
@@ -2989,7 +2989,7 @@
 
   "section_heading_label": {
     "type": "label",
-    "font_type": "iannnnnAMD",
+    "font_type": "MinecraftTen",
     "layer": 1,
     "anchor_from": "top_left",
     "anchor_to": "top_left",

@@ -1,11 +1,12 @@
 {
     "format_version": 2,
     "header": {
-        "description": "รีซอร์ซแพ็กภาษาไทย Thai Language Resource Pack จัดทำโดย มายก๊าบดอทเป็ด (MineGarp.PED)",
+        "description": "รีซอร์ซแพ็กภาษาไทย Thai Language Resource Pack จัดทําโดย มายก๊าบดอทเป็ด (MineGarp.PED) \n \n2005_iannnnnAMD , Mojang( เฉพาะตัวไทยทั้งหมดจากฟอนต์ iannnnnAMD ) , MinecraftTenTH( เฉพาะตัวไทยทั้งหมดจากฟอนต์ IannnnnCPU ) - ปรัชญา สิงห์โต (Iannnnn)\n
+Playpen Sans Thai - TypeTogether(ศิริน กันคล้อย, Sirin Gunkloy, Laura Meseguer, Veronika Burian, José Scaglione)\nFkDoodle - กาญจนา สงฆ์พันธุ์ (Kancha By Kan)\n[ Mojang , MinecraftTenTH ] (ไม่รวมตัวไทยทั้งหมด) - Mojang Studios",
         "name": "Thai Language Resource Pack",
         "uuid": "3d11bf9c-a5a6-4d9a-a7ec-fbfeb12b3690",
         "pack_scope": "all",
-        "version": [1, 0, 9],
+        "version": [1, 1, 2],
         "min_engine_version": [1, 21, 101]
     },
     "metadata": {
@@ -15,10 +16,11 @@
     },
     "modules": [
         {
-            "description": "รีซอร์ซแพ็กภาษาไทย Thai Language Resource Pack จัดทำโดย มายก๊าบดอทเป็ด (MineGarp.PED) พัฒนาต่อโดย ImNotSus555 เครดิตฟอนต์: 2005_iannnnnAMD โดย iannnnn Minecraft-TenTH โดย iannnnn เช่นเดิม แก้ไขให้อ่านง่ายขึ้นโดย ImNotSus555 PlaypenSans โดย TypeTogether, Sirin Gunkloy, Laura Meseguer, Veronika Burian, José Scaglione ",
+            "description": "รีซอร์ซแพ็กภาษาไทย Thai Language Resource Pack จัดทําโดย มายก๊าบดอทเป็ด (MineGarp.PED) \n \n2005_iannnnnAMD , Mojang( เฉพาะตัวไทยทั้งหมดจากฟอนต์ iannnnnAMD ) , MinecraftTenTH( เฉพาะตัวไทยทั้งหมดจากฟอนต์ IannnnnCPU ) - ปรัชญา สิงห์โต (Iannnnn)\n
+Playpen Sans Thai - TypeTogether(ศิริน กันคล้อย, Sirin Gunkloy, Laura Meseguer, Veronika Burian, José Scaglione)\nFkDoodle - กาญจนา สงฆ์พันธุ์ (Kancha By Kan)\n[ Mojang , MinecraftTenTH ] (ไม่รวมตัวไทยทั้งหมด) - Mojang Studios",
             "type": "resources",
             "uuid": "1269ef24-59c0-4804-803b-8ed501460932",
-            "version": [1, 0, 9]
+            "version": [1, 1, 2]
         }
     ],
 	"subpacks": [
@@ -30,6 +32,11 @@
         {
 			"folder_name": "Playpens",
 			"name": "เพลย์เพน",
+			"memory_tier": 1
+		},
+        {
+			"folder_name": "FkDoodle",
+			"name": "FkDoodle",
 			"memory_tier": 1
 		},
         {
@@ -50,6 +57,10 @@
         {
             "type": "label",
             "text": "§lฟอนต์เพลย์เพน (PlaypenSans):§r ฟอนต์เพลย์เพน โดย TypeTogether, Sirin Gunkloy, Laura Meseguer, Veronika Burian, José Scaglione"
+        },
+        {
+            "type": "label",
+            "text": "§lฟอนต์ FkDoodle (FkDoodle):§r ฟอนต์ FkDoodle โดย Kanchana Songphan"
         }
 
       ]

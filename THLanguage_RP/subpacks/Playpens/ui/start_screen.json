@@ -135,6 +135,7 @@
             {
               "label": {
                 "type": "label",
+                "font_type": "PlaypenSan",
                 "size": [ "default", "default" ],
                 "color": "$text_color",
                 "text": "menu.ai_lesson_crafter"
@@ -180,6 +181,7 @@
       {
         "preview_label": {
           "type": "label",
+          "font_type": "PlaypenSan",
           "size": [ "default", 10 ],
           "offset": [ 0, 1 ],
           "text": "menu.preview",
@@ -243,6 +245,7 @@
       {
         "label": {
           "type": "label",
+          "font_type": "PlaypenSan",
           "color": "$main_header_text_color",
           "layer": 2,
           "text": "menu.copyright",
@@ -277,6 +280,7 @@
           "color": "$main_header_text_color",
           "layer": 2,
           "text": "#development_version",
+          "font_type": "PlaypenSan",
           "size": [ "default", 10 ],
           "max_size": [ "100%", "100%" ],
           "anchor_from": "center",
@@ -314,6 +318,7 @@
           "color": "$main_header_text_color",
           "layer": 2,
           "text": "#version",
+          "font_type": "PlaypenSan",
           "size": [ "default", 10 ],
           "max_size": [ "100%", "100%" ],
           "anchor_from": "top_right",
@@ -349,6 +354,7 @@
           "size": [ "150%", 20 ],
           "offset": [ 4, 0 ],
           "text": "menu.trialLabel",
+          "font_type": "PlaypenSan",
           "color": "$body_text_color",
           "text_alignment": "center",
           "layer": 2
@@ -859,6 +865,7 @@
         "countdown_text": {
           "type": "label",
           "text": "#text",
+          "font_type": "PlaypenSan",
           "font_scale_factor": 0.9,
           "offset": [ 0, -2 ],
           "size": [ 88, "default" ],
@@ -1188,6 +1195,7 @@
                             "color": "$main_header_text_color",
                             "layer": 1,
                             "text": "#gamertag_label",
+                            "font_type": "PlaypenSan",
                             "locked_alpha": 0.5,
                             "size": [ "default", "100%" ],
                             "offset": [ 0, "25%" ],
@@ -1289,6 +1297,7 @@
                 "type": "label",
                 "color": "$main_header_text_color",
                 "text": "#signingin_text",
+                "font_type": "PlaypenSan",
                 "bindings": [
                   {
                     "binding_name": "#signingin_visible",
@@ -1553,6 +1562,7 @@
                 "size": [ "default", 10 ],
                 "offset": [ -1, -1 ],
                 "text": "store.startMenu.sale",
+                "font_type": "PlaypenSan",
                 "color": "$title_text_color",
                 "layer": 1,
                 "tts_name": "accessibility.store.tag",
@@ -1600,6 +1610,7 @@
         "marketplace_button_label": {
           "type": "label",
           "text": "menu.store",
+          "font_type": "PlaypenSan",
           "layer": 1,
           "color": "$light_button_locked_text_color"
         }
@@ -1612,6 +1623,7 @@
     "size": [ "default", 10 ],
     "offset": [ 4, 0 ],
     "text": "store.startMenu.sale",
+    "font_type": "PlaypenSan",
     "color": "$light_button_default_text_color",
     "layer": 2
   },
@@ -1637,7 +1649,7 @@
         "label": {
           "type": "label",
           "layer": 3,
-          "font_type": "default",
+          "font_type": "PlaypenSan",
           "text": "menu.store",
           "color": "$light_button_default_text_color",
           "bindings": [
@@ -2250,6 +2262,7 @@
 
   "notification_button_text": {
     "type": "label",
+    "font_type": "PlaypenSan",
     "color": "$tab_secondary_unchecked_text_color",
     "shadow": false,
     "text": "#realms_notification_count",
@@ -2340,7 +2353,7 @@
   "cloud_upload_description": {
     "type": "label",
     "size": [ "100% - 4px", "default" ],
-    "font_type": "smooth",
+    "font_type": "PlaypenSan",
     "line_padding": 1.5,
     "color": "$body_text_color",
     "text": "cloud_upload.prompt.description"
@@ -2386,6 +2399,7 @@
                       "type": "label",
                       "color": "$light_button_default_text_color",
                       "text": "$toggle_label_text",
+                      "font_type": "PlaypenSan",
                       "size": [ "default", "default" ],
                       "anchor_from": "center",
                       "anchor_to": "center"

@@ -280,7 +280,7 @@
           "color": "$main_header_text_color",
           "layer": 2,
           "text": "#development_version",
-          "font_type": "Mojang",
+          "font_type": "iannnnnAMD",
           "size": [ "default", 10 ],
           "max_size": [ "100%", "100%" ],
           "anchor_from": "center",
@@ -1414,7 +1414,6 @@
   "main_button_gif": {
     "type": "custom",
     "renderer": "animated_gif_renderer",
-    "font_type": "Mojang",
     "size": [ "100% + 30px", "100% + 2px" ], // covers button safe area (180x34)
     "$gif_path_binding_name|default": "",
     "$gif_alpha_binding_name|default": "",
@@ -1650,8 +1649,8 @@
         "label": {
           "type": "label",
           "layer": 3,
-          "text": "menu.store",
           "font_type": "Mojang",
+          "text": "menu.store",
           "color": "$light_button_default_text_color",
           "bindings": [
             {
@@ -2354,7 +2353,7 @@
   "cloud_upload_description": {
     "type": "label",
     "size": [ "100% - 4px", "default" ],
-    "font_type": "Mojang",
+    "font_type": "iannnnnAMD",
     "line_padding": 1.5,
     "color": "$body_text_color",
     "text": "cloud_upload.prompt.description"
@@ -2400,7 +2399,6 @@
                       "type": "label",
                       "color": "$light_button_default_text_color",
                       "text": "$toggle_label_text",
-                      "font_type": "Mojang",
                       "size": [ "default", "default" ],
                       "anchor_from": "center",
                       "anchor_to": "center"

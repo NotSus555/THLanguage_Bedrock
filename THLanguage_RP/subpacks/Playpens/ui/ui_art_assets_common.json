@@ -31,7 +31,7 @@
   "splash_text": {
     "type": "custom",
     "renderer": "splash_text_renderer",
-    "size": [ 0.6, 0.6 ],
+    "size": [ 0.1, 0.1 ],
     "layer": 2,
     "anchor_from": "right_middle",
     "anchor_to": "right_middle",

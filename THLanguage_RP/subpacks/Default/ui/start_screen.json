@@ -1414,7 +1414,6 @@
   "main_button_gif": {
     "type": "custom",
     "renderer": "animated_gif_renderer",
-    "font_type": "Mojangles",
     "size": [ "100% + 30px", "100% + 2px" ], // covers button safe area (180x34)
     "$gif_path_binding_name|default": "",
     "$gif_alpha_binding_name|default": "",
@@ -1650,8 +1649,8 @@
         "label": {
           "type": "label",
           "layer": 3,
-          "text": "menu.store",
           "font_type": "Mojangles",
+          "text": "menu.store",
           "color": "$light_button_default_text_color",
           "bindings": [
             {

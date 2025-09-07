@@ -1,0 +1,19 @@
+{
+  "fonts" : [
+    {
+      "font_format": "ttf",
+      "font_name": "MinecraftTen",
+      "version": 1,
+      "font_file": "font/Minecraft-TenTH",
+      "lowPerformanceCompatible": true     
+    },
+    {
+      "font_format": "ttf",
+      "font_name": "FkDoodle",
+      "version": 1,
+      "font_file": "font/FkDoodleRegular",
+      "lowPerformanceCompatible": true     
+    }
+  ],
+  "version" : 1
+}
