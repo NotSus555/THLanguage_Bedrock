@@ -67,7 +67,7 @@
 - 2005_iannnnnAMD , Mojang( เฉพาะตัวไทยทั้งหมดจากฟอนต์ iannnnnAMD ) , MinecraftTenTH( เฉพาะตัวไทยทั้งหมดจากฟอนต์ IannnnnCPU ) - **ปรัชญา สิงห์โต (Iannnnn)**
 - Playpen Sans Thai - **TypeTogether(ศิริน กันคล้อย, Sirin Gunkloy, Laura Meseguer, Veronika Burian, José Scaglione)**
 - FkDoodle - **กาญจนา สงฆ์พันธุ์ (Kancha By Kan)**
-- [ Mojangles , Mojang , MinecraftTenTH ] (ไม่รวมตัวไทยทั้งหมด) - **Mojang Studios**
+- Mojangles , [ Mojang , MinecraftTenTH - (ไม่รวมตัวไทยทั้งหมด) ] - **Mojang Studios**
 ขอบคุณสำหรับฟอนต์ดีๆนะครับ
 
 ## ❤️ ผู้สนับสนุนและทีมงาน (Credits)
