@@ -4,7 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/MineGarp/THLanguage_Bedrock?style=social)](https://github.com/MineGarp/THLanguage_Bedrock/network/members)
 ![GitHub Downloads](https://img.shields.io/github/downloads/MineGarp/THLanguage_Bedrock/total)
 [![Discord](https://img.shields.io/discord/992026973746511912?label=Discord&logo=discord)](https://discord.gg/mvZChPs72R)
-![Minecraft Bedrock 26.0](https://img.shields.io/badge/Minecraft_Bedrock-26.0-brightgreen.svg)
+![Minecraft Bedrock 26.20](https://img.shields.io/badge/Minecraft_Bedrock-26.20-brightgreen.svg)
 
 โปรเจกต์รีซอร์ซแพ็กภาษาไทยสำหรับเกม **Minecraft: Bedrock Edition** ที่สมบูรณ์และอัปเดตที่สุด จัดทำและดูแลโดยชุมชน **MineGarp (มายก๊าบดอทเป็ด)** โดยมีเป้าหมายเพื่อมอบประสบการณ์การเล่นเกมฉบับภาษาไทยที่ถูกต้องและเป็นธรรมชาติที่สุดสำหรับผู้เล่นทุกคน
 
@@ -34,8 +34,7 @@ This project is open source. Everyone can access the source code, use it, and co
 <ins>__หมายเหตุ:__</ins> มีการเพิ่มฟอนต์สำหรับภาษาไทย Noto Sans เป็นค่าเริ่มต้นหลัก หากไม่ต้องการสามารถเข้าไปที่การตั้งค่าของแพ็ก แล้วปรับเป็นฟอนต์ดั้งเดิมของตัวเกม หรือ Unicode Font ได้ (มีผลเฉพาะ JsonUI)
 
 ## ℹ️ ปัญหาที่รับทราบแล้ว (Known Issues)
-- คอนเทนต์เนื้อหาใน Marketplace/My Content (เนื้อหาของฉัน) ไม่แสดงผล - [MCPE-224860](https://bugs.mojang.com/browse/MCPE-224860)<br>
--- ตรงเปลี่ยนภาษาสามารถเลือกเป็น __ภาษาไทย (ประเทศไทย) *ใช้งานหน้าเนื้อหาของฉัน My Content ได้__ เพื่อแก้ไขปัญหานี้ได้ (ไม่รองรับส่วนเสริมที่ทำมารองรับภาษาไทย)
+
 - ปัญหาการแสดงผลฟอนต์ Unicode ที่ยังคงเหลือจากการแก้ไข [(MCPE-166005)](https://bugs.mojang.com/browse/MCPE/issues/MCPE-166005) - [MCPE-224612](https://bugs.mojang.com/browse/MCPE/issues/MCPE-224612)
 
 ## 📚 แหล่งอ้างอิงข้อมูล (References)
